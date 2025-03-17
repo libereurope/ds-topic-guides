@@ -1,1 +1,1 @@
-Sitemap: https://libereurope.github.io/ds-essentials/sitemap.xml
+Sitemap: https://libereurope.github.io/ds-topic-guides/sitemap.xml
