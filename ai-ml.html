@@ -385,7 +385,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <p><strong>Here’s a super simplistic example of this type of process in action:</strong><br> <br> Let’s say I have thousands of images of handwritten manuscript pages digitised from our library collection and ready to go online. The problem is, I want to make them all text searchable as well, but to transcribe these all by hand would take me well into my retirement and I have other things to be getting on with. I would like to train a machine learning model to help me automatically recognise the handwritten text in this collection. I would first need to somehow show my machine learning algorithm examples of a correct result so that it could start to recognise the pattern of that (in this case, text on a page). To do this I can show it images with associated text annotations which have been transcribed perfectly by me, the more, the better! Once the algorithm has learned a bit about what a correct page of handwritten text looks like, a model is then created which contains all the rules and parameters and calculations ready for the particular task I have set it of predicting what handwritten text is on pages of this particular collection that it’s never seen before!</p>
 </blockquote>
 <p>We actually <a href="https://blogs.bl.uk/digital-scholarship/2020/01/using-transkribus-for-arabic-handwritten-text-recognition.html">do quite alot of the above</a> at the British Library, you can read more about the actual process and results here, and I’ll cover a bit more of this in the next section!</p>
-<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/ArabicHTR.jpg?raw=true" class="img-fluid"> Snapshot of an interface from Transkribus software used to create data to train a model to recognise handwritten arabic manuscript pages from a British Library collection.</p>
+<p><img src="images/ArabicHTR.jpg" class="img-fluid"> Snapshot of an interface from Transkribus software used to create data to train a model to recognise handwritten arabic manuscript pages from a British Library collection.</p>
 <section id="ok-quick-quiz-time" class="level3">
 <h3 class="anchored" data-anchor-id="ok-quick-quiz-time">Ok, quick quiz time!</h3>
 <p>Remembering that Machine Learning is about prediction, which of the following do you think would require ML?</p>
@@ -416,7 +416,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <section id="subject-indexing-to-enhance-library-catalogue-search" class="level4">
 <h4 class="anchored" data-anchor-id="subject-indexing-to-enhance-library-catalogue-search"><strong>Subject indexing to enhance library catalogue search</strong></h4>
 <p><strong>Named Entity Recognition (NER)</strong> is a text analysis process within NLP that helps turn unstructured text into structured text. A sentence or a chunk of text is parsed through to find entities that can be put under categories like names, organisations, locations, quantities, monetary values, percentages, etc.</p>
-<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/NER.png?raw=true" class="img-fluid"></p>
+<p><img src="images/NER.png" class="img-fluid"></p>
 <p><br>In the library world it can be used as part of a process to understand what subjects (people, places, concepts) are contained within a digitised text and help us enhance our catalogue records for items or search functionality. There is a very nicely outlined use case here of how the <a href="https://blog.ehri-project.eu/2018/08/27/named-entity-recognition/">United States Holocaust Memorial Museum used NER</a> to automatically extract person names and location from Oral History Transcript to improve indexing and search in their catalogue.</p>
 </section>
 <section id="automatic-language-detection-genre-classification" class="level4">
@@ -445,7 +445,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <h3 class="anchored" data-anchor-id="computer-vision-cv-use-cases">Computer Vision (CV) use cases</h3>
 <p>We can use computer vision to train models to automatically analyse and understand useful information from images and videos.</p>
 <p>In the library world we can use this to label millions of images with descriptive metadata (“this is a picture of a cat”), or, as we see below, a model can be trained to classify this image as a newspaper based on objects identified in the layout (for example, a nameplate for the newspaper, a headline, photographs, and illustrations and so on). The model learns how to identify that this is the NYT based on learning from other newspaper images it’s seen (for example, if given NY Tribune, NY Times, and NY Post images, it can distinguish between the various titles).</p>
-<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/CV.png?raw=true" class="img-fluid"></p>
+<p><img src="images/CV.png" class="img-fluid"></p>
 </section>
 <section id="putting-it-altogether-ml-cv-nlp" class="level3">
 <h3 class="anchored" data-anchor-id="putting-it-altogether-ml-cv-nlp">Putting it altogether: ML + CV + NLP</h3>
@@ -505,7 +505,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <p>Much of this topic guide is based on both a <a href="https://carpentries-incubator.github.io/machine-learning-librarians-archivists/">Library Carpentry Intro to AI for GLAM</a> lesson I have developed with colleagues and a 2024 talk I gave as part of a Research Libraries UK Digital Shift Forum so if you’d like to view/listen to the content covered in this topic guide as a lecture:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="https://www.youtube.com/embed/CrCP5rYai9M?si=A9kw93B_TvOoDFnV"><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/YouTube.png?raw=true" class="img-fluid figure-img" alt="Watch the video"></a></p>
+<p><a href="https://www.youtube.com/embed/CrCP5rYai9M?si=A9kw93B_TvOoDFnV"><img src="images/YouTube.png" class="img-fluid figure-img" alt="Watch the video"></a></p>
 <figcaption>Watch the video</figcaption>
 </figure>
 </div>

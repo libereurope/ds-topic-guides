@@ -364,7 +364,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <p>The Semantic Web was first introduced in the 2000s by Tim Berners Lee as an extension of the current Web. Instead of providing information in the form of <em>documents</em> and unstructured text like in traditional webpages, the Semantic Web facilitates the publication of machine-readable <em>data</em> on the web through standards such as <a href="https://www.w3.org/TR/rdf12-concepts/">Resource Description Framework (RDF)</a> and <a href="https://www.w3.org/TR/owl2-overview/">Web Ontology Language (OWL)</a>.</p>
 <p>What does publishing linked open data enable? Linked Open Data (LOD) is a method of publishing structured data about things using the <a href="https://www.w3.org/TR/rdf12-concepts/">RDF</a> to enable interlinking and semantic queries across datasets. The data is organised in “triples”, each consisting of a subject (e.g., Named Person), predicate (IsAuthorOf), and object (Book Title), identified by Uniform Resource Identifiers (URIs) to ensure global uniqueness and interoperability. It allows metadata to be connected and enriched, so that different representations of the same content can be found, and links made between related resources.</p>
 <p>Have a quick look at this video from Europeana explaining the high-level basic principle of LOD before we dive a bit deeper into how it practically works:</p>
-<p><a href="https://player.vimeo.com/video/36752317?h=1af34f93f0"><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/Lod3.png?raw=true" class="img-fluid" alt="Watch the video"></a> <a href="https://pro.europeana.eu/page/linked-open-data">Linked Open Data | Europeana PRO</a></p>
+<p><a href="https://player.vimeo.com/video/36752317?h=1af34f93f0"><img src="images/Lod3.png" class="img-fluid" alt="Watch the video"></a> <a href="https://pro.europeana.eu/page/linked-open-data">Linked Open Data | Europeana PRO</a></p>
 <section id="how-it-works" class="level3">
 <h3 class="anchored" data-anchor-id="how-it-works">How it works</h3>
 <p>RDF triples are the fundamental building blocks of Linked Open Data. Triples follow the RDF standard and consist of three components:</p>
@@ -380,7 +380,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <li><strong>Object</strong>: &lt;<a href="http://www.wikidata.org/entity/Q480" class="uri">http://www.wikidata.org/entity/Q480</a>&gt; (Wikidata URI reference to the book El Quijote)</li>
 </ul>
 <p>In a <a href="https://libereurope.eu/article/linked-open-data-impressions-challenges-among-europes-research-libraries/#:~:text=LIBER%E2%80%99s%20Linked%20Open%20Data%20Working%20Group%20aims%20to,libraries%20follow%20in%20making%20data%20linked%20and%20open.">2020 survey</a> of LIBER members, the LIBER Linked Open Data Working Group identified the following as the most frequently used datasets by libraries to enrich their catalogues but there are many more that can be used depending on your needs <a href="https://www.oclc.org/research/areas/data-science/linkeddata/linked-data-survey.html">Linked Data Survey (oclc.org)</a> and some examples of advanced data models are <a href="https://www.loc.gov/bibframe/">Bibliographic Framework (BIBFRAME)</a> and <a href="https://en.wikipedia.org/wiki/IFLA_Library_Reference_Model">Library Reference Model (LRM)</a>. In addition, the <a href="https://lod-cloud.net/">lod-cloud</a> provides more than one thousand LOD repositories classified by categories and based on different domains such as geography and government.</p>
-<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/lod2.png?raw=true" class="img-fluid"></p>
+<p><img src="images/lod2.png" class="img-fluid"></p>
 <p>So let’s go back to our triple that describes the relationship between the resource “Miguel de Cervantes” and the book of “El Quijote”. When different triples share the same URI for a subject, predicate, or object, they create a connection. For example:</p>
 <p><strong>Triple 1:</strong> Miguel de Cervantes is author of El Quijote</p>
 <ul>
@@ -430,7 +430,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <section id="case-study-manuscripts-on-wikidata-the-state-of-the-art-by-martin-l-poulter-medium" class="level3">
 <h3 class="anchored" data-anchor-id="case-study-manuscripts-on-wikidata-the-state-of-the-art-by-martin-l-poulter-medium">Case Study: <a href="https://medium.com/@infobomb/manuscripts-on-wikidata-the-state-of-the-art-7aeab63e0d56"><strong>Manuscripts on Wikidata: the state of the art? | by Martin L Poulter | Medium</strong></a></h3>
 <p>This example shows how to use Wikidata, a community-driven approach based on the Semantic Web and LOD that enables volunteers to edit the metadata, to describe manuscripts. It shows the expressivity of the vocabulary provided by Wikidata and the benefits of using Wikidata as a repository in terms of visibility and reuse.</p>
-<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/Lod4.png?raw=true" class="img-fluid"></p>
+<p><img src="images/Lod4.png" class="img-fluid"></p>
 </section>
 </section>
 <section id="hands-on-activity-and-other-self-guided-tutorials" class="level2">
@@ -460,7 +460,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <h2 class="anchored" data-anchor-id="recommended-readingviewing">Recommended Reading/Viewing</h2>
 <p>If you are interested in learning more about LOD in terms of how to transform traditional bibliographic information into the Semantic Web, check out my <a href="https://data.nls.uk/projects/the-national-librarians-research-fellowship-in-digital-scholarship-2022-23/">research work performed as part of a fellowship at the National Library of Scotland in order to publish digital collections as LOD</a>.</p>
 <p>I can also recommend the excellent <a href="https://libereurope.eu/article/libers-linked-open-data-working-group-publishes-best-practices-for-library-linked-open-data-lod-publication/">Best Practices for Library Linked Open Data (LOD) guide</a> published by the LIBER Linked Open Data (LOD) Working Group in 2021 which outlines in detail six steps for publishing library linked data.</p>
-<p><img src="https://github.com/libereurope/ds-essentials/blob/main/book/images/lod.png?raw=true" class="img-fluid"></p>
+<p><img src="images/lod.png" class="img-fluid"></p>
 <p>Some examples of research articles to read providing additional details and information include:</p>
 <ul>
 <li><a href="https://doi.org/10.1177/01655515231174386">Towards a semantic approach in GLAM Labs: The case of the Data Foundry at the National Library of Scotland</a></li>
