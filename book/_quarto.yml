@@ -20,7 +20,7 @@ website:
     pinned: true
     search: true
     type: overlay
-    logo: Favicon.png
+    logo: Liber-DS-logo.png
     
     left:
       - text: "**Digital Scholarship & Data Science Topic Guides for Library Professionals**"
