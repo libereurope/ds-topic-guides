@@ -236,7 +236,7 @@ Use this webpage for [guidance on different file formats](https://www.geeksforge
 
 ### Library Endorsed Resources
 
-- **LIBER** members have created the [Digital Scholarship & Data Science Essentials for Library Professionals](https://libereurope.github.io/ds-essentials/), which this guide is a part of. Guidance also includes [data visualisation](https://libereurope.github.io/ds-essentials/dataviz.html) and [data as collections](https://libereurope.github.io/ds-essentials/collectionsasdata.html), and continues to grow.
+- **LIBER** members have created the [Digital Scholarship & Data Science Essentials for Library Professionals](https://libereurope.github.io/ds-topic-guides/), which this guide is a part of. Guidance also includes [data visualisation](dataviz.qmd) and [data as collections](collectionsasdata.qmd), and continues to grow.
 - **JISC** has published resources to support [data-driven decisions](https://www.jisc.ac.uk/data-analytics), including interactive insights on graduate outcomes and conducting online surveys as a form of data gathering.
 - The **DSVIL** (Data Science and Visualization Institute for Librarians) provides great [guidance and resources](https://www.lib.ncsu.edu/services/data-visualization) for finding, cleaning, analysing, visualising and managing data.
 - The **Bodleian Library**, University of Oxford, hosts a variety of [resources to support data analysis](https://www.bodleian.ox.ac.uk/collections-and-resources/data/accessing-and-using-data/data-analysis) (including audio-visual), data mining, and visualisation tools.

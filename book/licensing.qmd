@@ -30,6 +30,6 @@ McGregor, Nora, “IIIF,” _Digital Scholarship & Data Science Topic Guides for
 
 To cite the full resource:
 
-McGregor, N., Verhaar, P., Double, J., Irollo, A., & Kiraly, P. (Eds.). (2025, March 12). _Digital Scholarship & Data Science Topic Guides for Library Professionals_. <https://libereurope.github.io/ds-essentials>
+McGregor, N., Verhaar, P., Double, J., Irollo, A., & Kiraly, P. (Eds.). (2025, March 12). _Digital Scholarship & Data Science Topic Guides for Library Professionals_. <https://libereurope.github.io/ds-topic-guides>
 
 

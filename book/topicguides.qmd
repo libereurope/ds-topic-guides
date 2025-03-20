@@ -20,5 +20,5 @@ Each **Topic Guide** is designed to make it easy to quickly find the information
 
 ### Use in teaching or your own local training programme
 
-The materials here can also be utilised in group study, as part of a reading group or even a hands-on workshop. See our Topic Guide on how to [Start your own training programme](https://libereurope.github.io/ds-essentials/dstp.html) for some tips and tricks from British Library Digital Research Team colleagues on utilising the materials referenced here at your own library or within your network. 
+The materials here can also be utilised in group study, as part of a reading group or even a hands-on workshop. See our Topic Guide on how to [Start your own training programme](dstp.qmd) for some tips and tricks from British Library Digital Research Team colleagues on utilising the materials referenced here at your own library or within your network.
 

@@ -43,7 +43,7 @@ This guide aims to provide library professionals at European research institutio
 
 If it’s been awhile since you’ve had a look at copyright rules closely, let’s take a minute to cover the basics so we have a good foundation for understanding the more complex considerations of copyright in an AI context today. 
 
-Equally, if you feel well versed in the basics already and are keen to dive straight into the AI context, **feel free to hop on down to the [Relevance to the Library section](https://libereurope.github.io/ds-essentials/copyright.html#relevance-to-the-library-sector-case-studiesuse-cases)**.
+Equally, if you feel well versed in the basics already and are keen to dive straight into the AI context, **feel free to hop on down to the [Relevance to the Library section](#relevance-to-the-library-sector-case-studiesuse-cases)**.
 
 ### Copyright basics
 

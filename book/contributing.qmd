@@ -14,7 +14,7 @@ Feel free to contact [Nora McGregor](mailto:digitalresearch@bl.uk) if you're kee
 
 ## Help us with our wishlist!
 
-Contribute a new [Topic Guide](topicguides.qmd) (individually or in collaboration with others). Choose from our current wishlist or propose a new one. Contact [digitalresearch@bl.uk](mailto:digitalresearch@bl.uk) with your idea or submit an [Issue](https://github.com/libereurope/ds-essentials/issues) and we'll help you get started right away!
+Contribute a new [Topic Guide](topicguides.qmd) (individually or in collaboration with others). Choose from our current wishlist or propose a new one. Contact [digitalresearch@bl.uk](mailto:digitalresearch@bl.uk) with your idea or submit an [Issue](https://github.com/libereurope/ds-topic-guides/issues) and we'll help you get started right away!
 
 > **_NOTE:_** Our current wishlist for future editions includes but is not limited to topics such as:
 >
@@ -29,7 +29,7 @@ Contribute a new [Topic Guide](topicguides.qmd) (individually or in collaboratio
 
 ## Suggest edits to an existing [Topic Guide](topicguides.qmd)
 
-Know of a good case study, report or community of practice that LIBER members should know about? Open a new [Issue](https://github.com/libereurope/ds-essentials/issues) or add to the discussion on existing Issues on the project Github. If you're new to GitHub don't worry, we have a Topic Guide for that: [GitHub: How to navigate and contribute to Git-based projects](https://libereurope.github.io/ds-essentials/github.html)!
+Know of a good case study, report or community of practice that LIBER members should know about? Open a new [Issue](https://github.com/libereurope/ds-topic-guides/issues) or add to the discussion on existing Issues on the project Github. If you're new to GitHub don't worry, we have a Topic Guide for that: [GitHub: How to navigate and contribute to Git-based projects](github.qmd)!
 
 ## Join a working group and help with ongoing maintenance and review
 
@@ -60,7 +60,7 @@ A two hour writing sprint will generally follow this format:
 2. Overview of the project & explanation of how the day will run (15 minutes)  
 3. Allocation and confirmation of individual Topic Guide Authorship for the day (15 minutes): As a group we'll go over the wishlist and all participants will be given access to their particular Topic Guide google doc template they'll be using during and after the sprint.
 4. Writing Phase (60 minutes): You'll have an hour to begin writing your respective guide in your Google Doc template. If more than one participant are working together on a topic we can provide breakout rooms so that you can discuss amongst yourselves how to break up the work, and share ideas as you go along. You can have your camera/mic on or off during this time and co-chairs will be on hand to answer any questions or give advice on topics.
-5. Wrapping Up & Logging progress through Github Issues (15 minutes): We have provided an [Issue Template](https://github.com/libereurope/ds-essentials/issues) which is pre-formatted as a Topic Guide submission checklist and will walk participants through the process of opening a new issue for your draft submission. Please fill in the issue template and provide the necessary information relating to where your draft submission is currently at. Once the issue is saved, it can continue to serve as a space to continue discussion of the ongoing status of your submission and log updates where necessary, including notifying us of when it is fully ready for final review by maintainers. 
+5. Wrapping Up & Logging progress through Github Issues (15 minutes): We have provided an [Issue Template](https://github.com/libereurope/ds-topic-guides/issues) which is pre-formatted as a Topic Guide submission checklist and will walk participants through the process of opening a new issue for your draft submission. Please fill in the issue template and provide the necessary information relating to where your draft submission is currently at. Once the issue is saved, it can continue to serve as a space to continue discussion of the ongoing status of your submission and log updates where necessary, including notifying us of when it is fully ready for final review by maintainers. 
 6. Closing Remarks & Next Steps (5 minutes)
 
 #### After the sprint:

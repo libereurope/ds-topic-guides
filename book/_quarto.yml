@@ -10,7 +10,7 @@ website:
   favicon: images/Favicon.png
   google-analytics: 
     tracking-id: "G-54HL7T1Z2K"
-  repo-url: https://github.com/libereurope/ds-essentials/
+  repo-url: https://github.com/libereurope/ds-topic-guides/
   repo-subdir: book
   repo-actions: [source, issue] 
 
@@ -83,7 +83,7 @@ website:
       A 2023-2027 <a href="https://libereurope.eu/working-groups">LIBER Working Group</a> collaboration between <a href="https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/">Digital Scholarship and Digital Cultural Heritage </a> and <a href="https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/">Data Science in Libraries</a> 
     right:
       - icon: github
-        href: https://github.com/libereurope/ds-essentials
+        href: https://github.com/libereurope/ds-topic-guides
 
 format:
   html:
@@ -101,7 +101,7 @@ format:
 #About DS Essentials - Topic Guides  -   Additional Resources  -  Contribute   -   Search
 
 book:  
-  title: "Digital Scholarship & Data Science Essentials for Library Professionals"
+  title: "Digital Scholarship & Data Science Topic Guides for Library Professionals"
   google-analytics: 
     tracking-id: "G-54HL7T1Z2K"
   reader-mode: true
@@ -150,7 +150,7 @@ book:
 
   comments: 
     utterances:
-      repo: libereurope/ds-essentials
+      repo: libereurope/ds-topic-guides
 
 bibliography: references.bib
 

@@ -30,7 +30,7 @@ format:
 
 ## Introduction  
 
-Cultural Heritage collections are full of object stories. Objects move through time and space and encounter multiple people and other objects. Additionally, as explained in the guide on [data visualisation](https://libereurope.github.io/ds-essentials/dataviz.html), humans are better able to see and interpret data based on visualising them with colours and shapes.
+Cultural Heritage collections are full of object stories. Objects move through time and space and encounter multiple people and other objects. Additionally, as explained in the guide on [data visualisation](dataviz.qmd), humans are better able to see and interpret data based on visualising them with colours and shapes.
 
 When we combine these two concepts, it is therefore not surprising that one of the most common visualisations for cultural heritage collections, and library collections specifically, are maps.
 
@@ -54,7 +54,7 @@ To digitally map collections, there are a few options available in terms of tool
 - It is possible to visualise geolocated data on online platforms designed for digital mapping that are not specifically for the Humanities, such as [Google Maps.](https://www.google.co.uk/maps)
 - There are online tools designed to visualise humanities data in multiple ways and have an option of visualising data on a map such as [Recogito](https://recogito.pelagios.org/), where annotated places on a text can be visualised, or [Palladio](https://hdlab.stanford.edu/palladio/) that is used to visualise data as networks.
 - There are generic visualisation tools such as [Tableau](https://www.tableau.com/), that has been explored in the data visualisation guide.
-- Finally, it is worth mentioning the work the [IIIF](https://libereurope.github.io/ds-essentials/iiif.html) community in standardising the [georeferencing of maps in IIIF](https://allmaps.org/) and creating geospatial annotations.
+- Finally, it is worth mentioning the work the [IIIF](iiif.qmd) community in standardising the [georeferencing of maps in IIIF](https://allmaps.org/) and creating geospatial annotations.
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)  
 
@@ -62,7 +62,7 @@ Having introduced the importance of maps to visualise people, objects and relati
 
 For example, the project [Mapping the Republic of Letters](http://republicofletters.stanford.edu/casestudies/voltairepub.html) by Stanford University has used maps to visualise and let users explore the places where editions of Voltaire were published between 1712 and 1800 or to visualise the places tourists explored during the Grand Tour.
 
-If the previous example illustrates how geolocated data can help study editions and letters and see the bigger picture, maps can also be used to let users explore collections, as mentioned before with [Heritage for All](https://britishlibrary.github.io/locating-a-national-collection/Heritage_for_All.html). An example is [WarSampo](https://www.sotasampo.fi/en/places/) that lets users explore the relevant places, events, people and photographs linked to Finland during World War II using [LOD](https://libereurope.github.io/ds-essentials/lod.html), or the [Holocaust refugee map](https://www.refugeemap.org/) developed by The Weiner Holocaust Library that includes not only documents and photographs but also recorded interviews.
+If the previous example illustrates how geolocated data can help study editions and letters and see the bigger picture, maps can also be used to let users explore collections, as mentioned before with [Heritage for All](https://britishlibrary.github.io/locating-a-national-collection/Heritage_for_All.html). An example is [WarSampo](https://www.sotasampo.fi/en/places/) that lets users explore the relevant places, events, people and photographs linked to Finland during World War II using [LOD](lod.qmd), or the [Holocaust refugee map](https://www.refugeemap.org/) developed by The Weiner Holocaust Library that includes not only documents and photographs but also recorded interviews.
 
 Finally, digital mapping can be used for digital storytelling, narrating stories related to places such as with [Curiocity](https://curiocity.nlb.gov.sg/) by the National Library of Singapore. The library has curated, along with the National Archives, stories related to places in Singapore, mixing maps and photographs to explore their past and present cultural significance.
 

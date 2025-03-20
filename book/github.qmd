@@ -60,7 +60,7 @@ GitHub today however is used for many more different purposes by people in all d
 
 GitHub allows people to collaboratively work on and share projects (called ‘repositories’) so that others can copy them, either to adapt or to contribute back to the original project. That’s because any ‘public’ repository of files on GitHub is accessible via the web. (Note that public repositories are created by default when you start a project, but it is also possible to [make your repositories private](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility) if you like in the settings). 
 
-Repositories may be filled with code, but they may also be filled with pages of text written in [markdown](https://www.markdownguide.org/getting-started/) and this markdown can be rendered by browsers as webpages. This very website you’re reading from right now is [being hosted on GitHub](https://github.com/libereurope/ds-essentials)!
+Repositories may be filled with code, but they may also be filled with pages of text written in [markdown](https://www.markdownguide.org/getting-started/) and this markdown can be rendered by browsers as webpages. This very website you’re reading from right now is [being hosted on GitHub](https://github.com/libereurope/ds-topic-guides)!
 
 This guide will help you to understand how to practically navigate and contribute to projects like this one hosted via GitHub, and will demystify some of the basic actions and jargon around using GitHub along the way.
 
@@ -101,7 +101,7 @@ Here are some examples of library activity on GitHub from [Week one reading for 
 - Storing scripts for executing metadata ingests and transformations \[[example](https://github.com/utlib/dspace-exams-ingest-scripts), [example](https://github.com/preservica/metadata-management), \[[example](https://github.com/Digital-Repository-of-Ireland/dri-open-refine-split)\]
 - Archiving the source texts of open educational resources \[[example](https://github.com/moderndive/ModernDive_book)\]
 - Websites for library workshops, to share course material or sample datasets \[[example](https://github.com/librarycarpentry/lc-git/), [example](https://github.com/NCSU-Libraries/digital-scholarship-workshops/tree/master), [example](https://dculibrary.github.io/open-refine-workshop/)\], 
-- Collaborating on and contributing to a project [Digital Scholarship & Data Science Essentials for Library Professionals](https://libereurope.github.io/ds-essentials/)
+- Collaborating on and contributing to a project [Digital Scholarship & Data Science Essentials for Library Professionals](https://libereurope.github.io/ds-topic-guides/)
 
 Let's look more closely at some practical ways you can get started navigating GitHub and contributing and making use of GitHub based projects for your library work! 
 

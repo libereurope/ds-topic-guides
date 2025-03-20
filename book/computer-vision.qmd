@@ -84,7 +84,7 @@ Similarly, [MAKEN](https://www.nb.no/maken/), a service developed by the Nationa
 [PixPlot](https://dhlab.yale.edu/projects/pixplot/) is a project by the digital humanities lab of Yale University Library, it uses CNNs to cluster similar images.
 
 ### Accessibility
-Computer Vision significantly improves accessibility in libraries by working alongside technologies like OCR and HTR. OCR/HTR convert printed and handwritten texts into machine-readable formats, enabling text-to-speech applications for users with visual impairments. Read more about OCR and HTR from [Automatic Text Recognition (OCR/HTR) topic guide](https://libereurope.github.io/ds-essentials/atr.html).
+Computer Vision significantly improves accessibility in libraries by working alongside technologies like OCR and HTR. OCR/HTR convert printed and handwritten texts into machine-readable formats, enabling text-to-speech applications for users with visual impairments. Read more about OCR and HTR from [Automatic Text Recognition (OCR/HTR) topic guide](atr.qmd).
 
 Beyond text, Computer Vision enables creation of descriptive metadata for visual materials, such as photographs, maps, or videos, thus providing richer contextual information that benefits users with cognitive or visual disabilities. For instance, a visually impaired user might hear a description of a painting that includes details about the objects and people depicted. This richer contextual information ensures that libraries remain inclusive spaces where all users can access and engage with collections in a meaningful way.
 
