@@ -1,0 +1,42 @@
+meta:
+  name: LIBER (DS Topic Guides)
+  link: https://libereurope.github.io/ds-topic-guides/
+  description: This is brand info for applying to LIBER's 'Digital Scholarship and Digital Cultural Heritage' and 'Data Science in Libraries' working groups 'Topic Guides for Library Professionals'.
+
+color:
+    palette:
+        LIBER-Dark-Blue:    "#00517B"
+        LIBER-Yellow:    "#EEB111" 
+        LIBER-Light-Blue:    "#659AD2" 
+        LIBER-Orange:    "#F37432" 
+        LIBER-Grey:    "#5a6165"
+    foreground: "#5a6165" 
+    background: "#f8f9fa"
+    primary: LIBER-Dark-Blue
+    secondary: LIBER-Light-Blue
+    tertiary: LIBER-Orange
+    light: LIBER-Light-Blue 
+    dark: LIBER-Dark-Blue
+    
+logo: 
+  small: logo/LIBER-DS-Favicon.png 
+  medium: 
+    light: logo/Liber-DS-logo-sq-white.png 
+    dark: logo/Liber-DS-logo-sq-blue.png
+  large: 
+    light: logo/Liber-DS-logo-long-white.png 
+    dark: logo/Liber-DS-logo-long-blue.png
+         
+typography:
+  fonts:
+    - family: Lato
+      source: google
+    - family: Crimson Text
+      source: google   
+  base: Lato
+  headings: 
+    family: Crimson Text
+    color: LIBER-Dark-Blue
+  link: 
+    color: LIBER-Orange
+    decoration: underline
