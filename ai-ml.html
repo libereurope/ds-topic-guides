@@ -358,55 +358,95 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>AI is mentioned absolutely everywhere these days, first it was just in movies, the news, but now it’s cropping up in our library meetings and strategies and funding calls, but what does it really mean, particularly in a library context? Let’s try to get to the bottom of this!</p>
-<p>To do that I always like to start off with a bit of basic jargon busting.</p>
-<p><strong>Artificial Intelligence (AI)</strong> is actually a really broad field of computer science (and an umbrella term) that refers to the research and development of systems and machines capable of doing tasks that typically require human intelligence to perform, such as</p>
+<p>Talk of AI is now firmly part of our everyday discourse at home and at work. In the library profession it takes centre stage in our conferences, in our strategies, funding calls, research proposals, and even our library systems. There is hope and excitement around the current capabilities of AI, but also hype, fear and anger, all of which can obfuscate our ability to truly get to grips with its implications.</p>
+<p>This guide aims to help gently introduce and demystify AI and machine learning and its applications in a library context. It’s a fast moving area of course, and a complex one, so we can’t hope to cover it all here, but we won’t let that stop us from trying to get to the bottom of it!</p>
+<p>By providing a bit of jargon busting alongside practical examples and links to further reading, guidance and communities of practice this guide aims to help you on your way to better understanding today’s AI in a library context.</p>
+<p>So let’s get started!</p>
+<section id="artificial-intelligence-machine-learning-how-do-they-relate-to-each-other" class="level3">
+<h3 class="anchored" data-anchor-id="artificial-intelligence-machine-learning-how-do-they-relate-to-each-other">Artificial Intelligence &amp; Machine Learning: How do they relate to each other?</h3>
+<p><strong>Artificial intelligence (AI)</strong> has many definitions, and a simple google search will make your head spin, but I find it’s best understood as a really broad field of Computer Science, an umbrella term you could say, that refers to the research and development of systems capable of <strong>doing tasks that simulate human capabilities</strong> such as:</p>
 <ul>
-<li>Reasoning</li>
-<li>Problem-solving</li>
-<li>Learning</li>
-<li>Perception</li>
+<li>human learning</li>
+<li>comprehension</li>
+<li>problem solving</li>
+<li>decision making</li>
+<li>creativity</li>
+<li>autonomy</li>
 </ul>
-<p>Sometimes folks may speak of or refer to AI as systems and machines that actually have true intelligence, and though today’s AI systems are shockingly convincing in how well they perform, what we’re seeing today are just very advanced machine learning algorithms and models performing specific and discrete functions extremely well! We’re a long way off (if ever) from machines having sentience (or, <strong>Artificial General Intelligence (AGI)</strong>/<strong>Strong AI</strong>) so don’t worry!</p>
-<p>You might also sometimes hear people talk about <strong>Traditional AI</strong> vs <strong>Generative AI</strong>. <strong>Traditional AI</strong> refers to using machine learning based systems for doing tasks like classifying data (e.g., assigning labels to images, automatically transcribing handwritten texts, or identifying genre of digitised texts). This is the type of AI we make a whole lot of use of in the library world. <strong>Generative AI</strong> on the other hand refers broadly to systems whose primary function is to generate new content (e.g., conversation, books, art), often in response to text or image prompts. This is where conversation generating AI systems like ChatGPT (Generative Pre-trained Transformer) fall under for example and we’re only just now exploring the potential applications for these new powerful Generative AI systems in library work.</p>
-<p>Whenever AI is being discussed you may often hear the term <strong>Machine Learning (ML)</strong> mentioned, and sometimes they’re used interchangeably which can be confusing!</p>
-<p><strong>Machine Learning (ML)</strong> is more specifically a main subfield of AI and core technology underpinning the other subfields of AI, that focuses on the development of algorithms and models that allow computers to learn patterns and relationships from data and make predictions on new data. Instead of being explicitly programmed for specific tasks, ML algorithms use data to learn and improve their performance over time.</p>
+<p>Things sometimes get confusing in AI discourse when people use the term <strong>machine learning (ML)</strong> interchangeably with AI. If we want to be a little more precise in the way we talk about these things, machine learning is a field of study focussed on the development of algorithms and models that allow computers (machines) to learn patterns and relationships from data and make predictions on new data. We might think of ML as a “pathway to enabling AI”. It is a core technology underpinning the subfields of AI, like Robotics, but also a core technology used in a ton of other fields outside of Computer Science like the Digital Humanities. So while AI as a field is concerned with building machines that mimic human capabilities, machine learning is typically only concerned with performing a specific task and providing accurate results by identifying patterns.</p>
 <blockquote class="blockquote">
-<p><strong>The primary task of Machine Learning is prediction.</strong></p>
+<p><strong>The primary task of machine learning is prediction.</strong></p>
 </blockquote>
-<p><strong>An algorithm</strong> is a plan, a set of step-by-step instructions, in order of operation, for solving a problem or performing a task. Making a sandwich is a classic example. “Get two pieces of bread…” If we want to tell a computer to do something, we have to write a computer program that will tell it, step-by-step, exactly what we want it to do and how we want it to do it.</p>
-<p><strong>A machine learning algorithm</strong> is a special kind of algorithm designed to help computers learn from data. Instead of giving the computer explicit instructions for every task, we give it data and let it find patterns, relationships, and trends in that data in order to make decisions or predictions on new data on its own.</p>
-<p><strong>“Training a model”</strong> is the process of teaching a machine learning algorithm to make predictions or decisions based on data. It’s important to remember that data is the lifeblood of ML and the model is only as good as the type and quality of data you give it.</p>
-<p><strong>A machine learning model</strong> represents what was learned by a machine learning algorithm and this is what can be used to make predictions on new data without needing explicit instructions. The model contains the rules, numbers, and any other algorithm-specific data structures required to make predictions on new data. If it doesn’t work very well, you can go back and give the algorithm more data or tweak its parameters to create a new better model.</p>
+<p>If we want a computer to do something, we need to give it instructions. A typical <strong>algorithm</strong> provides a set of step-by-step instructions, in order of operation, for solving a problem or performing a task. Batch renaming files on a server so that they’re all lower-case for instance (“Look in this location, find any capitalised letter, replace it with its equivalent lower case, task complete”).</p>
+<p>Instead of being explicitly programmed to complete a specific task against a defined set of finite rules, however, <strong>machine learning</strong> provides a set of technologies and methods for finding patterns, relationships, and trends in data, in order to make decisions or predictions on new data on its own. So instead of giving the computer explicit instructions for every task, <strong>machine learning algorithms and models</strong> are focussed on learning from data, determining how accurate their prediction is and improving their performance on a task through training.</p>
 <blockquote class="blockquote">
-<p><strong>Here’s a super simplistic example of this type of process in action:</strong><br> <br> Let’s say I have thousands of images of handwritten manuscript pages digitised from our library collection and ready to go online. The problem is, I want to make them all text searchable as well, but to transcribe these all by hand would take me well into my retirement and I have other things to be getting on with. I would like to train a machine learning model to help me automatically recognise the handwritten text in this collection. I would first need to somehow show my machine learning algorithm examples of a correct result so that it could start to recognise the pattern of that (in this case, text on a page). To do this I can show it images with associated text annotations which have been transcribed perfectly by me, the more, the better! Once the algorithm has learned a bit about what a correct page of handwritten text looks like, a model is then created which contains all the rules and parameters and calculations ready for the particular task I have set it of predicting what handwritten text is on pages of this particular collection that it’s never seen before!</p>
+<p>A <strong>machine learning model</strong> is essentially a set of parameters that process input data into output data, where output might be for instance a classification, a summary of an input text, an answer to an input question, or a continuation of a conversation. The parameters of the model are quantitative representations of the patterns in data learned by the model during training, when a <strong>machine learning algorithm</strong> has pushed data through it. The model, once trained, can be used to extrapolate predictions about new data not used during training.</p>
 </blockquote>
-<p>We actually <a href="https://blogs.bl.uk/digital-scholarship/2020/01/using-transkribus-for-arabic-handwritten-text-recognition.html">do quite alot of the above</a> at the British Library, you can read more about the actual process and results here, and I’ll cover a bit more of this in the next section!</p>
-<p><img src="images/ArabicHTR.jpg" class="img-fluid"> Snapshot of an interface from Transkribus software used to create data to train a model to recognise handwritten arabic manuscript pages from a British Library collection.</p>
-<section id="ok-quick-quiz-time" class="level3">
-<h3 class="anchored" data-anchor-id="ok-quick-quiz-time">Ok, quick quiz time!</h3>
-<p>Remembering that Machine Learning is about prediction, which of the following do you think would require ML?</p>
-<ol type="1">
-<li>Counting the number of people in a museum using information from entry and exit barriers.</li>
-<li>A search system that looks for images similar to a user submitted sketch.</li>
-<li>A system that recommends library books based on what other users have ordered.</li>
-<li>A queueing system that spreads people evenly between 5 ticket booths</li>
-<li>A program which extracts names from documents by finding all capitalised words and checking them against a list of known names</li>
-<li>A system which turns digitised handwritten documents into searchable text</li>
-<li>A robot that cleans the vases in a museum without bumping into them or breaking them</li>
-</ol>
-<p><em>If you answered 2, 3, 6 &amp; 7 you are correct! The others could all be most easily executed with a straightforward algorithm, programmed using a simple set of easily defined rules, rather than requiring prediction.</em></p>
+<p>In general we treat model parameters as a “black box”: we don’t need to worry about their actual values, only whether or not they collectively process data in the way we’d like.</p>
+<p>Though AI and machine learning are highly interlinked today, early developments in the field did not always make use of machine learning. <strong>GOFAI</strong> (“good old fashioned AI”) is a phrase sometimes used to refer to systems that exhibit apparently “intelligent” behaviour but that are based on rules and algorithmic constraints that humans have coded themselves, rather than having a machine learn these rules from data. Much early AI fell within this paradigm, for instance the famous <a href="https://en.wikipedia.org/wiki/ELIZA">ELIZA chatbot</a> created in 1966 by MIT professor Joseph Weizenbaum used clever rules to turn statements input by users into questions thrown back at them by the system.</p>
+<p><a href="https://cloud.google.com/docs/ai-ml/generative-ai/generative-ai-or-traditional-ai"><strong>Traditional AI</strong></a> is a term sometimes employed nowadays to refer to AI systems which use machine learning for doing rule based prediction tasks (as distinct from Generative AI). These systems analyse data we give them, recognise patterns and provide insights on that data. This is the type of AI we have made a whole lot of use of in the library world to date for things like classifying collections for metadata enhancement for instance (e.g., such as automatically transcribing handwritten texts, or <a href="https://living-with-machines.github.io/genre-classification/zooniverse.html">identifying genre of digitised texts</a>).</p>
+<p><strong>Generative AI</strong> on the other hand refers broadly to systems whose primary function is to generate new content (e.g., continuing a conversation, writing a book, creating a piece of art), often in response to text or image prompts. This is the territory inhabited by conversation generating AI systems like ChatGPT for example, and we’re only just now exploring the potential applications for these new powerful systems in library work.</p>
+<p>Though there’s no doubt that today’s AI systems are shockingly convincing in how well they imitate humans, and can <a href="https://www.scientificamerican.com/article/google-engineer-claims-ai-chatbot-is-sentient-why-that-matters/">fool even the brightest among us</a>, what we’re actually seeing are just very advanced machine learning algorithms and models performing specific and discrete functions (like holding a convincing conversation) extremely well. We’re a long way off (if ever) from machines having sentience (or, <a href="https://en.wikipedia.org/wiki/Artificial_general_intelligence"><strong>Artificial General Intelligence (AGI)</strong>/<strong>Strong AI</strong></a>). So, while there are plenty of things to worry about when it comes implementing AI solutions in libraries, sentient take-over is not one of them. For more on the topic of things to look out for in machine learning projects, have a read of this section of the <a href="https://carpentries-incubator.github.io/machine-learning-librarians-archivists/05-managing-data-bias.html">Library Carpentry AI in GLAM lesson on Managing Bias</a>.</p>
+</section>
+<section id="working-with-machine-learning-models" class="level3">
+<h3 class="anchored" data-anchor-id="working-with-machine-learning-models">Working with machine learning models</h3>
+<p>If you have a bit of python experience and are ready to get started with implementing your own machine learning project, recommendations for where to begin can be found in the hands-on activity and other self-guided tutorials section. But if you’re not intending to directly set-up machine learning models yourself, it’s still helpful to have even the most high-level view of some of the process that working with ML involves.</p>
+<section id="defining-the-task-do-we-need-machine-learning-for-this" class="level4">
+<h4 class="anchored" data-anchor-id="defining-the-task-do-we-need-machine-learning-for-this">Defining the task: Do we need machine learning for this?</h4>
+<p>Let’s say we have digitised thousands of 19th century books from your library collection. One problem with the associated metadata for each book is that the language field is empty for them, a holdover from historical cataloguing processes that library professionals everywhere will be all too familiar with. Not only do we need to be able to clearly state what language these texts are written in, we’d like to go a step further and list <em>all</em> the languages that may be represented in each. For instance a book primarily written in English may feature within it a multitude of languages, possibly even endangered languages and dialects that could be highly useful for researchers. The scale of this task is such that we simply cannot do it manually, we cannot read all the pages let alone identify every language easily. We need a language-identification system, on the level of sentences, a system that can go through the digitised texts and tell us “sentence X is in language Y” for this task. We will need machine learning.</p>
+</section>
+<section id="train-a-specialised-model-from-scratch-or-use-a-pre-trained-foundation-model-and-fine-tune-it" class="level4">
+<h4 class="anchored" data-anchor-id="train-a-specialised-model-from-scratch-or-use-a-pre-trained-foundation-model-and-fine-tune-it">Train a specialised model from scratch or use a pre-trained (foundation model) and fine-tune it?</h4>
+<p>Depending on the task, we could try to create our own specialised machine learning model and train it, or use one which is already trained and use some techniques to optimise the results. And indeed, up until recently, building and training specialised models from scratch was the norm for many traditional classification tasks relevant in the library world, but the pre-trained foundation models of today have become so powerful that they are quickly taking over as the first port of call for machine learning explorations in every domain, including libraries and cultural heritage.</p>
+<blockquote class="blockquote">
+<p>There has been a major pardigm shift from building specialised models for specific tasks to using a single, large model that can be prompted or fine-tuned.</p>
+</blockquote>
+<p>By far the most common approach is to make use of an existing <strong>pre-trained model</strong>, also referred to as a <strong>“foundation”</strong> or <strong>“base”</strong> model which has already been trained on lots and lots of data already. At the very least you will want to always first test out how a pre-trained model fairs before embarking on the building of specialised models which can be costly, time consumming, and require special expertise and loads of labelled data.</p>
+<blockquote class="blockquote">
+<p>A <strong>foundation model</strong> is a large-scale AI model built using significant data and computational resources to cover a general application (e.g., image processing, text processing) in a non-domain-specific way.</p>
+</blockquote>
+<p>Foundation models are typically provided by big companies with access to the resources required for building these models. Some examples of foundation models available in one way or another to the public at the time of writing include:</p>
+<ul>
+<li>The <a href="https://platform.openai.com/docs/models">GPT</a> family of models, provided by OpenAI as the basis for the ChatGPT conversational AI as well as for development through OpenAI’s development platform;</li>
+<li>The <a href="https://www.llama.com/">Llama</a> family of models, which are, like GPT, models that facilitate text-based linguistic interaction and are provided as open source resources developed by Meta;</li>
+<li><a href="https://stability.ai/">Stable Diffusion</a>, a model for general image generation typically based on textual prompts provided by Stability AI;</li>
+<li><a href="https://openai.com/index/whisper/">Whisper</a>, a family of models for converting spoken audio input into textual transcriptions, provided by OpenAI.</li>
+<li><a href="https://huggingface.co/docs/transformers/en/model_doc/bert">BERT</a>, a family of models outside the generative paradigm that….</li>
+</ul>
+<p>The expectation is that foundation models can be used by researchers, programmers, and other downstream users to develop task-or-domain-specific applications. And while foundation models can cover a variety of different objectives in terms of input and output, they have proved particularly useful in AI applications due to the huge amounts of data and computation required to build one of these models from the ground up.</p>
+<p><strong>Using a pre-trained model + fine-tuning or prompt engineering</strong></p>
+<p>We can visit the websites above for all of the major pre-trained models but it’s also worth checking sites like <a href="https://huggingface.co/models">Hugging Face</a> and <a href="https://www.kaggle.com/models">Kaggle</a> which are great places to find existing pre-trained machine learning models of all kinds, usually categorised by tasks they are exceptionally capable of handling:</p>
+<ul>
+<li>Audio</li>
+<li>Computer vision</li>
+<li>Natural language processing</li>
+<li>Multimodal (covering all of the above)</li>
+</ul>
+<p>We select an existing pre-trained model based on the task we want to accomplish (in our use case it’s language identification so we might like to start with……TODO which model). We show the base model our unlabelled data (in our example, this might be the text from the OCR pages of our digitised texts, delivered to the model in a structure it can read, like plain text) and see how well it does what we want it to do (ie, it identifies the languages featured on each page with a level of accuracy we expect). The output that the current state of the model offers is compared to the target output. For instance if the sentence is “tengo mi dos huevos”, we want the output to be “spanish”. A standard set-up would involve a model which outputs a probability associated with each possible target - in this case target language - such that all possible targets add up to 1 (this is called multi-class classification).</p>
+<p>Depending on how well the model performs there are several ways in which we can work with the pre-trained model to improve its results.</p>
+<p><strong><a href="https://www.promptingguide.ai/">Prompt engineering</a></strong> does not change the model itself but involves guiding the model to <em>respond</em> more accurately and contextually by crafting well-structured inputs (prompts). Prompt engineering doesn’t change the models weights in any way.</p>
+<p><strong>Retrieval Augmented Generation (RAG)</strong> is another method you can use to help guide a pre-trained model to <em>respond</em> more contextually without changing the weights of the model itself. RAG is a method where the LLM is connected to an external knowledge base or document store, allowing it to fetch relevant real-time information and then generate responses based on that retrieved content. Some recent experiments in using RAG in the library world are being explored for tasks like optimising search of web archive files https://lil.law.harvard.edu/blog/2024/02/12/warc-gpt-an-open-source-tool-for-exploring-web-archives-with-ai/, or https://kdl.kcl.ac.uk/blog/ireal-rag/)</p>
+<p><strong>Fine-tuning</strong> is a more resource heavy optimisation process as it involves taking a pre-trained model and adjusting it to better fit new data we give it. Fine-tuning modifies the model itself by training it on our specialised data which actually changes the weights of the model to improve its performance. Fine-tuning requires labelled data and compute resources and has the potential to be time-consumming, but is also a really useful process for domain-specific tasks. In our fictional example it might be sentences where we know what language they are in and we label each sentence accordingly. This is “supervised” machine learning, in that we are categorising and applying specific labels to the data we will train the model with. Other types are:</p>
+<ul>
+<li>Unsupervised - the model is given data that has not been categorised and labeled and asked to put it into groups (find patterns) without guidance</li>
+<li>Semi-supervised - a combination of supervised and unsupervised</li>
+<li>Reinforcement - learns about the world by interacting with its environment (example: self-driving cars and AlphaGo)</li>
+</ul>
+<p>Let’s say the current state of the model associates a probability of 0.2 with that input being the “spanish” label. We want the probability to be 1.0, so we take the difference between those two of 0.8, and the algorithm uses this “loss” to update the model. The algorithm handles all of these moves forwards and backwards through the model, running an input, checking how the output compares with the target, and then updating the parameters of the model based on the difference between target and prediction.</p>
+<p>When we’re happy with the way the model handles the training data we have provided it, we’re done with training and can now use the model to do “inference”, which is the term often used for making a prediction “in the wild” so to speak on completely new data. We use basically the same algorithm to crank new, unseen data through our model, but rather than update the model we’re using it to give us the results we’re looking for, mainly our list of languages identified in each of our 19th century digitised books, along with a probablity the system associates with each. We can decide how we use these outputs in our cataloguing and what our appetitite for risk is (ie, only languages identified with 80% certainty and above will listed in the catalogue).</p>
+<p>It’s still not out of the question that after exploring all avenues with a pre-trained model you may decide you’d like to train a specialised machine learning model. Perhaps we discover that using existing foundation models won’t work well enough for our task (perhaps it <a href="https://www.historica.org/blog/ai-powered-preservation-of-endangered-languages">does not yet sufficiently identify low-resource languages</a> yet for instance and that is a priority for us) and we may decide we want to try training our own model with our own data. This is always an option but it comes at a cost, both in time and computing resources.</p>
+</section>
 </section>
 </section>
 <section id="relevance-to-the-library-sector-case-studiesuse-cases" class="level2">
 <h2 class="anchored" data-anchor-id="relevance-to-the-library-sector-case-studiesuse-cases">Relevance to the Library Sector (Case Studies/Use Cases)</h2>
-<p>As you now know, machine learning algorithms and models underpin all the other subfields of AI and there are a LOT of subfields of AI depending on who you talk to! In this guide though we’ll focus our attention on just these two particular AI research areas to give you a general sense of how machine learning is practically applied in the library context today:</p>
+<p>For a really great overview of a wide range of AI use cases in Libraries I recommend having a read of Section 3: Library Applications in Cox A &amp; Mazumdar’s <a href="https://journals.sagepub.com/doi/10.1177/09610006221142029#sec-3">Defining artificial intelligence for librarians (2022)</a> from 2022 which covers back-end operations and library services for users.</p>
+<p>In this guide we’ll focus our attention on just these two particular subfields of AI research areas to give you a general sense of how machine learning is practically applied in the library context today:</p>
 <ul>
 <li><strong>Natural Language Processing (NLP):</strong> which is concerned with making AI systems more capable of natural and effective interaction with humans <strong>(text and speech)</strong></li>
 <li><strong>Computer Vision (CV):</strong> which is concerned with enabling machines to interpret and make decisions based on <strong>visual data</strong> from the world.</li>
 </ul>
-<p>For a really great overview of a wider range of AI use cases in Libraries I recommend having a read of Section 3: Library Applications in Cox A &amp; Mazumdar’s <a href="https://journals.sagepub.com/doi/10.1177/09610006221142029#sec-3">Defining artificial intelligence for librarians (2022)</a> from 2022 which covers back-end operations and library services for users.</p>
-<p>Let’s have a look at some NLP and Computervision use cases in a library setting:</p>
+<p>Let’s have a look at some NLP and Computer Vision use cases in a library setting:</p>
 <section id="natural-language-processing-nlp" class="level3">
 <h3 class="anchored" data-anchor-id="natural-language-processing-nlp">Natural Language Processing (NLP)</h3>
 <p>NLP involves the development of a wide range of algorithms, models, and systems for analysing, understanding and extracting meaningful information from textual and speech data representing human language. We can use NLP for things like:</p>
@@ -422,7 +462,11 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </section>
 <section id="text-conversation-generation" class="level4">
 <h4 class="anchored" data-anchor-id="text-conversation-generation"><strong>Text &amp; Conversation Generation</strong></h4>
-<p><strong>Language models</strong> are a type of machine learning model designed to predict the likelihood of a sequence of text, which means that they can be set up to predict the most likely way to continue a conversation. A <strong>large language model</strong> (LLM), such as the models behind ChatGPT, are highly complex neural networks that have been exposed to an enormous amount of text from books, articles, websites, and more. They perform natural language processing tasks such as generating and classifying text, answering questions, and translating text and are the backbone of NLP today. On the other hand there are <strong>small language models</strong> (SML) too which, well, you guessed it, are much smaller, as in, they don’t need quite as much data and time to be trained. Whether or not to use either depends on your use case and motivations!</p>
+<p><strong>Language models</strong> are a type of machine learning model designed to predict the likelihood of a sequence of text, which means that they can be set up to predict the most likely way to continue a conversation. <strong>Large language models (LLMs)</strong>, such as the models behind ChatGPT, are highly complex neural networks that have been exposed to an enormous amount of text from books, articles, websites, and more. They are pre-trained foundation models that perform natural language processing tasks such as generating and classifying text, answering questions, and translating text and are the backbone of NLP today. There are <strong>small language models (SLM)</strong> too which like LLMs have been trained on an enormous quantity of data however they have been optimised using various clever model compression techniques to use far fewer parameters and in turn not as much memory and computing resource. Current SLMs you might hear of today are: - DistilBERT - Gemma - GPT-4o mini - Granite - Llama - Ministral - Phi</p>
+<p>SLMs may be right for institutions interested in supporting digital sustainability initiatives as a means of saving computing resource and energy where possible.</p>
+<blockquote class="blockquote">
+<p>ChatGPT</p>
+</blockquote>
 <p>There are and have been for many years, large language models out there actually but ChatGPT has currently caught the popular imagination because of its publicly available interface and remarkable performance, so it’s worth spending a little time here unpacking just what ChatGPT is and its potential impact on library work.</p>
 <p>The large language models behind ChatGPT have learned something about patterns in grammar and word meaning, including the way that meaning arises contextually across multiple sentences and multiple turns in a conversation. When you ask ChatGPT a question, you are presenting the model with new information it tries to make a prediction on, in this case, it tries to generate a response that matches the pattern of conversation.</p>
 <p>You ask questions or give prompts to the model, and it provides responses in natural language, or rather, estimates what should come next in a conversation. When ChatGPT gives a response, it isn’t actually looking up information and then composing that information into a response; it’s just making an estimation of a response based on patterns it has seen. So, when you ask it factual questions, especially ones with common answers or phrases, it might give you an answer that sounds right but remember this is because it’s mimicking what it has seen in its training data.</p>
@@ -440,22 +484,37 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </section>
 <section id="computer-vision-cv-use-cases" class="level3">
 <h3 class="anchored" data-anchor-id="computer-vision-cv-use-cases">Computer Vision (CV) use cases</h3>
-<p>We can use computer vision to train models to automatically analyse and understand useful information from images and videos.</p>
+<p>We can use [computer vision] (https://libereurope.github.io/ds-topic-guides/computer-vision.html) to train models to automatically analyse and understand useful information from images and videos.</p>
 <p>In the library world we can use this to label millions of images with descriptive metadata (“this is a picture of a cat”), or, as we see below, a model can be trained to classify this image as a newspaper based on objects identified in the layout (for example, a nameplate for the newspaper, a headline, photographs, and illustrations and so on). The model learns how to identify that this is the NYT based on learning from other newspaper images it’s seen (for example, if given NY Tribune, NY Times, and NY Post images, it can distinguish between the various titles).</p>
 <p><img src="images/CV.png" class="img-fluid"></p>
 </section>
 <section id="putting-it-altogether-ml-cv-nlp" class="level3">
 <h3 class="anchored" data-anchor-id="putting-it-altogether-ml-cv-nlp">Putting it altogether: ML + CV + NLP</h3>
-<p>One of the state of the art applications of machine learning seen in cultural heritage at the moment is Handwritten Text Recognition (HTR) which we had a look at earlier briefly in our simple example of training a model. The idea with HTR is to convert digitised handwritten documents into searchable and machine readable text. To achieve this HTR actually uses a combination of Computer Vision (CV) and Natural Language Processing (NLP).</p>
+<p>One of the state of the art applications of machine learning seen in cultural heritage at the moment is <a href="https://libereurope.github.io/ds-topic-guides/atr.html">Handwritten Text Recognition (HTR)</a>. The idea with HTR is to convert digitised handwritten documents into searchable and machine readable text. To achieve this HTR actually uses a combination of Computer Vision (CV) and Natural Language Processing (NLP).</p>
 <p>Since handwriting can be tricky and ambiguous you might have a Computer Vision model try to identify possible letters from the shapes, and another to work out what the most likely word is from those shapes. But let’s imagine that there’s a smudge on the page, and the letters and maybe even whole words are completely illegible. In that case you might turn to your NLP language models which look at sentence level predictions, taking into account words in the whole line of text the model uses that context to work out what words are most likely missing in those smudged spots!</p>
 <p>Sometimes a model trained for a particular task (in the case of this HTR example, identifying a particular handwriting style) can be applied to similar content (other handwriting styles) with very good results. Transkribus has <a href="https://www.transkribus.org/public-models">Public AI Models (transkribus.org)</a> that have been created by users of the system and are then shared and can be reused by anyone.</p>
 </section>
 </section>
 <section id="hands-on-activity-and-other-self-guided-tutorials" class="level2">
 <h2 class="anchored" data-anchor-id="hands-on-activity-and-other-self-guided-tutorials">Hands-on activity and other self-guided tutorial(s)</h2>
-<p>The following quick little hands-on activities below were developed by the Digital Research Team for British Library staff as part of the <a href="https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html">Digital Scholarship Training Programme</a>.</p>
-<section id="activity-explore-natural-language-processing" class="level3">
-<h3 class="anchored" data-anchor-id="activity-explore-natural-language-processing">Activity: Explore Natural Language Processing</h3>
+<section id="tutorials-in-machine-learning" class="level3">
+<h3 class="anchored" data-anchor-id="tutorials-in-machine-learning">Tutorials in machine learning</h3>
+<p>These free online tutorials come highly recommended by library colleagues for learning how to get started using machine learning. Some python knowledge is typically required/advisable for these:</p>
+<ul>
+<li><a href="https://aiforhumanists.com/tutorials">AI for Humanists</a></li>
+<li><a href="https://huggingface.co/learn">Hugging Face - Learn</a></li>
+<li><a href="https://www.kaggle.com/learn">Kaggle - Learn</a></li>
+<li><a href="https://www.elementsofai.com/">Elements of AI</a></li>
+<li><a href="https://course.fast.ai/">Practical Deep Learning</a></li>
+<li><a href="https://github.com/AI4LAM/awesome-ai4lam?tab=readme-ov-file#introductions-to-ai">List of AI Tutorials recommended by GLAM professionals on AI4LAM</a></li>
+<li><a href="https://marketplace.sshopencloud.eu/search?q=AI&amp;categories=training-material">Social Science and Humanities Open Marketplace (SSH Open Marketplace) tutorials on AI</a></li>
+</ul>
+</section>
+<section id="quick-hands-on-activities-by-topic" class="level3">
+<h3 class="anchored" data-anchor-id="quick-hands-on-activities-by-topic">Quick Hands-on Activities by topic</h3>
+<p>The following short hands-on activities/exercises below were developed by the Digital Research Team for British Library staff as part of the <a href="https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html">Digital Scholarship Training Programme</a>. They are useful and fun for trying things out quickly and to get a sense of the technologies without having to install or download or programme anything.</p>
+<section id="activity-1-explore-natural-language-processing" class="level4">
+<h4 class="anchored" data-anchor-id="activity-1-explore-natural-language-processing">Activity 1: Explore Natural Language Processing</h4>
 <p>Copy and paste a paragraph of text from somewhere around the web, or from your own collections, and see how each of these cloud services handle it:</p>
 <ul>
 <li><a href="https://cloud.google.com/natural-language#section-2">Cloud Natural Language</a></li>
@@ -465,10 +524,10 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <li><a href="https://annif.org/">Annif - tool for automated subject indexing</a> There are <a href="http://natlibfi/Annif-tutorial:%20Instructions,%20exercises%20and%20example%20data%20sets%20for%20Annif%20hands-on%20tutorial%20%28github.com%29">many video tutorials here</a> and the ability to demo the tool</li>
 </ul>
 </section>
-<section id="activity-explore-conversation-generation-chatgpt" class="level3">
-<h3 class="anchored" data-anchor-id="activity-explore-conversation-generation-chatgpt">Activity: Explore Conversation Generation (ChatGPT)</h3>
+<section id="activity-2-explore-chatgpt-in-the-library-profession" class="level4">
+<h4 class="anchored" data-anchor-id="activity-2-explore-chatgpt-in-the-library-profession">Activity 2: Explore ChatGPT in the Library Profession</h4>
 <p>Login to use the freely available <a href="https://openai.com/chatgpt">ChatGPT (openai.com)</a> interface.</p>
-<p>To get a useful response from ChatGPT, “prompting” is key. If you only ask a simple question, you may not be happy with the results and decide to dismiss the technology too quickly, but today’s purpose is to have a deeper play in order to develop our critical thinking and information evaluation skills, allowing us to make informed decisions about utilising tools like ChatGPT in our endeavours. <a href="https://www.promptingguide.ai/introduction/basics">Basics of Prompting | Prompt Engineering Guide (promptingguide.ai)</a> gives a nice quick walk-through of how to start writing good prompts or you can take a free course !</p>
+<p>To get a useful response from ChatGPT, “prompting” is key. If you only ask a simple question, you may not be happy with the results and decide to dismiss the technology too quickly, but today’s purpose is to have a deeper play in order to develop our critical thinking and information evaluation skills, allowing us to make informed decisions about utilising tools like ChatGPT in our endeavours. <a href="https://www.promptingguide.ai/introduction/basics">Basics of Prompting | Prompt Engineering Guide (promptingguide.ai)</a> gives a nice quick walk-through of how to start writing good prompts or you can take a free course.</p>
 <p>Have a play trying to get ChatGPT to generate responses to <a href="https://docs.google.com/document/d/1Mph65vvukDEjZTeH5XSKo6c7T3POY8SbuPHE_OrBN6g/edit">some of the questions here</a> (or come up with your own questions!) Critically evaluate the responses you receive from ChatGPT, what are its strengths and weaknesses, ethical considerations and challenges of using AI tools such as this.</p>
 <ul>
 <li>Is the information/response credible?</li>
@@ -476,17 +535,17 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <li>Does the information align with what you know from other sources?</li>
 </ul>
 </section>
-<section id="activity-explore-computer-vision-handwritten-text-recognition" class="level3">
-<h3 class="anchored" data-anchor-id="activity-explore-computer-vision-handwritten-text-recognition">Activity: Explore Computer Vision &amp; Handwritten Text Recognition</h3>
+<section id="activity-3-explore-computer-vision-handwritten-text-recognition" class="level4">
+<h4 class="anchored" data-anchor-id="activity-3-explore-computer-vision-handwritten-text-recognition">Activity 3: Explore Computer Vision &amp; Handwritten Text Recognition</h4>
 <p>Find an image from somewhere on the web, or from your own collection, and see how each of these cloud services handles it! Try with some images of basic objects to see results (cars, fruit, bicycles…) and images with text within them.</p>
 <ul>
 <li><a href="https://cloud.google.com/vision/docs/drag-and-drop">Google Cloud Vision API</a></li>
 <li><a href="https://www.robots.ox.ac.uk/~vgg/demo/">Visual Geometry Group - University of Oxford</a></li>
-<li><a href="https://www.transkribus.org">Transkribus</a>(Try for free, but does require a free account to login)</li>
+<li><a href="https://www.transkribus.org">Transkribus</a> (Try for free, but does require a free account to login)</li>
 </ul>
 </section>
-<section id="activities-exploring-hands-on-ai-workshop-materials" class="level3">
-<h3 class="anchored" data-anchor-id="activities-exploring-hands-on-ai-workshop-materials">Activities: Exploring Hands-on AI (workshop materials)</h3>
+<section id="activity-4-exploring-hands-on-ai-workshop-materials" class="level4">
+<h4 class="anchored" data-anchor-id="activity-4-exploring-hands-on-ai-workshop-materials">Activity 4: Exploring Hands-on AI (workshop materials)</h4>
 <p>The following workshop <a href="https://cdsleiden.github.io/exploring-ai/intro.html">Exploring Hands-on AI</a> was delivered to LIBER colleagues at the LIBER 2024 Annual Conference, but you can walk through many of the exercises at your own pace independently! Through a series of hands-on exercises, presented via Google Collab sheets, the workshop aimed to clarify how data science, and more particularly, generative AI systems based on Large Language Models (LLMs) can be applied within a library context and covers:</p>
 <ul>
 <li>Google Colab Basics</li>
@@ -497,16 +556,13 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </ul>
 </section>
 </section>
+</section>
 <section id="recommended-readingviewing" class="level2">
 <h2 class="anchored" data-anchor-id="recommended-readingviewing">Recommended Reading/Viewing</h2>
-<p>Much of this topic guide is based on both a <a href="https://carpentries-incubator.github.io/machine-learning-librarians-archivists/">Library Carpentry Intro to AI for GLAM</a> lesson I have developed with colleagues and a 2024 talk I gave as part of a Research Libraries UK Digital Shift Forum so if you’d like to view/listen to the content covered in this topic guide as a lecture:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><a href="https://www.youtube.com/embed/CrCP5rYai9M?si=A9kw93B_TvOoDFnV"><img src="images/YouTube.png" class="img-fluid figure-img" alt="Watch the video"></a></p>
-<figcaption>Watch the video</figcaption>
-</figure>
-</div>
-<p>There are of course untold numbers of lists out there with resources for learning more about AI &amp; Machine Learning but I think this particular guide is exceptionally useful in its coverage and topics selected, particularly as they are quite specifically for Librarians: <a href="https://libguides.northwestern.edu/ai-tools-research/librarians">Add’tl Reading for Librarians &amp; Faculty - Using AI Tools in Your Research - Research Guides at Northwestern University</a></p>
+<p><a href="https://aiforhumanists.com/guides">AI for Humanists</a> offers an exceptional overview in their guides to the ways in which humanists are using machine learning models in their research of cultural heritage collections. Though not particular to the library profession, their growing collection of use cases (with links to papers) and code tutorials are a great place to learn more, and get ideas for how these applications could be beneficial to our own goals of enhanced curation.</p>
+<p>Colleagues from across GLAM institutions internationally are developing a <a href="https://carpentries-incubator.github.io/machine-learning-librarians-archivists/">Library Carpentry Intro to AI for GLAM (BETA)</a> lesson and though it’s written to be delivered as an interactive workshop it is easily readable and contains loads of useful and practical context already around starting machine learning projects in GLAM.</p>
+<p>There are of course lists out there with resources for learning more about AI &amp; Machine Learning but I have found this particular guide is exceptionally useful in its coverage and topics selected, particularly as they are quite specifically for Librarians: <a href="https://libguides.northwestern.edu/ai-tools-research/librarians">Librarians &amp; Faculty: How can I use Artificial Intelligence/Machine Learning Tools? - Research Guides at Northwestern University</a></p>
+<p>The AI4LAM community maintains an excellent curated list, <a href="https://github.com/AI4LAM/awesome-ai4lam">Awesome AI for LAM</a>, of resources, projects, and tools for using Artificial Intelligence in Libraries, Archives, and Museums.</p>
 </section>
 <section id="finding-communities-of-practice" class="level2">
 <h2 class="anchored" data-anchor-id="finding-communities-of-practice">Finding Communities of Practice</h2>
