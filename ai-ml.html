@@ -287,11 +287,14 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
     <h2 id="toc-title">Jump to…</h2>
    
   <ul class="collapse">
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#artificial-intelligence-machine-learning-how-do-they-relate-to-each-other" id="toc-artificial-intelligence-machine-learning-how-do-they-relate-to-each-other" class="nav-link" data-scroll-target="#artificial-intelligence-machine-learning-how-do-they-relate-to-each-other">Artificial Intelligence &amp; Machine Learning: How do they relate to each other?</a></li>
   <li><a href="#relevance-to-the-library-sector-case-studiesuse-cases" id="toc-relevance-to-the-library-sector-case-studiesuse-cases" class="nav-link" data-scroll-target="#relevance-to-the-library-sector-case-studiesuse-cases">Relevance to the Library Sector (Case Studies/Use Cases)</a></li>
   <li><a href="#hands-on-activity-and-other-self-guided-tutorials" id="toc-hands-on-activity-and-other-self-guided-tutorials" class="nav-link" data-scroll-target="#hands-on-activity-and-other-self-guided-tutorials">Hands-on activity and other self-guided tutorial(s)</a></li>
   <li><a href="#recommended-readingviewing" id="toc-recommended-readingviewing" class="nav-link" data-scroll-target="#recommended-readingviewing">Recommended Reading/Viewing</a></li>
   <li><a href="#finding-communities-of-practice" id="toc-finding-communities-of-practice" class="nav-link" data-scroll-target="#finding-communities-of-practice">Finding Communities of Practice</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/libereurope/ds-topic-guides/blob/main/book/ai-ml.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/libereurope/ds-topic-guides/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="ai-ml.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
@@ -356,14 +359,14 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </header>
 
 
-<section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<section id="introduction" class="level1">
+<h1>Introduction</h1>
 <p>Talk of AI is now firmly part of our everyday discourse at home and at work. In the library profession it takes centre stage in our conferences, in our strategies, funding calls, research proposals, and even our library systems. There is hope and excitement around the current capabilities of AI, but also hype, fear and anger, all of which can obfuscate our ability to truly get to grips with its implications.</p>
 <p>This guide aims to help gently introduce and demystify AI and machine learning and its applications in a library context. It’s a fast moving area of course, and a complex one, so we can’t hope to cover it all here, but we won’t let that stop us from trying to get to the bottom of it!</p>
 <p>By providing a bit of jargon busting alongside practical examples and links to further reading, guidance and communities of practice this guide aims to help you on your way to better understanding today’s AI in a library context.</p>
 <p>So let’s get started!</p>
-<section id="artificial-intelligence-machine-learning-how-do-they-relate-to-each-other" class="level3">
-<h3 class="anchored" data-anchor-id="artificial-intelligence-machine-learning-how-do-they-relate-to-each-other">Artificial Intelligence &amp; Machine Learning: How do they relate to each other?</h3>
+<section id="artificial-intelligence-machine-learning-how-do-they-relate-to-each-other" class="level2">
+<h2 class="anchored" data-anchor-id="artificial-intelligence-machine-learning-how-do-they-relate-to-each-other">Artificial Intelligence &amp; Machine Learning: How do they relate to each other?</h2>
 <p><strong>Artificial intelligence (AI)</strong> has many definitions, and a simple google search will make your head spin, but I find it’s best understood as a really broad field of Computer Science, an umbrella term you could say, that refers to the research and development of systems capable of <strong>doing tasks that simulate human capabilities</strong> such as:</p>
 <ul>
 <li>human learning</li>
@@ -387,7 +390,6 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <p><a href="https://cloud.google.com/docs/ai-ml/generative-ai/generative-ai-or-traditional-ai"><strong>Traditional AI</strong></a> is a term sometimes employed nowadays to refer to AI systems which use machine learning for doing rule based prediction tasks (as distinct from Generative AI). These systems analyse data we give them, recognise patterns and provide insights on that data. This is the type of AI we have made a whole lot of use of in the library world to date for things like classifying collections for metadata enhancement for instance (e.g., such as automatically transcribing handwritten texts, or <a href="https://living-with-machines.github.io/genre-classification/zooniverse.html">identifying genre of digitised texts</a>).</p>
 <p><a href="https://www.ifla.org/g/ai/generative-ai/"><strong>Generative AI</strong></a> on the other hand refers broadly to systems whose primary function is to generate new content (e.g., continuing a conversation, writing a book, creating a piece of art), often in response to text or image prompts. This is the territory inhabited by conversation generating AI systems like ChatGPT for example, and we’re only just now exploring the potential applications for these new powerful systems in library work.</p>
 <p>Though there’s no doubt that today’s AI systems are shockingly convincing in how well they imitate humans, and can <a href="https://www.scientificamerican.com/article/google-engineer-claims-ai-chatbot-is-sentient-why-that-matters/">fool even the brightest among us</a>, what we’re actually seeing are just very advanced machine learning algorithms and models performing specific and discrete functions (like holding a convincing conversation) extremely well. We’re a long way off (if ever) from machines having sentience (or, <a href="https://en.wikipedia.org/wiki/Artificial_general_intelligence"><strong>Artificial General Intelligence (AGI)</strong>/<strong>Strong AI</strong></a>). So, while there are plenty of things to worry about when it comes implementing AI solutions in libraries, sentient take-over is not one of them. For more on the topic of things to look out for in machine learning projects, have a read of this section of the <a href="https://carpentries-incubator.github.io/machine-learning-librarians-archivists/05-managing-data-bias.html">Library Carpentry AI in GLAM lesson on Managing Bias</a>.</p>
-</section>
 <section id="working-with-machine-learning-models" class="level3">
 <h3 class="anchored" data-anchor-id="working-with-machine-learning-models">Working with machine learning models</h3>
 <p>If you have a bit of python experience and are ready to get started with implementing your own machine learning project, recommendations for where to begin can be found in the hands-on activity and other self-guided tutorials section. But if you’re not intending to directly set-up machine learning models yourself, it’s still helpful to have even the most high-level view of some of the process that working with ML involves.</p>
@@ -591,6 +593,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <p>The <a href="https://sites.google.com/view/ai4lam">AI4Lam group</a> is an excellent, engaged and welcoming international organisation dedicated to all things AI in Libraries, Archives and Museums. It’s free for anyone to join and is a great first step for anyone interested in learning more about this topic!</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
