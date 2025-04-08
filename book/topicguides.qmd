@@ -1,6 +1,25 @@
-# **TOPIC GUIDES** {.unnumbered .unlisted}
+---
+format:
+  pdf: default
+  html:
+    embed-resources: true
+---
+# **Topic Guides** {.unnumbered .unlisted}
 
 Written by [LIBER](https://libereurope.eu/) professionals working in research libraries across Europe, the aim of each guide is to provide a gentle and concise introduction to practical applications of digital scholarship and data science to the work of libraries today, and share personal recommendations for useful tutorials, recommended reading, and communities of practice to help colleagues on their learning journey.  
+
+<div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+  <div class="card-header">Where do I start?</div>
+  <div class="card-body">We have a DS Topic Guide for that! Try [Getting Started in DS](gettingstarted.qmd).</div>
+</div>
+<div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+  <div class="card-header">If only I coud make these work...</div>
+  <div class="card-body">Some quick example text to build on the card title and make up the bulk of the card's content.</div>
+</div>
+<div class="card text-white bg-success mb-3" style="max-width: 20rem;">
+  <div class="card-header">Help!</div>
+  <div class="card-body">Some quick example text to build on the card title and make up the bulk of the card's content.</div>
+</div>
 
 ## How to use DS Topic Guides
 
@@ -21,4 +40,3 @@ Each **Topic Guide** is designed to make it easy to quickly find the information
 ### Use in teaching or your own local training programme
 
 The materials here can also be utilised in group study, as part of a reading group or even a hands-on workshop. See our Topic Guide on how to [Start your own training programme](dstp.qmd) for some tips and tricks from British Library Digital Research Team colleagues on utilising the materials referenced here at your own library or within your network.
-
