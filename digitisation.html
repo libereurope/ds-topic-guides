@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.43">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Andy Corrigan">
+<meta name="dcterms.date" content="2025-03-25">
+<meta name="keywords" content="TBD, TBD">
+
+<title>Digitisation: Imaging, 3D and RTI – Digital Scholarship &amp; Data Science Topic Guides for Library Professionals</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/Favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-d4d76bf8491c20bad77d141916dc28e1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-33d6adf5f19697a09c0b73dbf90b40ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "Search",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-54HL7T1Z2K"></script>
+
+<script type="text/javascript">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
+</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./Favicon.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Digital Scholarship &amp; Data Science Topic Guides for Library Professionals</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./topicguides.html"> 
+<span class="menu-text">TOPIC GUIDES</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./project-overview.html"> 
+<span class="menu-text">ABOUT</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-contribute" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">CONTRIBUTE</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-contribute">    
+        <li>
+    <a class="dropdown-item" href="./contributing.html">
+ <span class="dropdown-text">Contribute to our Project</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./guidelines.html">
+ <span class="dropdown-text">Author Guidance &amp; Style Guide</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./licensing.html">
+ <span class="dropdown-text">Licensing &amp; Re-use</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Jump to…</h2>
+   
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#relevance-to-the-library-sector-case-studiesuse-cases" id="toc-relevance-to-the-library-sector-case-studiesuse-cases" class="nav-link" data-scroll-target="#relevance-to-the-library-sector-case-studiesuse-cases">Relevance to the Library Sector (Case Studies/Use Cases)</a></li>
+  <li><a href="#hands-on-activity-and-other-self-guided-tutorials" id="toc-hands-on-activity-and-other-self-guided-tutorials" class="nav-link" data-scroll-target="#hands-on-activity-and-other-self-guided-tutorials">Hands-on activity and other self-guided tutorial(s)</a></li>
+  <li><a href="#recommended-readingviewing" id="toc-recommended-readingviewing" class="nav-link" data-scroll-target="#recommended-readingviewing">Recommended Reading/Viewing</a></li>
+  <li><a href="#taking-the-next-step" id="toc-taking-the-next-step" class="nav-link" data-scroll-target="#taking-the-next-step">Taking the next step</a></li>
+  </ul>
+<div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/libereurope/ds-topic-guides/blob/main/book/digitisation.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/libereurope/ds-topic-guides/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="digitisation.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Digitisation: Imaging, 3D and RTI</h1>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Andy Corrigan <a href="mailto:cudl@lib.cam.ac.uk" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-3896-2489" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://www.lib.cam.ac.uk/research-institute/people/andy-corrigan">
+            Cambridge University Library
+            </a>
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 25, 2025</p>
+    </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">March 25, 2025</p>
+    </div>
+  </div>
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <p>“A quick guide to help navigate the terrific topic of digitisation.”</p>
+  </div>
+</div>
+
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>TBD, TBD</p>
+  </div>
+</div>
+
+</header>
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Over recent decades research library collections, operations, and audiences have moved from a largely analogue to a mixed analogue/digital environment. Advances in digital imaging have put digitisation in the position of being one of the most prominent demonstrations of this digital shift. Cultural heritage institutions of all sizes must have some level of digitisation and imaging workflows and standards in place, either through in-house imaging labs or outsourcing through mass digitisation projects like Google Books to keep up with this shift. Many seek to take advantage of uniqueness in their collection by exploiting advanced imaging methods such as 3D modelling, Multispectral Imaging and Reflectance Transformation Imaging (RTI).</p>
+<p>Of course, now that almost everyone has a camera available to them via their phone, it may appear easy for anyone to digitise collection items quickly, or even make their own 3D model, but navigating this complex landscape of technologies, terminologies, methodologies, gadgets and gizmos can be quite daunting for anyone. Those working in cultural heritage institutions also need to consider not just how the technologies work, but how they can be employed within budget, integrated at scale into larger workflows, support preservation alongside access, and be deployed sensitively. This guide aims to help library professionals to understand some of the questions and considerations they need to keep in mind while exploring and having a play with some of these new advanced imaging methods for collection digitisation.</p>
+<section id="d-or-not-2d-that-is-the-question" class="level3">
+<h3 class="anchored" data-anchor-id="d-or-not-2d-that-is-the-question">2D or Not 2D, that is the question?</h3>
+<p>Identifying the right imaging method (2D? 3D? RTI?) for different objects, and then the specific technology or combination of them to use can be confusing, and is often restricted by what resources you might have available. Knowing and understanding why you are digitising something from the outset, and what it will be used for, will also inform the decision process, so spend some time thinking about that - the wrong choices can be costly and time consuming. That said, in my experience many of the technologies advance so quickly that whatever you choose, no matter how thoughtfully, will likely be out of date by the time you’ve finished - so my advice is to accept this inevitably, don’t let it stop you, start with a sound approach, do the best with what you can, and know who, and when, to ask for advice!</p>
+<p>Here are brief introductions to some of the advanced imaging methods we have at our disposal:</p>
+</section>
+<section id="high-resolution-2d-imaging" class="level3">
+<h3 class="anchored" data-anchor-id="high-resolution-2d-imaging">High-Resolution 2D Imaging</h3>
+<p>Most imaging methods build on a foundation of high quality 2D imaging. You’ll have heard phone manufacturers boasting about how many megapixels their camera has. But this isn’t always an indicator of quality, there are lots of other factors, the more important factor being the size and quality of the imaging sensor. So while using your phone camera may seem a cost-effective and easy solution for digitising collection items, it is unlikely to provide the high-resolution and preservation quality you’re after long term. The guide ‘<a href="https://doi.org/10.11647/obp.0138">Remote Capture: Digitising Documentary Heritage in Challenging Locations</a>’ explains this quite well in their chapter on Equipment and skills for digitising in the field. You can see some great examples that demonstrate why high-quality imaging is a must in my <a href="./digitisation.html#flat-digitisation">case-study</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Image-Sensor-Sizes.jpg" class="img-fluid figure-img"></p>
+<figcaption>An illustration showing example digital image sensor sizes, by Andy Corrigan.</figcaption>
+</figure>
+</div>
+</section>
+<section id="d-modelling" class="level3">
+<h3 class="anchored" data-anchor-id="d-modelling">3D Modelling</h3>
+<p>3D data can be generated through different methods and technologies. These include photogrammetry, which uses images to obtain accurate measurable information of real-world objects and the terrain, and LIDAR which stands for ‘light detection and ranging’ and is a remote sensing method that uses pulses of light to measure distances and angles as they bounce back into the sensor. The data produced from these methods can then be used to build 3D models of objects or the terrain. 3D models help a user build an understanding of the form of an object, and can even be useful in conveying book construction for example. It works well on most objects, but can run into difficulties with reflective materials like polished glass and metal. Check out some examples in the <a href="./digitisation.html#d-and-other-multidimensional-media">case-study</a>.</p>
+<p>3D models of cultural heritage objects can then be used in AR/VR/XR environments. You might have come across all three of these terms and been slightly confused as to what the difference is. Augmented reality (AR) is an experience where reality is enhanced in some way using technology. Virtual reality (VR) is usually an entirely simulated experience in which you are immersed. Extended reality (XR) is an umbrella term that encompasses AR, VR or even mixed reality (MR).</p>
+</section>
+<section id="multispectral-imaging" class="level3">
+<h3 class="anchored" data-anchor-id="multispectral-imaging">Multispectral Imaging</h3>
+<p>This is a method of examining an object under different wavelengths of light – you’ve probably heard of infrared and ultraviolet, but there’s a huge spectrum that can be applied in order to reveal underwriting or investigate faded text and even the structure of the medium, revealing things like paper manufacturing watermarks. Whilst multispectral images can be hard for the average user to interpret, specialists can use them to transcribe long lost texts. For an example of this, you can see a recently rediscovered <a href="https://cudl.lib.cam.ac.uk/collections/merlinfragment">Merlin Fragment</a> in the IIIF viewer below, or check out the digital edition of the <a href="https://cudl.lib.cam.ac.uk/collections/codexzacynthius">Codex Zacynthius</a>.</p>
+<iframe src="https://uv-v4.netlify.app/uv.html#?manifest=https://cudl.lib.cam.ac.uk//iiif/MS-VANNECK-BOX-00005-A-FOLIO-00001&amp;c=0&amp;m=0&amp;cv=7&amp;config=&amp;locales=en-GB:English (GB),cy-GB:Cymraeg,fr-FR:Français (FR),pl-PL:Polski,sv-SE:Svenska&amp;xywh=-1,-625,8176,7381&amp;r=0" width="90%" height="480" allowfullscreen="" frameborder="0">
+</iframe>
+</section>
+<section id="rti" class="level3">
+<h3 class="anchored" data-anchor-id="rti">RTI</h3>
+<p>Reflectance Transformation Imaging (RTI) is a technique that creates hyper-real digital images with which the viewer can interact. It creates texture mapping by capturing multiple images of the subject from a fixed point whilst the light source varies in position. This is really useful for revealing the textured detail in surfaces of objects such as coins, engravings or pressed plant material - there are some examples of a herbarium sheet in my <a href="./digitisation.html#d-and-other-multidimensional-media">case-study</a>. This diagram shows a basic RTI set-up, you can learn more about the technique and process from the <a href="https://culturalheritageimaging.org/Technologies/RTI/">Cultural Heritage Imaging’s website about RTI</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/LIBER-RTI.jpg" class="img-fluid figure-img"></p>
+<figcaption>An illustration showing an example RTI setup, by Andy Corrigan.</figcaption>
+</figure>
+</div>
+</section>
+<section id="other-considerations" class="level3">
+<h3 class="anchored" data-anchor-id="other-considerations">Other Considerations</h3>
+<ul>
+<li><strong>Lighting</strong> is often as important, if not more so, than the camera you are using, so it pays to learn a bit about that too.</li>
+<li><strong>Ethics &amp; Cultural Sensitivities</strong> Another thing to remember when selecting and preparing to digitise collections is the impact of our own narrative into the process. What we choose to select, our interactions, and the choices we make for providing access to objects, become entwined and embedded through the process of digitisation, and this should be thought through as well.</li>
+<li><strong>Facsimile, surrogate, object or edition?</strong> Opinions often vary on how/what we consider digitised objects to be and what we call them. You may have come across the terms “digital surrogate”, “digital facsimile” or “digital edition” for example. But regardless of what we call them, it is now widely considered that the outputs of digitisation, whilst inherently connected to the analogue original, ontologically constitute a new thing in themselves. It’s therefore important to be aware that digitisation processes remove or reduce some aspects but can add or increase others.</li>
+<li><strong>Copyright and licensing</strong> is a complex issue, but an essential consideration when digitising anything. You might want to start by looking at the <a href="./copyright.html">LIBER DS Topic Guide on Copyright</a>.</li>
+<li><strong>Hosting</strong> Your institution might have one or more hosting solutions on which you can store your digitisation and make it available over the web and integrate it into existing systems. If not, then <a href="https://iiif.io/">IIIF</a> might be worth exploring, and a great place to start is the <a href="./iiif.html">LIBER DS Topic Guide on IIIF</a>. But whilst regular image hosting options are common, more complex digital objects can be a challenge. If you are creating 3D models, RTI or other specialist imaging, you will need to consider a number of options. Many cultural institutions have been hosting their 3D models through a platform called <a href="https://sketchfab.com/">Sketchfab</a>, but at the time of writing, the platform has recently been absorbed into a bigger gaming company, and its future is in doubt, providing a good example of how challenging it can be relying on third party services. Other options to consider include <a href="https://www.morphosource.org/">MorphoSource</a>, a data repository that is more focussed on research and academia. The IIIF community are currently working on support for 3D objects, so keep an eye on developments there!<br>
+</li>
+<li><strong>Digital Preservation</strong> is also important to consider - digitisation can be expensive, so don’t risk losing your valuable assets. A great place to start is the <a href="https://www.dpconline.org/">Digital Preservation Coalition</a>.</li>
+</ul>
+</section>
+</section>
+<section id="relevance-to-the-library-sector-case-studiesuse-cases" class="level2">
+<h2 class="anchored" data-anchor-id="relevance-to-the-library-sector-case-studiesuse-cases">Relevance to the Library Sector (Case Studies/Use Cases)</h2>
+<p>One of the biggest benefits to digitising content is often thought of as one of access. Sharing things that have been locked away in our libraries and archives, sometimes for many hundreds of years, to anyone, anywhere in the world with an internet connection is a very powerful thing. But this isn’t the only reason or advantage to digitisation - some might be surprising or even more compelling.</p>
+<p>Acknowledgment that the act of digitisation is also an important and valuable part of the research process is steadily growing. For example, over the last few years in the UK, recognition amongst university and research institutions of initiatives such as the <a href="https://www.techniciancommitment.org.uk/">Technician Commitment</a> and the <a href="https://hidden-ref.org/">Hidden Ref</a> has been increasingly impactful.</p>
+<section id="cambridge-university-library" class="level3">
+<h3 class="anchored" data-anchor-id="cambridge-university-library">Cambridge University Library</h3>
+<p>By way of a case study, I wanted to share some stories relating to digitisation here at <a href="https://cudl.lib.cam.ac.uk/">Cambridge Digital Library</a>. Hopefully these demonstrate just some of the potential and value of digitisation.</p>
+<p>We are lucky here at Cambridge that a long history of larger scale digitisation projects means we have been able to steadily increase the amount of equipment, skills, and experience we have and the services we can offer researchers. But this activity is more than a service, we work in direct collaboration with researchers, curators, conservators, publishers and exhibitions teams to help them achieve the results they need.</p>
+</section>
+<section id="flat-digitisation" class="level3">
+<h3 class="anchored" data-anchor-id="flat-digitisation"><strong><em>Flat</em></strong> digitisation</h3>
+<p>At Cambridge, our focus is very much on delivering the highest possible quality results we can. This is good practice when thinking about the longevity of your outputs, digital preservations needs thinking about at every stage of course, but a major advantage of this approach is that the higher quality the result, the more likely you are to make new discoveries and learn new things about the objects in our care. We have many examples of things that have only been spotted because of the high quality imaging we produce. Take a look at some of the <a href="https://exhibit.cdh.cam.ac.uk/exhibits/J09c871NbANh2H1AcHqA">Benefits of Digitisation</a> in this interactive story:</p>
+<iframe src="https://exhibit.cdh.cam.ac.uk/exhibits/J09c871NbANh2H1AcHqA?embedded=true" width="90%" height="480" allowfullscreen="" allow="autoplay" frameborder="0">
+</iframe>
+</section>
+<section id="d-and-other-multidimensional-media" class="level3">
+<h3 class="anchored" data-anchor-id="d-and-other-multidimensional-media">3D and other multidimensional media</h3>
+<p>Whilst we might normally expect the written word to occur on a page, the world is more complex than that and even paper isn’t as “flat” as you might expect. Some of the most ancient texts in our collections are Oracle Bones, that are about 3000 years old. They are objects that have undergone a process far more complex than simply marking a flat surface with a pen. They’re materiality is intrinsic to the meaning of the text on their surfaces. But even though something this ancient has been studied for hundreds of years, they are so fragile that most studies are undertaken from impressions of the text (a process which flattens the text for reading and reproduction on the printed page), so it is not often the object is taken out of its carefully constructed archival housing. It was not until the curator saw the 3D model of this oracle bone in the video below, that they noticed there was a surface of it on which there were markings that had never been spotted before!</p>
+<iframe width="90%" height="480" src="https://www.youtube.com/embed/VPidJGCETFc?si=SJ2hTU_cMbkg73Gy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+<p>So, as we can see, 3D modelling can facilitate deeper study and reduce the need to handle fragile objects. But 3D printing them can also be a great way to bring collections to life and enable increased handling via replicas. This is a great way to engage anyone with handling collection items, but can be a particularly pertinent way to bring them to life for people with visual impairments, as we can see in <a href="https://exhibit.cdh.cam.ac.uk/exhibits/Fch2bvzWEIZPyVuW4vci">The tale of the ‘Old Horse’</a> for example:</p>
+<iframe src="https://exhibit.cdh.cam.ac.uk/exhibits/Fch2bvzWEIZPyVuW4vci?embedded=true" width="90%" height="480" allowfullscreen="" allow="autoplay" frameborder="0">
+</iframe>
+<p>But 3D models don’t work for everything. In another project we have been collaborating across the other collections at the University of Cambridge to experiment with digitally re-uniting the wide variety of collections relating to Charles Darwin that the University has split over various museums and archives. One particular challenge with this project was presented in the form of herbarium sheets. Plant specimens that Darwin collected on the Beagle Voyage, some of which are now extinct. Whilst the writing on the sheets is well captured by a flat digital image, the plant parts themselves have form and texture, an understanding of which cannot be perceived so well on a flatly lit image. We experimented with 3D modelling them, but ironically they are too flat – the processes involved in 3D modelling didn’t cope well with the flat paper surfaces. Whilst it would be possible to rectify this digitally, it would take a great deal of time, rendering the process extremely inefficient. So we are experimenting with RTI, which allows us to capture texture in a much more engaging way.</p>
+<p>Viewing RTI files currently requires specific software, although developments are underway to facilitate the experience through a web browser. The video below demonstrates a few examples that showcase what the experience is like:</p>
+<iframe width="90%" height="480" src="https://www.youtube.com/embed/HKtEo6go0KE?si=s8LGPLZ0jUz_waxl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+<p>You might even find that occasionally people want to see inside something! CT Scanning certainly isn’t an everyday technique that we might associate with research libraries, but you never know. The CT scan shown in the video below is of a fish specimen collected by Charles Darwin on the Beagle Voyage nearly 200 years ago. Preserved in alcohol in a jar, it’s not very easy to inspect or study the real thing:</p>
+<iframe width="90%" height="480" src="https://www.youtube.com/embed/02DyAzjkwG0?si=D_RXD70bdG5o47KV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
+</section>
+</section>
+<section id="hands-on-activity-and-other-self-guided-tutorials" class="level2">
+<h2 class="anchored" data-anchor-id="hands-on-activity-and-other-self-guided-tutorials">Hands-on activity and other self-guided tutorial(s)</h2>
+<p>If you’ve got half an hour and a colleague or friend to spare, why not take your first steps into a virtual world and have a go at making a 3D model.<br>
+The “Big Me, Little Me” exercise has been developed by the team at <a href="https://www.storyfutures.com/">StoryFutures</a>, and is a great way to start thinking about 3D modelling and the virtual world it creates.</p>
+<blockquote class="blockquote">
+<p><strong>!Warning!</strong> - You’ll probably end up wanting to spend longer!<br>
+:-) The question you always need to ask yourself though, is should you?</p>
+</blockquote>
+<ul>
+<li><strong>Step 1:</strong> Download the <a href="https://scaniverse.com/">Scaniverse App</a> to your mobile device.<br>
+</li>
+<li><strong>Step 2:</strong> Scan your friend or colleague. Here are some tips:
+<ul>
+<li>Move slowly and as steadily as possible - it also helps if your subject is comfortable and can stay as still as possible.<br>
+</li>
+<li>Try to follow a regular pattern as you move around your subject. Moving in a spiral shape around them from top to bottom can work well.<br>
+</li>
+<li>Pay extra attention to heads and faces - avoid starting or stopping with the face as this can result in a visible ‘seam’.<br>
+</li>
+</ul></li>
+<li><strong>Step 3:</strong> Process your scan - this might take a few minutes, maybe have a cup of tea.<br>
+</li>
+<li><strong>Step 4:</strong> Once your scan is processed, click the “AR View” button. This allows you to play around with the scan in augmented reality, so you can adjust the scale and position. This is the fun bit - you can shrink the scan and get your colleague to adopt a funny pose with a mini version of themselves!<br>
+</li>
+<li><strong>Step 5:</strong> Now you can take a screenshot and send it round the team to make everyone smile!</li>
+</ul>
+</section>
+<section id="recommended-readingviewing" class="level2">
+<h2 class="anchored" data-anchor-id="recommended-readingviewing">Recommended Reading/Viewing</h2>
+<p>There’s loads out there to read-up on that covers everything from the very technical aspects and guidance to the more philosophical side of things - inspiration is everywhere and creative approaches have a habit of seeding into fruitful outcomes!</p>
+<ul>
+<li><p><a href="https://urn.kb.se/resolve?urn=urn:nbn:se:hb:diva-31790">Material Awareness : Exploring the Entanglement of Library Digitization and Digital Textual Scholarship</a>. Martinez, Merisa. (2024). PhD dissertation. Högskolan i Borås.</p></li>
+<li><p><a href="https://www.archivejournal.net/essays/why-do-we-digitize-the-case-for-slow-digitization/">Why Do We Digitize? The Case for Slow Digitization</a>. Prescott, Andrew and Hughes, Lorna. (2018). Archive Journal.</p></li>
+<li><p><a href="https://doi.org/10.4324/9780429505188">A Field Guide to Digital Surrogates: Evaluating and Contextualizing a Rapidly Changing Resource</a>. Stanford, Emma. (2020). In Kathryn Brown (ed.) ‘The Routledge Companion to Digital Humanities and Art History’ (1st ed.). Routledge. Pp 203-214.</p></li>
+<li><p><a href="https://doi.org/10.5040/9781350232143.ch-24">Digital humanities and digitised cultural heritage</a>. Terras, Melissa. (2022). In J O’Sullivan (ed.), ‘The Bloomsbury Handbook to the Digital Humanities’ (1st ed.). Bloomsbury Handbooks, Bloomsbury Academic. pp.&nbsp;255-266.</p></li>
+<li><p><a href="https://doi.org/10.1093/llc/fqab017">Facsimile narratives: Researching the past in the age of digital reproduction</a>. Fafinski, Mateusz. (2021). In ‘Digital Scholarship in the Humanities’, Vol. 37. No.&nbsp;1, 2022.</p></li>
+</ul>
+<p>Technical Guidance:</p>
+<ul>
+<li><p><a href="https://doi.org/10.11647/OBP.0138">Remote Capture: Digitising Documentary Heritage in Challenging Locations</a>. Edited by Jody Butterworth, Andrew Pearson, Patrick Sutherland &amp; Adam Farquhar. (2018). Open Book Publishers.</p></li>
+<li><p><a href="https://culturalheritageimaging.org/Technologies/RTI/">Reflectance Transformation Imaging (RTI)</a>. Cultural Heritage Imaging.</p></li>
+<li><p><a href="https://europeana.github.io/fste-digitization-handbook/">From Shelf to Europeana: Digitization Workflow Handbook</a>. Europeana.</p></li>
+<li><p><a href="https://digital-strategy.ec.europa.eu/en/library/basic-principles-and-tips-3d-digitisation-cultural-heritage">Basic principles and tips for 3D digitisation of cultural heritage</a>. Europeana (2020).</p></li>
+<li><p><a href="https://ahfap.org.uk/learning-hub">Learning hub</a>. Association for Historical &amp; Fine Art Photography (AHFAP).</p></li>
+<li><p><a href="http://colostateprofessionalpractices.weebly.com/uploads/5/8/8/5/58856297/rijksmuseum_manual-3d.pdf">Manual for the photography of 3D objects</a>. Rijksmuseum (2017).</p></li>
+<li><p><a href="https://www.digitizationguidelines.gov/guidelines/digitize-technical.html">Technical Guidelines for Digitizing Cultural Heritage Materials (3rd ed.)</a>. Federal Agencies Digital Guidelines Initiative (FADGI), (2023).</p></li>
+<li><p><a href="https://londoncharter.org/">The London Charter: For the Computer-Based Visualisation of Cultural Heritage</a>. (2009).</p></li>
+<li><p><a href="https://historicengland.org.uk/images-books/publications/multi-light-imaging-heritage-applications/">Highlight-Reflectance Transformation Imaging (H-RTI) for Cultural Heritage</a>. Historic England (2018).</p></li>
+</ul>
+</section>
+<section id="taking-the-next-step" class="level2">
+<h2 class="anchored" data-anchor-id="taking-the-next-step">Taking the next step</h2>
+<p>As we all know, libraries are friendly places and often keen on collaborating. Why not reach out to some libraries with digitisation studios and see if you can go and visit them to learn a bit more about how they operate or what equipment they’re using first hand - it can really help to see a variety of different set-ups in person to start building up an idea of what might work for you.</p>
+<p>If you don’t have the confidence or resources to digitise your content yourself then there are plenty of options available. For example, some larger institutions already have well equipped imaging studios/labs, so it is worth asking for advice or seeing what services might be available. There are also commercial companies that specialise in different aspects of digitisation as well, so it’s worth looking around and doing your research when planning a project as a wide range of budgets can be catered for. It’s also worth hunting around for any pots of funding that might be available to assist you – a little can go a long way, but you need to make every penny count.</p>
+<p>Or try and find a workshop or summer school to attend that will give you some hands-on experience?</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/libereurope\.github\.io\/ds-topic-guides\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>A 2023-2027 <a href="https://libereurope.eu/working-groups">LIBER Working Group</a> collaboration between <a href="https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/">Digital Scholarship and Digital Cultural Heritage </a> and <a href="https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/">Data Science in Libraries</a></p>
+<div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/libereurope/ds-topic-guides/blob/main/book/digitisation.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/libereurope/ds-topic-guides/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/libereurope/ds-topic-guides">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
