@@ -7,8 +7,8 @@ language:
   search-text-placeholder: Search
 
 website: 
-  title: "Digital Scholarship & Data Science Topic Guides for Library Professionals"
-  favicon: images/Favicon.png
+  title: "DS Topic Guides"
+  favicon: /logo/favicon.ico
   google-analytics: 
     tracking-id: "G-54HL7T1Z2K"
   repo-url: https://github.com/libereurope/ds-topic-guides/
@@ -26,22 +26,20 @@ website:
     pinned: true
     search: true
     type: overlay
-    logo: Favicon.png
+    logo: /logo/Liber-DS-logo-long-white.png
     
-    
-
     right:
-      - text: "TOPIC GUIDES"
+      - text: "Topic Guides"
         href: topicguides.qmd
-      - text: "ABOUT"
+      - text: "About"
         href: project-overview.qmd 
-      - text: "CONTRIBUTE"
+      - text: "Contribute"
         menu:
         - contributing.qmd
         - guidelines.qmd
         - licensing.qmd
   sidebar:  
-      - title: "TOPIC GUIDES"
+      - title: "Topic Guides"
         style: "docked"
         background: light
         contents:
@@ -119,7 +117,7 @@ book:
       A 2023-2027 <a href="https://libereurope.eu/working-groups">LIBER Working Group</a> collaboration between <a href="https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/">Digital Scholarship and Digital Cultural Heritage </a> and <a href="https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/">Data Science in Libraries</a> 
   
   chapters:
-    - part: "**ABOUT**"
+    - part: "**About**"
       chapters:
         - index.qmd
         - project-overview.qmd
@@ -137,10 +135,11 @@ book:
     - iiif.qmd
     - dataviz.qmd
     - digitalmapping.qmd
+    - digitisation.qmd
     - crowdsourcing.qmd
     - github.qmd
     - workingwdata.qmd
-    - part: "**GENERAL RESOURCES**"
+    - part: "**General Resources**"
       chapters:
         - dstp.qmd
         - references.qmd
