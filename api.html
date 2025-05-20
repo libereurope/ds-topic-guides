@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Liam Green-Hughes">
-<meta name="dcterms.date" content="2025-05-15">
+<meta name="dcterms.date" content="2025-05-20">
 <meta name="keywords" content="API, application programming interface, REST">
 
 <title>APIs: A starter guide for Librarians – Digital Scholarship &amp; Data Science Topic Guides for Library Professionals</title>
@@ -337,14 +337,14 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 15, 2025</p>
+      <p class="date">May 20, 2025</p>
     </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">May 15, 2025</p>
+      <p class="date-modified">May 20, 2025</p>
     </div>
   </div>
     
@@ -369,23 +369,28 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>APIs (Application Programming Interfaces) can sound intimidating, but the ideas behind them are not unfamiliar. An <a href="https://en.wikipedia.org/wiki/API">application programming interface (API)</a> allows a connection between computers or between computer programs, it is a type of software interface offering a service to other pieces of software. A common analogy that can be helpful in understanding the process of how APIs work is the restaurant analogy.</p>
-<p>Imagine going to a restaurant (server). You first consult the menu provided (API documentation / specification) to understand what is available for you to order (request). After consulting the menu (documentation) you have a good idea of what is likely to result in a successful order from the kitchen. The waiter is a bit like the restaurant’s API. Behind the waiter is a whole world of kitchen staff, bar staff, wholesalers, suppliers, shareholders and so on. You don’t need to worry about any of them, you probably won’t even ever speak to them. All your food orders (requests) and any extra instructions such as “chips or mash?” (parameters) will be passed to the kitchen (server) by the waiter (API). The kitchen (server) prepares your order (request) and passes it to the waiter (API) to deliver to your meal (response).</p>
-<p><img src="images/api1.png" class="img-fluid"></p>
-<p>Just as in our analogy above, sites will offer an API, and anyone can use it without having to know anything about the internal workings of that system. You don’t need to see the source code, the technologies they used to build it or know the name of the person who keeps it running at weekends. All you need to know is how to make a request to the API, and for this, APIs will normally have a site that will document what you can request and how. A good example is <a href="https://openlibrary.org/developers/api">OpenLibrary’s API</a> pages. API Documentation will detail individual <em>methods</em> (GET, POST, etc) with any <em>parameters</em> (see <a href="https://openlibrary.org/dev/docs/api/lists">Lists API | Open Library</a> for examples) you will need to pass for a successful response. It may also state any security considerations such as needing authentication (an API Key) or a log in before using the method.</p>
-<p>This Topic Guide will focus on REST APIs as an example as it’s the most likely you’ll encounter in your day to day library work, just be aware that REST APIs are not the only type of API though, there are other API types such as:</p>
+<p>APIs (Application Programming Interfaces) can sound intimidating, but the ideas behind them are not unfamiliar. An <a href="https://en.wikipedia.org/wiki/API">application programming interface (API)</a> allows a connection between computers or between computer programs; it is a type of software interface offering a service to other pieces of software. A common analogy that can be helpful in understanding the process of how APIs work is the restaurant analogy.</p>
+<p>Imagine going to a restaurant (server). You first consult the menu provided (API documentation) to understand what is available for you to order (request). After consulting the menu (documentation) you have a good idea of what is likely to result in a successful order from the kitchen. The waiter is a bit like the restaurant’s API. Behind the waiter is a whole world of kitchen staff, bar staff, wholesalers, suppliers, shareholders and so on. You don’t need to worry about any of them, you probably won’t even ever speak to them. All your food orders (requests) and any extra instructions such as “chips or mash?” (parameters) will be passed to the kitchen (server) by the waiter (API). The kitchen (server) prepares your order (request) and passes it to the waiter (API) to deliver to your meal (response).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/api1.png" class="img-fluid figure-img" alt="A visualisation of the restaurant analogy, where a customer requests a carrot soup from the waiter, who responds by delivering the carrot soup. Behind the waiter is the kitchen which represents the server."></p>
+<figcaption>Visualisation of the “restaurant analogy” for an API.</figcaption>
+</figure>
+</div>
+<p>Just as in our analogy above, sites will offer an API, and anyone can use it without having to know anything about the internal workings of that system. You don’t need to see the source code, the technologies they used to build it, or know the name of the person who keeps it running at weekends. All you need to know is how to make a request to the API, and for this, APIs will normally have a site that will document what you can request and how. A good example is <a href="https://openlibrary.org/developers/api">OpenLibrary’s API</a> pages. The API documentation will list what <em>requests</em> you can make. It will also describe what additional information you need to provide when making a request, for example the name of a dish in the restaurant example; the additional pieces of information are referred to as <em>parameters</em>. The documentation may also state any security considerations, such as needing authentication (an API Key) or a log in before using the method. See <a href="https://openlibrary.org/dev/docs/api/lists">Lists API | Open Library</a> for examples.</p>
+<p>This Topic Guide will focus on <a href="https://en.wikipedia.org/wiki/REST">REST</a>-based APIs as an example as it’s the most likely you’ll encounter in your day to day library work. Just be aware that other API types exist, such as:</p>
 <ul>
-<li>SOAP</li>
-<li>GraphQL</li>
-<li>RPC</li>
+<li><a href="https://en.wikipedia.org/wiki/SOAP">SOAP</a></li>
+<li><a href="https://en.wikipedia.org/wiki/GraphQL">GraphQL</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Remote_procedure_call">RPC</a></li>
 </ul>
 <p>You can find some information on those here: <a href="https://www.postman.com/what-is-an-api/#api-architectural-styles" class="uri">https://www.postman.com/what-is-an-api/#api-architectural-styles</a></p>
-<p>The main thing to keep in mind is the idea that an API enables the exchange of data and information between two systems and provides a kind of contract between both sides as to how to do this. The user gets a documented way to find out how to interact with a system and understand everything that comes back from it. The provider of the service also knows exactly how their system is being interacted with. There should be no “backdoors” or undocumented ways of working with the system, and service providers who provide APIs should be careful not to change how the API is being served in such a way that it negatively affects users. Again, thinking about this idea in the context of a restaurant, a restaurant might find itself being hugely successful, so makes the decision to move to larger or multiple premises and upgrade its kitchen. If they keep the same menu, then the effect of this on you is minimal – you can still order your favourite dish, despite all the changes.</p>
+<p>The main thing to keep in mind is the idea that an API enables the exchange of data and information between two systems and provides a protocol between both sides on how to do this. The user gets a documented way to find out how to interact with a system and understand everything that comes back from it. The provider of the service also knows exactly how their system is being interacted with. Again, thinking about this idea in the context of a restaurant, a restaurant might find itself being hugely successful, so makes the decision to move to larger or multiple premises and upgrade its kitchen. If they keep the same menu, then the effect of this on you is minimal – you can still order your favourite dish, despite all the changes!</p>
 <section id="making-an-api-request" class="level3">
 <h3 class="anchored" data-anchor-id="making-an-api-request">Making an API request</h3>
 <section id="types-of-requests" class="level4">
 <h4 class="anchored" data-anchor-id="types-of-requests">Types of Requests</h4>
-<p>Different types of requests are made to an API depending on what you want to do and whether you just want to read from the API or maybe send some information back. In a REST API we call these types of requests “HTTP request <em>methods</em>”, and they are designed as a simple way to describe what you are trying to do. Have a look at <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods">Mozilla’s pages on methods</a> for more in-depth details.</p>
+<p>Different types of requests are made to an API depending on what you want to do and whether you want to read from the API or send some information back. In a REST API we call these different types of requests “HTTP request <em>methods</em>”, and they are designed as a simple way to describe what you are trying to do. Have a look at <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods">Mozilla’s pages on methods</a> for more in-depth details.</p>
 <p>The main HTTP request methods are described in the table below:</p>
 <table class="caption-top table">
 <colgroup>
@@ -394,41 +399,46 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </colgroup>
 <thead>
 <tr class="header">
-<th>Http Request Method</th>
+<th>HTTP Request Method</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>GET</td>
-<td>Reads information from an API, does not change what is on the server, e.g.&nbsp;a list of available images or in individual image</td>
+<td>Reads information from the server, but does not change what is on the server. Example: requesting a list of available images or an individual image.</td>
 </tr>
 <tr class="even">
 <td>POST</td>
-<td>Adds a new resource to the server, e.g.&nbsp;upload a new image to the server with its metadata</td>
+<td>Send information to be handled by the server, possibly adding or changing what is stored on the server. Example: posting a comment on social media.</td>
 </tr>
 <tr class="odd">
 <td>PUT</td>
-<td>Amends a resource on a server, e.g.&nbsp;edit the metadata of one of the images</td>
+<td>Upload a new resource or replace an entire existing resource, to a specific location on the server. Example: adding a new item to a database.</td>
 </tr>
 <tr class="even">
+<td>PATCH</td>
+<td>Like PUT, but modifies just part of the existing resource rather than the entire thing.</td>
+</tr>
+<tr class="odd">
 <td>DELETE</td>
-<td>Removes a resource from the server.</td>
+<td>Removes a specific resource from the server. Example: delete an item from a database.</td>
 </tr>
 </tbody>
 </table>
-<p>To make these more understandable, let’s substitute in an editor of books in place of all this technology. Our editor character is the equivalent to the user of our API, and the author they are working with is the equivalent of the API itself, the mail is the equivalent of the Internet and the draft pages of the book are the resources handled by the API.</p>
-<p>Our editor starts the day by GETting a draft version of a book, dropped off by the local postman. Throughout the day they work on the book and PUTs onto the pages with a pen any corrections or amendments to the text. Usually these will be small corrections or suggestions, but sometimes it might be a suggestion to add some new content. As our character here is an editor, they would not write the additional material themselves but instead ask the original author to POST the new content.</p>
-<p>Occasionally, our editor will not be happy with the book at all. In which case they will ask the publisher to put every existing copy in the bin and thus DELETE it.</p>
+<p>To make these more understandable, let’s substitute in an editor of books in place of all this technology. Our editor character is equivalent to the user of our API, and the author they are working with is equivalent to the API itself. The mail is the equivalent of the Internet and the draft pages of the book are the resources handled by the API.</p>
+<p>Our editor starts the day by GETting a draft version of a book from the author, dropped off by the local postman. As the editor works through the book, they might make some changes to existing text, like a PATCH request does; they might rewrite and replace an entire section, like a PUT request does; or they might suggest adding a new section like a POST request. If they were not happy with a part of the book, they might even request to DELETE it.</p>
 </section>
 <section id="working-out-the-right-web-address-url" class="level4">
 <h4 class="anchored" data-anchor-id="working-out-the-right-web-address-url">Working out the right web address (URL)</h4>
 <p>In our restaurant example, sending our requests to the right person, in this case the waiter or waitress, is essential. We do not want to accidentally ask another customer for our food! When using APIs it is essential to also make sure that we are sending our requests to the right place. However, when using APIs this can be a little more complicated as we must construct a web address that corresponds with what we want to do.</p>
 <p>API web addresses are made up of several parts. Take this URL as an example:</p>
-<p><a href="https://api.example.org/v1/desserts/56" class="uri">https://api.example.org/v1/desserts/56</a></p>
+<p><strong>https://api.example.org/v1/desserts/56</strong></p>
 <p>When you consult the documentation for an API, you might see that a request is documented something like this:</p>
 <p><strong>GET /v1/desserts/{id}</strong></p>
-<p>You will notice that the first part of the address, <a href="http://api.example.org" class="uri">http://api.example.org</a>, is omitted. This part of the web address routes to the whole API. Think of it as an address for a company, and everything that follows is different departments.</p>
+<p>You will notice that the first part of the address, <a href="https://api.example.org" class="uri">https://api.example.org</a>, is omitted. This part of the web address routes to the whole API. Think of it as an address for a company, and everything that follows is different departments.</p>
+<p>You may need to be prepared for this first part of the address to change, e.g.&nbsp;a company might have a “test” version of the API that you use for development and then they may have a “production” version with live data on it. In some cases, they may only let you have access to the production API after reviewing your work to ensure it will not cause their systems any problems and data will be kept safe.</p>
+<p>The initial “/” character between “GET” and “v1” means</p>
 <p>The rest we can break down like this:</p>
 <table class="caption-top table">
 <colgroup>
@@ -447,27 +457,35 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <td>The type of request we are making (see above). In this case we are reading information, not changing it or deleting it.</td>
 </tr>
 <tr class="even">
-<td>/v1</td>
-<td>The version number of the API. Having versions of the API allows providers to provide new versions of APIs, that may work in different ways, without breaking existing API requests.</td>
+<td>/</td>
+<td>If you see a forward slash (/) at the start of an address fragment, it means that the rest of the address is relative to the <em>root</em> of the website. Think of this as giving directions to somewhere in an office block from the reception. Without it, the address would be <em>relative</em>, i.e.&nbsp;in our office block this would be the equivalent of giving directions to someone relative to whichever room they happen to be in at that moment.</td>
 </tr>
 <tr class="odd">
-<td>desserts</td>
-<td>This part of the URL tells you the type of resource you will be working. In this case dessert listings on our menu.</td>
+<td>v1</td>
+<td>The version number of the API. Having versions of the API allows providers to provide new versions of APIs, that may work in different ways, without breaking existing API requests.</td>
 </tr>
 <tr class="even">
+<td>desserts</td>
+<td>This part of the URL tells you the type of resource you will be working with - in this case dessert listings on our menu.</td>
+</tr>
+<tr class="odd">
 <td>{id}</td>
-<td>A unique identifier for the resource. This could be a number such as 56 or a string such as “sticky-toffee-pudding”</td>
+<td>A unique identifier for the resource. This could be a number such as 56 or a string such as “sticky-toffee-pudding”. The curly brackets indicate that this is a parameter provided by the user.</td>
 </tr>
 </tbody>
 </table>
-<p>Assuming your request was successful, the response from the server could be any sort of file type, it depends on the resources it handles. If the endpoint deals with metadata, then you might get back a <a href="https://www.json.org/json-en.html">JSON</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction">XML</a> encoded document. These are both ways of representing data in a way that can be easily understood by a computer program.</p>
-<p>For instance, a response from our fictional restaurant menu API above which might look like this:</p>
+<p>Assuming your request was successful, the response from the server could be any sort of file type, depending on the resources it handles. If the endpoint deals with metadata, then you might get back a <a href="https://www.json.org/json-en.html">JSON</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction">XML</a> encoded document. These are both ways of representing data in a way that can be easily understood by a computer program.</p>
+<p>For instance, a response from our fictional restaurant menu API above might look like this:</p>
 <p><strong>{“id”: 56, “title”: “Rhubarb Crumble”, “description”: “A modern take on a classic pudding, served with custard or ice cream”, “gluten_free”: false, “vegetarian”: true, “vegan”: true, “price”: 5.99}</strong></p>
-<p>Sometimes you might not want to work with an individual resource, but instead a group. In this case the call will look slightly different, and we might use a parameter after a “?” symbol.</p>
-<p>For example, let us find all the vegan desserts in our menu. To do this we need to “search”:</p>
-<p><a href="https://api.example.org/v1/desserts/search?vegan=true" class="uri">https://api.example.org/v1/desserts/search?vegan=true</a></p>
-<p>There will be some practical examples that will step you through how to make different API calls like this in the next section.</p>
 </section>
+</section>
+<section id="getting-groups-of-resources" class="level3">
+<h3 class="anchored" data-anchor-id="getting-groups-of-resources">Getting groups of resources</h3>
+<p>Sometimes, APIs might have functionality that supports returning a group of resources based on a filter. In this case we are providing a field name and the value it must have, in order for that resource to be included in our group.</p>
+<p>Let’s take an example where we need a list of vegan desserts that are also gluten free. If you look at the example above you will see that this means we only want resources where the “vegetarian” field is “true” and the “gluten_free” field is also true.</p>
+<p>Parameters are added to a request by adding a question mark (?) symbol, followed by the name of the parameter, an equals sign (=) and the value. Additional parameters can be added by adding an ampersand (&amp;) symbol and the name=value pair as before. In our example, we would end up with a URL like this:</p>
+<p><strong>https://api.example.org/v1/desserts?vegan=true&amp;gluten_free=true</strong></p>
+<p>There will be some practical examples that will step you through how to make different API calls like this in the next section.</p>
 <section id="how-did-the-request-go" class="level4">
 <h4 class="anchored" data-anchor-id="how-did-the-request-go">How did the request go?</h4>
 <p>When you make a request to an API you will get a three-digit number returned. This is called the <em>HTTP status code</em>. These codes can be broadly classified as follows:</p>
@@ -480,35 +498,34 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </section>
 <section id="relevance-to-the-library-sector-case-studiesuse-cases" class="level2">
 <h2 class="anchored" data-anchor-id="relevance-to-the-library-sector-case-studiesuse-cases">Relevance to the Library Sector (Case Studies/Use Cases)</h2>
-<p>Why do Libraries and cultural heritage organisations provide and/or use APIs? <a href="https://www.apis4librarians.com/"></a><a href="https://www.apis4librarians.com/">APIs for Librarians</a> gives a really nice view of the various ways librarians may want to use APIs big and small for various purposes, from displaying Word of the Day on your website to providing access to Internet Archive material and <a href="https://www.emerald.com/insight/content/doi/10.1108/lht-03-2017-0056/full/html">Overcoming disintermediation: a call for librarians to learn to use web service APIs</a> outlines what APIs can enable for our institutions and users. Below are some additional use cases for providing and using APIs in a cultural heritage context:</p>
+<p>Why do Libraries and cultural heritage organisations provide and/or use APIs? <a href="https://www.apis4librarians.com/">APIs for Librarians</a> gives a really nice view of the various ways librarians may want to use APIs big and small for various purposes, from displaying Word of the Day on your website to providing access to Internet Archive material. <a href="https://www.emerald.com/insight/content/doi/10.1108/lht-03-2017-0056/full/html">Overcoming disintermediation: a call for librarians to learn to use web service APIs</a> outlines what APIs can enable for our institutions and users. (Free-to-read version available <a href="https://www.researchgate.net/publication/334145268_Application_Programming_Interface_API_Research_A_Review_of_the_Past_to_Inform_the_Future">here</a>). Below are some additional use cases for providing and using APIs in a cultural heritage context:</p>
 <section id="integrate" class="level3">
 <h3 class="anchored" data-anchor-id="integrate">Integrate</h3>
-<p>The technological beating heart of a modern library is the Library Management System (LMS). This is the electronic brain of a library, but to be able to do its job it must link to many other systems, usually through APIs. This is called Systems integration.</p>
-<p>An example of this is obtaining details about a book that has been bought. The LMS can talk to the Publisher’s website through an API to get all the details needed to catalogue the item without the need for someone to manually type it in.</p>
+<p>The technological beating heart of a modern library is the Library Management System (LMS). This is the electronic brain of a library, but to be able to do its job it must link to many other systems, usually through APIs. This is called Systems Integration.</p>
+<p>An example of this is obtaining details about a book that has been bought. The LMS can talk to the publisher’s website through an API to get all the details needed to catalogue the item without the need for someone to manually type it in.</p>
 </section>
 <section id="encourage-reuse" class="level3">
 <h3 class="anchored" data-anchor-id="encourage-reuse">Encourage Reuse</h3>
-<p>APIs are a great way to help people interact with cultural heritage collections. They allow people to develop new applications that could access your API, maybe in conjunction with many others, to search for types of items across many collections. They enable users, both inside and outside organisations to be able to analyse information, create visualisations and integrate collections data with other systems and workflows.</p>
-<p>In the case of digital resources, they can make it easier to reuse and share those resources. For example, the <a href="https://iiif.io/api/image/3.0/">IIIF standard</a> enables images from a cultural heritage institutions’ collection to be easily embedded into learning materials produced by a completely different organisation.</p>
+<p>APIs are a great way to help people interact with cultural heritage collections. They allow people to develop new applications that could access your API, maybe in conjunction with many others, to search for types of items across many collections. They enable users, both inside and outside organisations to analyse information, create visualisations and integrate collections data with other systems and workflows.</p>
+<p>In the case of digital resources, they can make it easier to reuse and share those resources. For example, the <a href="./iiif.html">IIIF standard</a> enables images from a cultural heritage institution’s collection to be easily embedded into learning materials produced by a completely different organisation.</p>
 </section>
 <section id="authentication" class="level3">
 <h3 class="anchored" data-anchor-id="authentication">Authentication</h3>
 <p>Most APIs will require authentication in some way in order to use them, ensuring data providers retain some confidence and control over how the data provided is interacted with. This is in place of logging into the website.</p>
-<p>There are several main types of authentication that you will use:</p>
-<ol type="1">
-<li>Username and password</li>
+<p>The main types of authentication that you will use are:</p>
+<ul>
 <li>API Key – this is a long alphanumeric bit of text that uniquely identifies you to the system.</li>
-<li>OAuth – this is a bit like an API key, but every so often it gets exchanged for a new one. This is more secure as we are not using one card for an extended period of time but can be more complicated to set up.</li>
-</ol>
+<li>OAuth – this is a bit like an API key, but every so often it gets exchanged for a new one. This is more secure as we are not using one card for an extended period of time, but can be more complicated to set up.</li>
+</ul>
 </section>
 <section id="extend" class="level3">
 <h3 class="anchored" data-anchor-id="extend">Extend</h3>
-<p>An organisation’s requirements for what it needs from a computer will change over time as technology and society develops. Having an API is a good way to ensure that you will always be able to extend your system to deal with new requirements. Extending functionality in this way is much easier and less risky than modifying a system that has been written as one monolithic unity.</p>
+<p>An organisation’s requirements for what it needs from a computer will change over time as technology and society develops. Having an API is a good way to ensure that you will always be able to extend your system to deal with new requirements. Extending functionality in this way is much easier and less risky than modifying a system that has been written as one monolithic unit.</p>
 <p>An example here could be if you had to generate a new report from your system. It may already provide some reporting but up until now you have had to take the information from an old report and manipulate it in Excel. This can be error prone and time consuming. Instead, you can use the API to get the information you need and write a program to turn this information into a report. Using an API also has the advantage that you can use an existing system without modifying it or interrupting its uptime. Your code can be entirely separate. (Case Study <a href="https://www.openathens.net/case-studies/new-openathens-reporting-api-helps-librarians-demonstrate-value/">OpenAthens Reporting API helps librarians demonstrate value</a>)</p>
 </section>
 <section id="extract" class="level3">
 <h3 class="anchored" data-anchor-id="extract">Extract</h3>
-<p>Eventually, a computer system will come to the end of its life and need replacing, or maybe a system is being replaced because it did not live up to expectations. In this scenario, being able to get all your data out of that system is critical. An API is an excellent way to do this. It may even be possible to write a program that use the API of your old system to supply the API of your new system with information, saving everybody a lot of time!</p>
+<p>Eventually, a computer system will come to the end of its life and need replacing, or maybe a system is being replaced because it did not live up to expectations. In this scenario, being able to get all your data out of that system is critical. An API is an excellent way to do this. It may even be possible to write a program that uses the API of your old system to supply the API of your new system with information, saving everybody a lot of time!</p>
 </section>
 <section id="insurance" class="level3">
 <h3 class="anchored" data-anchor-id="insurance">Insurance</h3>
@@ -521,7 +538,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <section id="exercise-1-using-an-api-for-the-very-first-time" class="level3">
 <h3 class="anchored" data-anchor-id="exercise-1-using-an-api-for-the-very-first-time"><strong>Exercise 1: Using an API for the very first time</strong></h3>
 <p><strong>1. Introduction</strong></p>
-<p>In this exercise, adapted from <a href="http://www.meanboyfriend.com/overdue_ideas/2014/10/using-an-api-hands-on-exercise/">Using an API: a hands on exercise</a> (a tutorial created for British Library staff by Owen Stephens) you are going to use a Google Spreadsheet to retrieve records from the Flickr API and display the results.</p>
+<p>In this exercise, adapted from <a href="http://www.meanboyfriend.com/overdue_ideas/2014/10/using-an-api-hands-on-exercise/">Using an API: a hands on exercise</a> (a tutorial created for British Library staff by Owen Stephens), you are going to use a Google Spreadsheet to retrieve records from the Flickr API and display the results.</p>
 <p>The API you are going to use simply allows you to submit some search terms and get a list of results in a format called RSS. You are going to use a Spreadsheet to submit a search to the API, and display the results.</p>
 <p><strong>2. Understanding the API</strong></p>
 <p>The API you are going to use is an interface to <a href="https://www.flickr.com/commons">Flickr</a>, a photo sharing website where many cultural heritage institutions have hosted some of their collection images. Flickr has a very <a href="https://www.flickr.com/services/api/">powerful API with lots of functions</a>, but for simplicity in this exercise you are just going to use the Flickr RSS feeds, rather than the full API which is more complex and requires you to register.</p>
@@ -543,16 +560,16 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </tr>
 <tr class="even">
 <td>tags=food</td>
-<td>The ‘tags parameter – contains a list of tags (separated by commas) to be used to filter the list of images returned by the API. In this case just the single tag ‘food’ is listed.</td>
+<td>The “tags” parameter is a list of tags (separated by commas) to be used to filter the list of images returned by the API. In this case, just a single tag “food” is used.</td>
 </tr>
 <tr class="odd">
 <td>format=rss</td>
-<td>format=rss</td>
+<td>How the results will be presented, in this case using the <a href="https://en.wikipedia.org/wiki/RSS">RSS</a> feed format.</td>
 </tr>
 </tbody>
 </table>
 <p><strong>3. Using the API</strong></p>
-<p>To use the API, you are going to use a Google Spreadsheet. Go to <a href="http://drive.google.com" class="uri">http://drive.google.com</a> and login to your Google account. Create a Google Spreadsheet</p>
+<p>To use the API, you are going to use a Google Spreadsheet. Go to <a href="https://drive.google.com" class="uri">https://drive.google.com</a> and login to your Google account. Create a Google Spreadsheet</p>
 <p>The first thing to do is build the API call (the query you are going to submit to the API).</p>
 <p>First some labels:</p>
 <p>In cell A1 enter the text ‘API Address’<br>
@@ -562,19 +579,30 @@ In cell A4 enter ‘API Call’<br>
 In cell A5 enter ‘Results’</p>
 <p>Now, based on the information we were able to obtain by understanding the API we can fill values into column B as follows:</p>
 <p>In cell B1 enter the address of the API<br>
-In cell B2 enter a simple, one word tag<br>
+In cell B2 enter a simple, one-word tag<br>
 In cell B3 enter the text ‘rss’ (omitting the inverted commas)</p>
-<p>The first three rows of the spreadsheet should look something like (with whatever tag you’ve chased to search in B2):</p>
-<p><img src="images/api2.png" class="img-fluid"></p>
+<p>The first three rows of the spreadsheet should look something like this (with whatever tag you’ve chosen to search for in B2):</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/api2.png" class="img-fluid figure-img" alt="Screenshot of an Excel sheet with cells containing information relevant to an API call."></p>
+<figcaption>Excel sheet with the relevant API information.</figcaption>
+</figure>
+</div>
 <p>You now have all the parameters we need to build the API call. To do this you want to create a URL very similar to the one you looked at above. You can do this using a handy spreadsheet function/formula called ‘Concatenate’ which allows you to combine the contents of a number of spreadsheet cells with other text.</p>
 <p>In Cell B4 type the following formula:</p>
 <p>=CONCATENATE(B1,“?”,“tags=”,B2,“&amp;format=”,B3)</p>
-<p>This joins the contents of cells B1, B2 with the text included in inverted commas in formula. Once you have entered this formula and pressed enter your spreadsheet should look like:</p>
-<p><img src="images/api3.png" class="img-fluid"></p>
+<p>This joins the contents of cells B1, B2 with the text included in inverted commas in formula. Once you have entered this formula and pressed enter, your spreadsheet should look like:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/api3.png" class="img-fluid figure-img" alt="Screenshot of an Excel sheet with cells containing information relevant to an API call."></p>
+<figcaption>Excel sheet with the relevant API information.</figcaption>
+</figure>
+</div>
 <p>The final step is to send this query, and retrieve and display the results. This is where the fact that the API returns results as an RSS feed comes in extremely useful. Google Spreadsheets has a special function for retrieving and displaying RSS feeds.</p>
 <p>To use this, in Cell B5 type the following formula:</p>
 <p>=importFeed(B4)</p>
-<p>Because Google Spreadsheets knows what an RSS feed is, and understands it will contain one or more ‘items’ with a ‘title’ and a ‘link’ it will do the rest for us. Hit enter, and see the results.</p>
+<p>Google Spreadsheets knows what an RSS feed is, and understands that it will contain one or more ‘items’ with a ‘title’ and a ‘link’. It will do the rest for us. Hit enter, and see the results.</p>
+<p><a href="images/apirsstaskresults.png" data-fig-alt="A Google Sheet showing retirned rows">Excel sheet with the relevant API information.</a></p>
 <p><strong>Congratulations! You have built an API query, and displayed the results.</strong></p>
 <p>You have:<br>
 * Explored an API for Flickr<br>
@@ -590,49 +618,50 @@ In cell B3 enter the text ‘rss’ (omitting the inverted commas)</p>
 <li>format</li>
 <li>lang</li>
 </ul>
-<p>These are documented at <a href="https://www.flickr.com/services/feeds/docs/photos_public/" class="uri">https://www.flickr.com/services/feeds/docs/photos_public/</a>. When adding parameters to a URL, you use the ‘&amp;’ sign between each parameter e.g.</p>
+<p>These are documented at <a href="https://www.flickr.com/services/feeds/docs/photos_public/" class="uri">https://www.flickr.com/services/feeds/docs/photos_public/</a>. When adding parameters to a URL, you use the ampersand (‘&amp;’ sign) between each parameter. For example:</p>
 <p><a href="https://api.flickr.com/services/feeds/photos_public.gne?tags=food&amp;id=23577728@N07" class="uri">https://api.flickr.com/services/feeds/photos_public.gne?tags=food&amp;id=23577728@N07</a></p>
-<p>This searches for all photos tagged with ‘food’ from a specific user (user id = 23577728@N07)</p>
-<p>By adding a row to the spreadsheet, for this parameter, and modifying the ‘concatenate’ statement that builds the API Call, can you make the spreadsheet only return images with a specific tag in the British Library Flickr collection? (The Flickr ID for the British Library is ‘12403504@N02’</p>
+<p>This searches for all photos tagged with ‘food’ from a specific user with id = 23577728@N07</p>
+<p>By adding a row to the spreadsheet for this parameter, and modifying the ‘concatenate’ statement that builds the API Call, can you make the spreadsheet only return images with a specific tag in the British Library Flickr collection? The Flickr ID for the British Library is 12403504@N02</p>
 </section>
 <section id="exercise-2-find-out-information-for-a-location-using-google-apis" class="level3">
 <h3 class="anchored" data-anchor-id="exercise-2-find-out-information-for-a-location-using-google-apis"><strong>Exercise 2: Find out information for a location using Google APIs</strong></h3>
-<p><strong>1.</strong> Go to <a href="https://developers.google.com/maps/documentation/places/web-service/text-search" class="uri">https://developers.google.com/maps/documentation/places/web-service/text-search</a> in your browser <br> <strong>2.</strong> Click on “Web Service” as the platform<br> <strong>3.</strong> You may be asked to log in using your Google account.<br> <strong>4.</strong> Click on the “API” button in the right-hand section.<br> <strong>5.</strong> Click on the “Fullscreen” icon along the top of this section, it is the icon that looks like edges of a square.<br> <strong>6.</strong> In the APIs Explorer window, click on “HTTP” – this lets you see the API request in terms of the web requests that are made.<br> <strong>7.</strong> The “Request Body” is the information you are going to send. In this case, the name of the place you would like to know more about.<br> <strong>8.</strong> Try a place you know, e.g.&nbsp;“British Library” as the value<br> <strong>9.</strong> Click “Execute”<br> <strong>10.</strong> You may be prompted to authorise the request, do so.</p>
-<p>All being well you will see a response in the right-hand side. “200” will be prominently displayed, you might remember this code from the “How did the request go?” section earlier. Underneath, you will see a structured response with everything Google knows about that place. Notice lots of information mixed in together, what type of location it is, coordinates on a map and opening hours are examples of what you might see.</p>
+<p><strong>1.</strong> Go to <a href="https://developers.google.com/maps/documentation/places/web-service/text-search" class="uri">https://developers.google.com/maps/documentation/places/web-service/text-search</a> in your browser <br> <strong>2.</strong> Click on “Web Service” as the platform<br> <strong>3.</strong> You may be asked to log in using your Google account.<br> <strong>4.</strong> Click on the “API” button in the right-hand section.<br> <strong>5.</strong> Click on the “Fullscreen” icon along the top of this section, it is the icon that looks like edges of a square.<br> <strong>6.</strong> In the APIs Explorer window, click on “HTTP” – this lets you see the API request in terms of the web requests that are made.<br> <strong>7.</strong> The “Request Body” has a single parameter called “textQuery” which you can use to search for a place you would like to know more about.<br> <strong>8.</strong> Try a place you know, for example “British Library” as the value.<br> <strong>9.</strong> Click “Execute”.<br> <strong>10.</strong> You may be prompted to login and authorise the API request to continue.</p>
+<p>All being well you will see a response in the right-hand side. “200” will be prominently displayed, you might remember this code from the “How did the request go?” section earlier. Underneath, you will see a structured response with everything Google knows about that place. Notice that a lot of information is mixed in together, for example what type of location it is, coordinates on a map and opening hours.</p>
 </section>
 <section id="other-online-tutorials-for-beginners-to-try" class="level3">
 <h3 class="anchored" data-anchor-id="other-online-tutorials-for-beginners-to-try">Other online tutorials for beginners to try:</h3>
 <ul>
-<li>Joshua Dull has created a useful workshop in the style of the Library Carpentries you could have a look at called <a href="https://joshuadull.github.io/APIs-for-Libraries/">APIs for Libraries</a></li>
-<li>OpenLibrary has some APIs you can experiment with just in a browser <a href="https://openlibrary.org/developers/api" class="uri">https://openlibrary.org/developers/api</a> and in particular I can recommend having a play around in their sandbox which gives a great illustration of the code involved in API requests and API responses <a href="https://openlibrary.org/swagger/docs">swagger/docs | Open Library</a></li>
-<li>The Programming Historian has a lot of great <a href="https://programminghistorian.org/en/lessons/?topic=api">API tutorials</a> you can try which will walk you through using APIs for different purposes such as <a href="https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine">Fetching and Parsing Data from the Web with OpenRefine | Programming Historian</a></li>
+<li>Joshua Dull has created a useful workshop in the style of the <a href="https://librarycarpentry.org/">Library Carpentries</a>, called <a href="https://joshuadull.github.io/APIs-for-Libraries/">APIs for Libraries</a></li>
+<li>OpenLibrary has some APIs you can experiment with directly in your browser: <a href="https://openlibrary.org/developers/api" class="uri">https://openlibrary.org/developers/api</a> and I can particularly recommend having a play around in their sandbox which gives a great illustration of the code involved in API requests and API responses: <a href="https://openlibrary.org/swagger/docs">swagger/docs | Open Library</a></li>
+<li>The Programming Historian has a lot of great <a href="https://programminghistorian.org/en/lessons/?topic=api">API tutorials</a> you can try which will walk you through using APIs for different purposes such as <a href="https://programminghistorian.org/en/lessons/fetch-and-parse-data-with-openrefine">Fetching and Parsing Data from the Web with OpenRefine</a></li>
 </ul>
 </section>
 <section id="once-youre-feeling-a-little-more-confident-these-tutorials-will-help-you-go-further" class="level3">
 <h3 class="anchored" data-anchor-id="once-youre-feeling-a-little-more-confident-these-tutorials-will-help-you-go-further">Once you’re feeling a little more confident, these tutorials will help you go further:</h3>
 <ul>
-<li>Wikimedia offers some incredibly useful APIs of particular interest to libraries who contribute to or have collection items there. They have a whole tutorial to help beginners: <a href="https://api.wikimedia.org/wiki/Getting_started_with_Wikimedia_APIs">Getting started with Wikimedia APIs - API Portal</a></li>
-<li>Dataquest has a nice tutorial on using the Python language to call APIs: <a href="https://www.dataquest.io/blog/api-in-python/" class="uri">https://www.dataquest.io/blog/api-in-python/</a></li>
-<li>You can even use APIs to integrate with the latest AI tools, some examples from OpenAI are here: <a href="https://platform.openai.com/docs/quickstart?language-preference=curl" class="uri">https://platform.openai.com/docs/quickstart?language-preference=curl</a></li>
-<li>Once you are a bit more confident with how APIs work, why not try designing one? For example, how would you go about designing an API for a publisher to allow them to keep track of books, editions and authors?</li>
+<li>Wikimedia offers some incredibly useful APIs of particular interest to libraries who contribute to or have collection items there. They have an entire tutorial to help beginners: <a href="https://api.wikimedia.org/wiki/Getting_started_with_Wikimedia_APIs">Getting started with Wikimedia APIs - API Portal</a></li>
+<li>Dataquest has a nice tutorial on using the Python language to call APIs: <a href="https://www.dataquest.io/blog/api-in-python">How to Use an API in Python</a></li>
+<li>You can even use APIs to integrate with the latest AI tools. Here are some examples from OpenAI: <a href="https://platform.openai.com/docs/quickstart?language-preference=curl">Developer quickstart: Take your first steps with the OpenAI API.</a></li>
+<li>Once you are a bit more confident with how APIs work, why not try designing one? For example, how would you go about designing an API for a publisher to allow them to keep track of books, editions and authors? This guide should help: <a href="https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design">RESTful web API design</a>.</li>
 </ul>
 </section>
 </section>
 <section id="recommended-readingviewing" class="level2">
 <h2 class="anchored" data-anchor-id="recommended-readingviewing">Recommended Reading/Viewing</h2>
-<p>Many great resources are available on the web to tell you more about APIs.</p>
+<p>Many great resources are available on the web to tell you more about APIs:</p>
 <ul>
-<li><a href="https://campus.dariah.eu/resource/posts/introduction-to-apis">Introduction to APIs | DARIAH-Campus</a> (embed video)</li>
-<li>What is an API? IBM <a href="https://www.ibm.com/think/topics/api" class="uri">https://www.ibm.com/think/topics/api</a></li>
-<li>What is a REST API? Postman: <a href="https://www.youtube.com/watch?v=PfujVETI-i4" class="uri">https://www.youtube.com/watch?v=PfujVETI-i4</a></li>
-<li>What is a REST API? IBM: <a href="https://www.youtube.com/watch?v=lsMQRaeKNDk" class="uri">https://www.youtube.com/watch?v=lsMQRaeKNDk</a></li>
-<li>UK Government list of APIs: <a href="https://www.api.gov.uk/#uk-public-sector-apis"></a><a href="https://www.api.gov.uk/#uk-public-sector-apis" class="uri">https://www.api.gov.uk/#uk-public-sector-apis</a></li>
-<li>What is an API? <a href="https://glam-workbench.net/trove/#:~:text=An%20API%20is%20an%20Application,programs%20talk%20to%20each%20other.">Trove API introduction - GLAM Workbench</a></li>
+<li><a href="https://campus.dariah.eu/resource/posts/introduction-to-apis">Introduction to APIs | DARIAH-Campus</a></li>
+<li>What is an API? from IBM <a href="https://www.ibm.com/think/topics/api" class="uri">https://www.ibm.com/think/topics/api</a></li>
+<li>What is a REST API? from Postman: <a href="https://www.youtube.com/watch?v=PfujVETI-i4" class="uri">https://www.youtube.com/watch?v=PfujVETI-i4</a></li>
+<li>What is a REST API? from IBM: <a href="https://www.youtube.com/watch?v=lsMQRaeKNDk" class="uri">https://www.youtube.com/watch?v=lsMQRaeKNDk</a></li>
+<li>UK Government list of APIs: <a href="https://www.api.gov.uk/#uk-public-sector-apis" class="uri">https://www.api.gov.uk/#uk-public-sector-apis</a></li>
+<li><a href="https://glam-workbench.net/trove/#:~:text=An%20API%20is%20an%20Application,programs%20talk%20to%20each%20other.">Trove API introduction - GLAM Workbench</a></li>
 </ul>
+<p>Some highly relevant APIs for libraries and/or researchers: - <a href="https://docs.openalex.org/how-to-use-the-api/api-overview">OpenAlex</a> is a free API that provides similar information to Scopus and Web of Science. - <a href="https://www.crossref.org/documentation/retrieve-metadata/rest-api/">CrossRef</a> provides a free API to search and access metadata for all of their DOIs.</p>
 </section>
 <section id="finding-communities-of-practice" class="level2">
 <h2 class="anchored" data-anchor-id="finding-communities-of-practice">Finding Communities of Practice</h2>
-<p>This guide is intended only as a first step for starting your journey with APIs and as you start experimenting and getting hands-on experience you will undoubtedly have further questions or need for support from those who have experience with APIs. Many organisations providing APIs will have support or contact info for questions and troubleshooting so look out for those. You can also join a community such as AI4LAM community where you can connect with lots of professionals working at the intersection of technology and cultural heritage. <a href="https://stackoverflow.com/questions/">Stackexchange</a> is a popular discussion board where you can post your software related questions.</p>
+<p>This guide is intended only as a first step for starting your journey with APIs and as you start experimenting and getting hands-on experience you will undoubtedly have further questions or need for support from those who have more experience with APIs. Here are some suggestions: - Many organisations providing APIs will have support or contact info for questions and troubleshooting so look out for those. - You can also join a community such as the AI4LAM community where you can connect with lots of professionals working at the intersection of technology and cultural heritage. - <a href="https://stackoverflow.com/questions/">Stack Overflow</a> is a popular discussion board where you can post your software related questions. - Look for local in-person or online <a href="https://en.wikipedia.org/wiki/Hackathon">Hackathons</a> which are often focused on using a specific API.</p>
 
 
 </section>
