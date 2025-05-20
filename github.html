@@ -9,8 +9,8 @@
 <meta name="author" content="Nora McGregor">
 <meta name="author" content="Liam Green-Hughes">
 <meta name="author" content="Liam O’Dwyer">
-<meta name="dcterms.date" content="2024-06-04">
-<meta name="keywords" content="TBD, TBD">
+<meta name="dcterms.date" content="2025-05-20">
+<meta name="keywords" content="GitHub, Git">
 
 <title>GitHub: How to navigate and contribute to Git-based projects – Digital Scholarship &amp; Data Science Topic Guides for Library Professionals</title>
 <style>
@@ -359,14 +359,14 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 4, 2024</p>
+      <p class="date">May 20, 2025</p>
     </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">February 10, 2025</p>
+      <p class="date-modified">May 20, 2025</p>
     </div>
   </div>
     
@@ -382,7 +382,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <div>
   <div class="keywords">
     <div class="block-title">Keywords</div>
-    <p>TBD, TBD</p>
+    <p>GitHub, Git</p>
   </div>
 </div>
 
@@ -391,7 +391,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p><a href="https://github.com/">GitHub</a> is a collaborative software development platform. Like a kind of google docs for coders, it began as a tool for them to collaboratively work on software development projects, ie, allowing different coders to contribute to parts of an overall project, asynchronously and across teams and even international borders, keeping track of changes all the while to make sure the end result is one cohesive software.</p>
+<p><a href="https://github.com/">GitHub</a> is a collaborative software development platform. Like a kind of Google Docs for coders, it began as a tool for them to collaboratively work on software development projects, ie, allowing different coders to contribute to parts of an overall project, asynchronously and across teams and even international borders, keeping track of changes all the while to make sure the end result is one cohesive software.</p>
 <p>GitHub today however is used for many more different purposes by people in all different fields, not just software developers and software projects, to:</p>
 <ul>
 <li>record and share information on a collaborative project</li>
@@ -400,15 +400,15 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <li>build a public website for a project</li>
 </ul>
 <p>GitHub allows people to collaboratively work on and share projects (called ‘repositories’) so that others can copy them, either to adapt or to contribute back to the original project. That’s because any ‘public’ repository of files on GitHub is accessible via the web. (Note that public repositories are created by default when you start a project, but it is also possible to <a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility">make your repositories private</a> if you like in the settings).</p>
-<p>Repositories may be filled with code, but they may also be filled with pages of text written in <a href="https://www.markdownguide.org/getting-started/">markdown</a> and this markdown can be rendered by browsers as webpages. This very website you’re reading from right now is <a href="https://github.com/libereurope/ds-topic-guides">being hosted on GitHub</a>!</p>
+<p>Repositories may be filled with code, but they may also be filled with pages of text written in <a href="https://www.markdownguide.org/getting-started/">markdown</a> and this markdown can be rendered by static site generators such as <a href="https://jekyllrb.com/">Jekyll</a> or <a href="https://gohugo.io/">Hugo</a> into <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a> that is understood by the browser. This very website you’re reading from right now is <a href="https://github.com/libereurope/ds-topic-guides">being hosted on GitHub</a>!</p>
 <p>This guide will help you to understand how to practically navigate and contribute to projects like this one hosted via GitHub, and will demystify some of the basic actions and jargon around using GitHub along the way.</p>
 <section id="git-github-and-github-pages" class="level3">
 <h3 class="anchored" data-anchor-id="git-github-and-github-pages">Git, GitHub and GitHub Pages</h3>
 <p>Before we begin, it can be helpful to first grasp what Git, GitHub and GitHub Pages each are and how they relate to each other:</p>
 <ul>
-<li><strong>Git</strong> is a distributed open source version control system. Version control allows you to track changes in a set of files. It does this by taking snapshots of repositories at each stage of development - in Git these snapshots are known as ‘commits’. In software development this means things can be tested and rolled back, and enables sharing of stages of development. Git can be used on its own but when used with GitHub has more potential for collaborative projects. You can <a href="https://git-scm.com/downloads">download</a> and install Git on your own machine. It runs in the command line or there are <a href="https://desktop.github.com/">desktop GUIs</a> available. <a href="https://www.youtube.com/watch?v=eWxxfttcMts">Git for Humans</a> (Alice Bartlett talk at UX Brighton 2016) is a nicely accessible introduction to the purpose and uses of Git.</li>
+<li><strong>Git</strong> is a distributed open source version control system. Version control allows you to track changes in a set of files. It does this by taking snapshots of repositories at each stage of development - in Git these snapshots are known as ‘commits’. In software development this means things can be tested and rolled back, and enables sharing of stages of development. Git can be used on its own but when used with GitHub has more potential for collaborative projects. You can <a href="https://git-scm.com/downloads">download</a> and install Git on your own machine. It runs in the command line and there are <a href="https://desktop.github.com/">desktop GUIs</a> available. <a href="https://www.youtube.com/watch?v=eWxxfttcMts">Git for Humans</a> (Alice Bartlett talk at UX Brighton 2016) is a nicely accessible introduction to the purpose and uses of Git.</li>
 <li><strong>GitHub</strong> is a web-based software development platform. It has many of Git’s features and can host Git repositories but also provides a web interface and additional functionalities. You can view millions of repositories hosted there. Many are openly licensed, meaning you can freely copy (or <em>fork</em>) them, either to adapt for yourself or to contribute back to the original project. By default the files and folders in a repository you create are public, and with a little bit of extra code, a repository can also be turned into a more public-facing project website, blog or wiki using a feature called GitHub Pages.</li>
-<li><strong>GitHub Pages</strong> is a feature within GitHub to turn any repository or project into a website. GitHub can also be used to host a site that has been created using other software packages. One example of such a software is <strong>RStudio</strong>, a visual editor for <strong>Quarto</strong> Markdown which is what we use for this DS Essentials project!</li>
+<li><strong>GitHub Pages</strong> is a feature within GitHub to turn any repository or project into a website. GitHub can also be used to host a site that has been created using other software packages. One example of such a software is <strong>RStudio</strong>, a visual editor for <strong>Quarto</strong> Markdown which is what we use for this <em>DS Topic Guides</em> project!</li>
 </ul>
 </section>
 <section id="the-language-of-github" class="level3">
@@ -438,11 +438,12 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <li><a href="https://github.com/omeka">Omeka</a> exhibit platform and related <a href="https://github.com/omeka/PythonOmekaApiToCsv">plugins</a></li>
 <li>Digital projects of <a href="https://github.com/LibraryOfCongress">Library of Congress</a></li>
 <li><a href="https://github.com/collectionbuilder/">Collection Builder</a></li>
+<li><a href="https://github.com/topics/code4lib">350+ repositories tagged with #code4lib</a></li>
 </ul></li>
 <li>Distributing OCR’d text extracted from digitised materials for collections-as-data analysis [<a href="https://github.com/UMiamiLibraries/collections-as-data">example</a>] [<a href="https://github.com/marriott-library/collections-as-data">example</a>] [<a href="https://github.com/NLS-Digital-Scholarship/collections-as-data">example</a>]</li>
 <li>Storing scripts for executing metadata ingests and transformations [<a href="https://github.com/utlib/dspace-exams-ingest-scripts">example</a>, <a href="https://github.com/preservica/metadata-management">example</a>, [<a href="https://github.com/Digital-Repository-of-Ireland/dri-open-refine-split">example</a>]</li>
 <li>Archiving the source texts of open educational resources [<a href="https://github.com/moderndive/ModernDive_book">example</a>]</li>
-<li>Websites for library workshops, to share course material or sample datasets [<a href="https://github.com/librarycarpentry/lc-git/">example</a>, <a href="https://github.com/NCSU-Libraries/digital-scholarship-workshops/tree/master">example</a>, <a href="https://dculibrary.github.io/open-refine-workshop/">example</a>],</li>
+<li>Websites for library workshops, to share course material or sample datasets [<a href="https://github.com/librarycarpentry/lc-git/">Library Carpentry example</a>, <a href="https://github.com/NCSU-Libraries/digital-scholarship-workshops">NCSU Digital Scholarship Workshops example</a>, <a href="https://dculibrary.github.io/open-refine-workshop/">DCU Library example</a>],</li>
 <li>Collaborating on and contributing to a project <a href="https://libereurope.github.io/ds-topic-guides/">Digital Scholarship &amp; Data Science Essentials for Library Professionals</a></li>
 </ul>
 <p>Let’s look more closely at some practical ways you can get started navigating GitHub and contributing and making use of GitHub based projects for your library work!</p>
@@ -458,6 +459,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <li>Have a look through the previous issues to make sure that what you are experiencing has not been raised before. If it has then consider adding details to that ticket and clicking on “Subscribe” under Notifications to be kept up to date with any fixes or changes.</li>
 <li>You can raise issues for a variety of reasons, not just faults. You can also ask for new functionality or make a suggestion. Be clear, if you can, on the type of request you are making as the project maintainers may have different processes for different request types.</li>
 <li>Remember that what is obvious to you might not be obvious to a project maintainer, so explain fully and be patient with those trying to address the issue.</li>
+<li>Some repositories apply labels to categorize the issue (e.g.&nbsp;bug, feature request, documentation, backend, frontend etc.). If you are enable to label the issue you created please consider the available categories.</li>
 </ul>
 </section>
 <section id="reporting-bugs" class="level4">
@@ -467,7 +469,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <li>A full description of what happened, including:
 <ul>
 <li>Any error messages or codes</li>
-<li>Where you were in the project (e.g.&nbsp;for a web application what page you were on)</li>
+<li>Where you were in the project (for examples, for a web application the URL of the page you were on, or if it is not available, the stream of actions to get there)</li>
 <li>What you were trying to do</li>
 </ul></li>
 <li>What did you expect to happen? Including:
@@ -481,8 +483,12 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <li>The time of day the error occurred</li>
 <li>Which browser you use</li>
 <li>If you have experienced any similar errors with other sites</li>
+<li>Which operating system you use</li>
+<li>Provide screenshot (if applicable)</li>
+<li>Provide version number of the software (if applicable)</li>
 </ul></li>
 </ul>
+<p>Some projects provide issue templates that ask specific questions relevant for the project (for example see the <a href="https://github.com/IQSS/dataverse/blob/develop/.github/ISSUE_TEMPLATE/bug_report.md">bug report template</a> for Dataverse).</p>
 </section>
 <section id="requesting-new-features" class="level4">
 <h4 class="anchored" data-anchor-id="requesting-new-features"><strong>Requesting new features</strong></h4>
@@ -508,10 +514,10 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </section>
 <section id="contributing-contentcode-to-an-existing-project" class="level3">
 <h3 class="anchored" data-anchor-id="contributing-contentcode-to-an-existing-project"><strong>2. Contributing content/code to an existing project</strong></h3>
-<p>As you now know, GitHub hosts many open-licensed projects and by clicking the <em>fork</em> button, any <a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github">GitHub user</a> can instantaneously create their own fully independent copy of that project to work on without affecting the original. This copy or <em>forked</em> project can then be used to work out new features in a piece of software (or in our case, writing new content for a project website) that can eventually be merged back into the original project. Let’s walk through a simplified example using the example of contributing substantial edits to one of the pages of DS Essentials. Let’s say you’d like to write up a new use case on one of the Topic Guides. That process may look a little like this:</p>
+<p>As you now know, GitHub hosts many open-licensed projects and by clicking the <em>fork</em> button, any <a href="https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github">GitHub user</a> can instantaneously create their own fully independent copy of that project to work on without affecting the original. This copy or <em>forked</em> project can then be used to work out new features in a piece of software (or in our case, writing new content for a project website) that can eventually be merged back into the original project. Let’s walk through a simplified example using the example of contributing substantial edits to one of the pages of <em>DS Topic Guides</em>. Let’s say you’d like to write up a new use case on one of the DS Topic Guides. That process may look a little like this:</p>
 <section id="find-the-github-repositorysource-code-behind-the-website" class="level4">
 <h4 class="anchored" data-anchor-id="find-the-github-repositorysource-code-behind-the-website"><strong>1. Find the GitHub repository/source code behind the website</strong></h4>
-<p>On the web version of DS Essentials, look for the GitHub logo in order to be taken to the GitHub repository behind it.</p>
+<p>On the web version of <em>DS Topic Guides</em>, look for the GitHub logo in order to be taken to the GitHub repository behind it.</p>
 <p><img src="images/GitHub2.png" class="img-fluid"></p>
 </section>
 <section id="make-your-own-copy-of-the-project-repository-to-work-on" class="level4">
@@ -521,21 +527,21 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </section>
 <section id="find-the-file-you-would-like-to-change-and-make-your-edits" class="level4">
 <h4 class="anchored" data-anchor-id="find-the-file-you-would-like-to-change-and-make-your-edits"><strong>3. Find the file you would like to change and make your edits</strong></h4>
-<p>Navigate to the file you would like to edit in your own copy of the DSEssentials project and click the pencil icon to edit. (Note that one way you’ll know you’re working in your own copy is by seeing your personal GitHub username ahead of the repository name). Let’s say the Topic Guide on AI &amp; ML in Libraries Literacies needs an update. To find the right file in the directory you can do a search or look for a markdown file in the list which corresponds to the url on the website version and has the file extension .md. Note, because this website was built using Quarto, the file extension in this example is .qmd. For instance if ml-ai.html is the web version, you would look for ml-ai.qmd in the file directory on GitHub.</p>
+<p>Navigate to the file you would like to edit in your own copy of the DSEssentials project and click the pencil icon to edit. (Note that one way you’ll know you’re working in your own copy is by seeing your personal GitHub username ahead of the repository name). Let’s say the Topic Guide on AI &amp; ML in Libraries Literacies needs an update. To find the right file in the directory you can do a search or look for a markdown file in the list which corresponds to the URL on the website version and has the file extension .md. Note, because this website was built using Quarto, the file extension in this example is .qmd. For instance if ml-ai.html is the web version, you would look for ml-ai.qmd in the file directory on GitHub.</p>
 <p><img src="images/GitHub4.png" class="img-fluid"></p>
-<p>Click on the little pencil icon to edit this file in markdown. Markdown is a simple system for marking sections of text that should be stylised in a certain way, e.g.&nbsp;made bold or appear in a list of bullet points. Markdown files have the file extension “md” and can be edited in GitHub or with a text editor like Notepad. One common file in GitHub repositories that you will find in the markdown format is the “README.md” file which usually covers the purpose of the repository and how to get up and running.</p>
+<p>Click on the little pencil icon to edit this file in markdown. Markdown is a simple system for marking sections of text that should be stylised in a certain way, e.g.&nbsp;made bold or appear in a list of bullet points. Markdown files have the file extension “.md” and can be edited in GitHub or with a text editor like Notepad. One common file in GitHub repositories that you will find in the markdown format is the “README.md” file which usually covers the purpose of the repository and how to get up and running.</p>
 <p>Markdown works by using certain text characters to indicate styles. For example, placing a “#” in front of a line will make it a first level header. Placing “##” before the line makes it a second level header. Putting an asterisk around a piece of text, like this “*my text”, will cause that text to be italicised as <em>my text</em>. You can see more markdown commands and experiment with it on the site <a href="https://markdownlivepreview.com/">Markdown Live Preview</a>.</p>
 </section>
 <section id="commit-your-changes" class="level4">
 <h4 class="anchored" data-anchor-id="commit-your-changes"><strong>4. Commit your changes</strong></h4>
-<p>Whenever you are working in a repository that you have forked, you are the Owner of this copy of the original project and can <em>commit</em> (save) any changes and edits you make to files directly to this copy of the project without needing any approval. Committing builds up a history of changes that you can roll back as needed along the way. Each time you commit you have an option of writing a comment as to what has changed which is a useful tool to use and habit to get into for going back in time if you need to reverse something.</p>
+<p>Whenever you are working in a repository that you have forked, you are the Owner of this copy of the original project and can <em>commit</em> (save) any changes and edits you make to files directly to this copy of the project without needing any approval. Committing builds up a history of changes that you can roll back as needed along the way. Each time you commit you have an option of writing a comment as to what has changed which is a useful tool to use and habit to get into for going back in time if you need to reverse something. You can even refer to the related issue with <code>#&lt;issue number&gt;</code> in the commit message, and Github will cross reference the issue and the commit on the web interface.</p>
 <p><img src="images/GitHub5.png" class="img-fluid"></p>
 </section>
 <section id="contribute-your-changes-back-to-the-originalmain-project" class="level4">
 <h4 class="anchored" data-anchor-id="contribute-your-changes-back-to-the-originalmain-project"><strong>5. Contribute your changes back to the original/main project</strong></h4>
-<p>When you are finished with your changes and would like to share your new updated copy with the original project (in this example, incorporating your new text on Generative AI into the main DS Essentials Topic Guide on AI &amp; ML in Libraries) this is when you will start a <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork"><em>pull request</em></a>. Navigate to the Pull Requests section of your forked project (repository) and click on New pull request to start that process.</p>
+<p>When you are finished with your changes and would like to share your new updated copy with the original project (in this example, incorporating your new text on Generative AI into the main <em>DS Topic Guide</em> on AI &amp; ML in Libraries) this is when you will start a <a href="https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request-from-a-fork"><em>pull request</em></a>. Navigate to the Pull Requests section of your forked project (repository) and click on “New pull request” to start that process.</p>
 <p><img src="images/GitHub6.png" class="img-fluid"></p>
-<p>This will take you to back to the original project you forked from, where you can then formally “create a pull request”. Once this has been made your pull request notifies the maintainers of the original project that you have made changes to their project that they may like to consider <em>merging</em> into theirs. Your pull request will show up under their project where you can discuss and review the changes you’re suggesting. Once the review has been completed and everyone is happy with the changes suggested the maintainer of the project will merge your pull request and you will have officially contributed!</p>
+<p>This will take you to back to the original project you forked from, where you can then formally “create a pull request”. Once this has been made your pull request notifies the maintainers of the original project that you have made changes to their project that they may like to consider <em>merging</em> into theirs. Your pull request will show up under their project where you can discuss and review the changes you’re suggesting. Once the review has been completed and everyone is happy with the changes suggested, the maintainer of the project will merge your pull request and you will have officially contributed (and your profile’s icon will be listed among the contributors)!</p>
 <p><img src="images/GitHub7.png" class="img-fluid"></p>
 </section>
 </section>
@@ -587,7 +593,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </section>
 <section id="finding-communities-of-practice" class="level2">
 <h2 class="anchored" data-anchor-id="finding-communities-of-practice">Finding Communities of Practice</h2>
-<p>The best way to understand GitHub is to have a play yourself and if you get into trouble we’ve found that asking questions over on the <a href="https://github.com/community">GitHub Community Hub</a> is a great way to get connected with other users. You can also join networks like <a href="https://sites.google.com/view/ai4lam">AI4LAM</a> and ask questions of members of the very engaged and helpful community on their <a href="https://join.slack.com/t/ai4lam/shared_invite/zt-1omthldn8-9vrGySjIRdija1nKQm0ltA">slack</a>.</p>
+<p>The best way to understand GitHub is to have a play yourself and if you get into trouble we’ve found that asking questions over on the <a href="https://github.com/community">GitHub Community Hub</a> is a great way to get connected with other users. You can also join networks like <a href="https://sites.google.com/view/ai4lam">AI4LAM</a> and ask questions of members of the very engaged and helpful community on their <a href="https://join.slack.com/t/ai4lam/shared_invite/zt-1omthldn8-9vrGySjIRdija1nKQm0ltA">slack channel</a>.</p>
 
 
 </section>
