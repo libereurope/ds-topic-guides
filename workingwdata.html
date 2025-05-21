@@ -7,8 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Niamh Malin">
-<meta name="dcterms.date" content="2024-06-04">
-<meta name="keywords" content="TBD, TBD">
+<meta name="author" content="Nora McGregor">
+<meta name="dcterms.date" content="2025-05-21">
+<meta name="keywords" content="Data, Data wrangling, Data management, Collections as Data">
 
 <title>Working with Data – Digital Scholarship &amp; Data Science Topic Guides for Library Professionals</title>
 <style>
@@ -302,7 +303,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
   <li><a href="#relevance-to-the-library-sector-case-studiesuse-cases" id="toc-relevance-to-the-library-sector-case-studiesuse-cases" class="nav-link" data-scroll-target="#relevance-to-the-library-sector-case-studiesuse-cases">Relevance to the Library Sector (Case Studies/Use Cases)</a></li>
   <li><a href="#hands-on-activity-and-other-self-guided-tutorials" id="toc-hands-on-activity-and-other-self-guided-tutorials" class="nav-link" data-scroll-target="#hands-on-activity-and-other-self-guided-tutorials">Hands-on activity and other self-guided tutorial(s)</a></li>
   <li><a href="#recommended-readingviewing" id="toc-recommended-readingviewing" class="nav-link" data-scroll-target="#recommended-readingviewing">Recommended Reading/Viewing</a></li>
-  <li><a href="#taking-the-next-step" id="toc-taking-the-next-step" class="nav-link" data-scroll-target="#taking-the-next-step">Taking the next step</a></li>
+  <li><a href="#finding-communities-of-practice" id="toc-finding-communities-of-practice" class="nav-link" data-scroll-target="#finding-communities-of-practice">Finding Communities of Practice</a></li>
   </ul>
 <div class="toc-actions"><ul class="collapse"><li><a href="https://github.com/libereurope/ds-topic-guides/blob/main/book/workingwdata.qmd" class="toc-action"><i class="bi bi-github"></i>View source</a></li><li><a href="https://github.com/libereurope/ds-topic-guides/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="workingwdata.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
@@ -316,8 +317,8 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 
 
 <div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Author</div>
-  <div class="quarto-title-meta-heading">Affiliation</div>
+  <div class="quarto-title-meta-heading">Authors</div>
+  <div class="quarto-title-meta-heading">Affiliations</div>
   
     <div class="quarto-title-meta-contents">
     <p class="author">Niamh Malin <a href="mailto:MalinNiamh@gmail.com" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0002-4735-2113" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
@@ -329,6 +330,16 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
             </a>
           </p>
       </div>
+    <div class="quarto-title-meta-contents">
+    <p class="author">Nora McGregor <a href="mailto:Digitalresearch@bl.uk" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0000-0001-6560-5586" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://libereurope.eu/member/nora-mcgregor/">
+            British Library
+            </a>
+          </p>
+      </div>
   </div>
 
 <div class="quarto-title-meta">
@@ -337,14 +348,14 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">June 4, 2024</p>
+      <p class="date">May 21, 2025</p>
     </div>
   </div>
   
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">February 10, 2025</p>
+      <p class="date-modified">May 21, 2025</p>
     </div>
   </div>
     
@@ -360,7 +371,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <div>
   <div class="keywords">
     <div class="block-title">Keywords</div>
-    <p>TBD, TBD</p>
+    <p>Data, Data wrangling, Data management, Collections as Data</p>
   </div>
 </div>
 
@@ -369,140 +380,134 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>Data is all around us, and it almost cannot be avoided. Libraries and universities are full of data, but staff often think they do not work with data. Have you ever been asked how many loans a book has had? What about how many visitors came in at the weekend? Or if a certain book is available? These are all data questions, answerable with quantifiable facts.</p>
-<p>Data is often considered to be a number, like the number of times a book has been loaned, but what about who borrowed it, or what their review was? These are all different forms of data, and can provide all new insights to the popularity of a book - maybe a book was borrowed 10 times, but in fact got 10 1-star reviews, versus a book borrowed 5 times with 5 5-star reviews, using this data, which one would you recommend?</p>
+<p>Data is all around us. Libraries are full of data, but staff often think they do not work with data. Have you ever been asked how many loans a book has had? What about how many visitors came in at the weekend? Or if a certain book is available? These are all data questions, answerable with quantifiable facts.</p>
+<p>Data is often considered to be a number, like the number of times a book has been loaned, but what about who borrowed it, or what their review was. These are all different forms of data, and can provide all new insights to the popularity of a book - maybe a book was borrowed 10 times, but in fact got 10 1-star reviews, versus a book borrowed 5 times with 5 5-star reviews. Using this data, which one would you recommend?</p>
 <p>This guide will explore the use of data within libraries through proposing questions to think through when undertaking your own data tasks, alongside practical examples from libraries around the world.</p>
 <section id="what-is-data" class="level3">
 <h3 class="anchored" data-anchor-id="what-is-data">What is Data?</h3>
-<p>Data is often overwhelming (the term ‘Big Data’ floats around a lot!), but that shouldn’t stop you from exploring it, because it can greatly improve your work. Just to clarify, Big Data will not be discussed here, Big Data requires data to be high in volume and velocity, which is not the case for most library data (think about downloading a document every time the hashtag #photooftheday is used).</p>
-<p>So first, let’s establish some definitions (for this guide at least) while looking at one of our most central collections of data:</p>
+<p>Data is often overwhelming (the term ‘Big Data’ floats around a lot!), but that shouldn’t stop you from exploring it, because it can greatly improve your work.</p>
+<p>First, let’s establish some definitions (for this guide at least) of common terms surrounding working with data, particularly library related data:</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
 </colgroup>
 <thead>
 <tr class="header">
-<th></th>
+<th><strong>Term</strong></th>
 <th><strong>Definition</strong></th>
+<th><strong>Library Example</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><strong>Data</strong></td>
-<td>A collection of information.</td>
+<td>A collection of values that convey information</td>
+<td>Data about visitors’ experience of a library</td>
 </tr>
 <tr class="even">
 <td><strong>Data Point</strong></td>
-<td>Single point of data (e.g.&nbsp;<em>a data point could be the title of a book, however alone that information tells us very little about the book. Therefore a ‘record’ containing relevant data points will be created.</em>).</td>
+<td>A single point of data</td>
+<td>One user review of a library</td>
 </tr>
 <tr class="odd">
-<td><strong>Metadata</strong></td>
-<td>Data that provides information about other data (e.g.&nbsp;columns of data in a spreadsheet). (e.g.&nbsp;<em>in a library catalalogue the metadata about the book includes the price information, the isbn, author and title</em></td>
+<td><strong>Dataset</strong></td>
+<td>A collection of data from a single source or about a single subject</td>
+<td>A spreadsheet of all user reviews of the library</td>
 </tr>
 <tr class="even">
-<td><strong>Dataset</strong></td>
-<td>A collection of data from a single source or for a single project. (e.g.&nbsp;<em>we might create a dataset of all catalogue records relating to a particular topic of interest to researchers</em>)</td>
+<td><strong>Metadata</strong></td>
+<td>Data that provides information about other data. Metadata can also be data, for example if we analysed all the titles in a catalogue, the titles are metadata about works, but become the data for our analysis</td>
+<td>Column names in a spreadsheet containing user reviews, or metadata in a library catalogue like price, ISBN, author, and title</td>
 </tr>
 <tr class="odd">
 <td><strong>Database</strong></td>
-<td>A table with structured (organised) data.</td>
+<td>A place to store data in an organised way</td>
+<td>The main catalogue</td>
 </tr>
 <tr class="even">
 <td><strong>Dataframe</strong></td>
-<td>A structured representation of data</td>
+<td>A table of data, particularly in analysis or visualisation software</td>
+<td>A dataframe of user reviews in an analysis package</td>
 </tr>
 <tr class="odd">
-<td><strong>Software</strong></td>
-<td>Program for a computer.</td>
+<td><strong>Qualitative Data</strong></td>
+<td>Descriptive, non-numerical data that captures characteristics, experiences, or meanings through words, observations, or categories</td>
+<td>The text part of reviews where how library users explain how they felt about their visit</td>
 </tr>
 <tr class="even">
-<td><strong>Hardware</strong></td>
-<td>The physical components of technology.</td>
+<td><strong>Quantitative Data</strong></td>
+<td>Numerical data that can be analysed using statistical techniques</td>
+<td>1-5 star ratings of user visits</td>
 </tr>
 <tr class="odd">
-<td><strong>Back-end</strong></td>
-<td>The part of a system that is not usually visible or accessible to a user of that system.</td>
+<td><strong>Data Analytics</strong></td>
+<td>Cleaning, organizing, visualising, and interpreting existing data to support decision-making</td>
+<td>Looking at trends in user visits to see if demand is going up or down</td>
 </tr>
 <tr class="even">
-<td><strong>Front-end</strong></td>
-<td>A software interface designed to enable user-friendly interaction with software.</td>
+<td><strong>Data Science</strong></td>
+<td>Combining statistics, programming and machine learning to further examine, interpret, and make predictions from data</td>
+<td>Creating a book recommender algorithm</td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="where-is-the-data-in-a-library" class="level3">
 <h3 class="anchored" data-anchor-id="where-is-the-data-in-a-library">Where is the data in a library?</h3>
-<p>Data can be qualitative (sentiment) or quantitative (numerical), therefore when we think about visitors to a library, do you know how they felt about their visit (qualitative data) or how many hours they spent at the library (quantitative data)?</p>
-<p>Here are some examples to get you thinking about what data points stem from a library;</p>
+<p>Here are some examples to get you thinking about what data points stem from a library. Consider the different aspects of a library below, which do you interact with? What data might they generate? Do you consider yourself to work with data?</p>
 <table class="caption-top table">
 <colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
+<col style="width: 50%">
+<col style="width: 50%">
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Institution</strong></th>
-<th><strong>Staffing</strong></th>
-<th><strong>Acquisitions</strong></th>
+<th><strong>Area</strong></th>
+<th><strong>Example Data Points</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>The Building / Space<br><br>Wider Community<br><br>Stakeholders<br><br>Facilities<br><br>Business<br><br>Opening Hours</td>
-<td>Library Staff<br><br>Institution Departments<br><br>Qualifications and Education</td>
-<td>Subscriptions (ongoing)<br><br>Purchasing (one time)<br><br>Software<br><br>Suppliers<br><br>Spending / Financial Information</td>
+<td><strong>Building</strong></td>
+<td>- Footfall / entry counts <br>- Types of facilities and their usage (reading room reservations / lockers) <br>- Opening hours <br>- Environmental Information (light, humidity, temp) <br>- Maintenance records <br>- Accessibility services <br>- Security incidents <br>- Wif-fi usage patterns</td>
 </tr>
-</tbody>
-</table>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Resources</strong></th>
-<th><strong>Engagement</strong></th>
-<th><strong>Patrons</strong></th>
+<tr class="even">
+<td><strong>Institution</strong></td>
+<td>- Staffing demographics and roles <br>- Departments <br>- Budget allocation and spend <br>- Qualifications &amp; education <br>- Skills &amp; training <br>- Suppliers <br>- Stakeholders/Partnership/Donor Data</td>
 </tr>
-</thead>
-<tbody>
 <tr class="odd">
-<td>Materials metadata<br><br>Collection(s)<br><br>Care and Maintenance<br><br>Discovery Services<br><br>Accessibility Services</td>
-<td>Research Data Management<br><br>Training<br><br>Outreach<br><br>Tours<br><br>Communication<br><br>Quantity of Users</td>
-<td>Helpdesk (in-person)<br><br>Queries (email, online chat etc.)<br><br>User Support<br><br>Feedback<br><br>Interactions</td>
+<td><strong>Collection</strong></td>
+<td>- Catalogue Metadata <br>- Collection item counts by format <br>- Digitisation status <br>- Usage statistics (downloads, API hits) <br>- Subscriptions <br>- Purchasing/Acquisitions <br>- Systems and software in use</td>
+</tr>
+<tr class="even">
+<td><strong>Engagement</strong></td>
+<td>- Event attendance <br>- Helpdesk queries and topics (in-person, email, online chat etc.) <br>- User feedback <br>- Website analytics <br>- Tours &amp; Exhibition attendance</td>
 </tr>
 </tbody>
 </table>
-<p>Considering the above, what do you interact with? Do you consider yourself to work with data?</p>
 </section>
 </section>
 <section id="relevance-to-the-library-sector-case-studiesuse-cases" class="level2">
 <h2 class="anchored" data-anchor-id="relevance-to-the-library-sector-case-studiesuse-cases">Relevance to the Library Sector (Case Studies/Use Cases)</h2>
-<section id="data-exists-so-what" class="level3">
-<h3 class="anchored" data-anchor-id="data-exists-so-what">Data exists, so what?</h3>
-<p>Data should have a purpose. If data has no purpose, why waste your time managing it? The purpose of data could be any of the following;</p>
+<section id="data-with-purpose" class="level3">
+<h3 class="anchored" data-anchor-id="data-with-purpose">Data with purpose</h3>
+<p>Library data should be collected, stored and actively managed <em>with purpose</em>. In fact, particularly if it is personally identifiable data, ensuring you have a well defined reason for collecting it (and data management plans in place) may actually be <a href="https://commission.europa.eu/law/law-topic/data-protection_en">required by law</a>. The purpose of data collection could be any of the following:</p>
 <ul>
 <li>Provide insights to pertinent questions, and thus make informed decisions.</li>
 <li>Provide evidence of a decision or conclusion.</li>
 <li>Explore relationships / trends, to tell a story and provide insights.</li>
 <li>Explain (and display) complex information more effectively.</li>
 </ul>
-<p>Data can provide additional power when making a decision (big or small) - knowing exactly how many users visit at the weekend can prove the library does require the funding and staffing to stay open on the weekend. However, if it proves no one is visiting, do not fudge the numbers. Use those numbers to question why, such as what else could attract users, what do patrons use it for currently, or was there a cause to the decline in weekend patrons?</p>
-</section>
-<section id="proof-is-in-the-pudding" class="level3">
-<h3 class="anchored" data-anchor-id="proof-is-in-the-pudding">Proof is in the Pudding</h3>
-<p>Knowing that data exists in a library is the first step, but what can be done with it? While this guide has touched on a few questions you can use data to answer, below will explore real world examples of libraries utilising their data to make powerful changes.</p>
-<p>Data can inform decisions about:</p>
+<p>Data can provide additional power when making a decision (big or small) - knowing exactly how many users visit at the weekend can help the library plan a realistic budget for staffing to stay open on the weekend. Conversely if your data collection reveals visitor numbers are low on weekends, those numbers can help direct your institution to investigate this further and make changes to attract more users or change opening hours.</p>
+<p>Data can inform Library decisions about:</p>
 <ul>
-<li><strong>Collection Management:</strong> what is being used, when, by who, and why (if you have a review system).
+<li><strong>Collection Management:</strong> What is being used, when, by who, and why (if you have a review system).
 <ul>
 <li>Example: Within our collection, how often do users borrow material published before 2000? (But remember, borrowing is not the only form of usage!).</li>
 </ul></li>
-<li><strong>Outreach:</strong> who forms our community, what matters to the community,
+<li><strong>Outreach:</strong> Who forms our community, what matters to the community.
 <ul>
 <li>Example: Does the demographic of people attending our events reflect the demographic of people in our wider community? Which events could make the library more appealing to the wider community?</li>
 </ul></li>
@@ -515,36 +520,31 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <li>Example: How can we measure patron satisfaction currently, so that at the end of the project a 10% increase can be quantified and thus the project can be considered a success?</li>
 </ul></li>
 </ul>
-<p>Here are a few real world examples of big data projects within libraries, but remember, small or internal projects should be informed by data too.</p>
+<p>Here are a few real world examples of libraries utilising their data to make powerful changes.</p>
 <ul>
-<li><a href="https://www.metmuseum.org/perspectives/articles/2021/7/library-data-stories"><strong>Telling Stories with Library Data</strong></a> July 2021</li>
-</ul>
-<p>The Metropolitan Museum of Art (New York) Watson Library explores their production of data visualisations using Microsoft Power BI in regards to their library activities. Using the library management system (data which they already had), google analytics, digital collections and some manual tallies, they explored six years of library data. This exploration demonstrated the benefit of moving their blog from an external website, created an index of African American Artists,and ease in sharing library metrics for the previous six years publicly.</p>
-<ul>
+<li><p><a href="https://www.metmuseum.org/perspectives/articles/2021/7/library-data-stories"><strong>Telling Stories with Library Data</strong></a> July 2021 In this article by Michael Cummings, Assistant Museum Librarian for Library Systems, he explores how The Metropolitan Museum of Art (New York) Watson Library produces data visualisations using Microsoft Power BI in regards to their library activities. Using the library management system (data which they already had), Google Analytics, digital collections and some manual tallies, they explored six years of library data. This exploration demonstrated the benefit of moving their blog from an external website, created an index of African American Artists, and allowed sharing library metrics for the previous six years publicly.</p></li>
 <li><p><a href="https://openisu.pubpub.org/pub/bcm81w75/release/2"><strong>When is a Year Complete?</strong></a> October 2023 It is well known that publications databases take time to update, but how long? Collection Analysis Librarian at Iowa State University, Eric Schares, wanted to know how long to wait before being able to analyse a calendar year of publications, and set about doing so by comparing data from three different publication services (Dimensions, Web of Science and Open Alex). The data (which continues to be updated), documented the rise of Open Alex, and demonstrated part of the effectiveness of each service for Iowa State University - however he also shares his code and thus you can replicate this data question at your own institution.</p></li>
 <li><p><a href="https://www.repository.cam.ac.uk/items/8eb57acf-0f49-44eb-95af-c1c8d9cba946"><strong>Use of Institution Data Analysis for Publisher Negotiations</strong></a> July 2023 | <a href="https://www.youtube.com/watch?v=jZdMvJgSj4Q"><strong>Utilising Data to Understand the Institutions Relationship with a Publisher</strong></a> March 2024 Data Analyst at the University of Cambridge Library Niamh Malin, was responsible for supporting the many publisher negotiations. The first paper addresses the use of Microsoft Excel and Dimensions publications data to document the relationship of the university with Springer Nature. The second presentation documents the transition to Microsoft Power BI to create data dashboards which ensure every publisher negotiation is informed by usage and publications data.</p></li>
-<li><p><strong>Using Analytics to Extract Value from the Library’s Data</strong> - Event <a href="https://www.niso.org/events/2018/09/part-one-using-analytics-extract-value-librarys-data">Part One: Analytics Behind the Scenes</a> and <a href="https://www.niso.org/events/2018/09/part-two-using-analytics-extract-value-librarys-data">Part Two: Actionable Data Analysis</a> September 2018. The National Information Standards Organization (NISO) hosted a two part webinar in 2018 about extracting value from library data. The slides for the six presentations are available, and cover topics such as; setting up a data analysis strategy, analysing metadata, utilising data visualisations, actioning data insights for utilising physical spaces and building confidence in your data analysis skills.</p></li>
-<li><p><a href="https://hangingtogether.org/libraries-support-data-driven-decision-making/"><strong>Libraries support data-driven decision making</strong></a> February 2024. An OCLC-Liber blog post following their “Building for the future” program where librarians had gathered to discuss their understanding and practical interpretations of data driven libraries.</p></li>
-<li><p><a href="https://www.timeshighereducation.com/campus/utilising-new-modes-data-enhance-research-strategy-and-collaboration?spMailingID=27812157&amp;spUserID=MTQ4NjQ5NDYyNDE5MgS2&amp;spJobID=2351611476&amp;spReportId=MjM1MTYxMTQ3NgS2"><strong>Utilising new modes of data to enhance research strategy and collaboration</strong></a> November 2023. Digital science looks at how institutions can get high-quality insights into research by standardising their data systems.</p></li>
+<li><p><strong>Using Analytics to Extract Value from the Library’s Data</strong> - Event <a href="https://www.niso.org/events/2018/09/part-one-using-analytics-extract-value-librarys-data">Part One: Analytics Behind the Scenes</a> and <a href="https://www.niso.org/events/2018/09/part-two-using-analytics-extract-value-librarys-data">Part Two: Actionable Data Analysis</a> September 2018 The National Information Standards Organization (NISO) hosted a two part webinar in 2018 about extracting value from library data. The slides for the six presentations are available, and cover topics such as; setting up a data analysis strategy, analysing metadata, utilising data visualisations, actioning data insights for utilising physical spaces and building confidence in your data analysis skills.</p></li>
+<li><p><a href="https://hangingtogether.org/libraries-support-data-driven-decision-making/"><strong>Libraries support data-driven decision making</strong></a> February 2024 An OCLC-Liber blog post by Rebecca Bryant, Senior Programme Officer at the OCLC Research Library Partnership, following their “Building for the future” program. During the program librarians gathered to discuss their understanding and practical interpretations of data driven libraries.</p></li>
+<li><p><a href="https://www.timeshighereducation.com/campus/utilising-new-modes-data-enhance-research-strategy-and-collaboration?spMailingID=27812157&amp;spUserID=MTQ4NjQ5NDYyNDE5MgS2&amp;spJobID=2351611476&amp;spReportId=MjM1MTYxMTQ3NgS2"><strong>Utilising new modes of data to enhance research strategy and collaboration</strong></a> November 2023 Digital Science, the creators of Altmetric, look at how institutions can get high-quality insights into research by standardising their data systems.</p></li>
 </ul>
 </section>
 </section>
 <section id="hands-on-activity-and-other-self-guided-tutorials" class="level2">
 <h2 class="anchored" data-anchor-id="hands-on-activity-and-other-self-guided-tutorials">Hands-on activity and other self-guided tutorial(s)</h2>
-<p>Now that you’ve found some data, and/or you’ve formulated some questions to answer, how do you know the data will be good enough? Let’s take some time to assess the data, and ensure it is fit for purpose, because a key analogy in data analysis is;</p>
-<pre><code>    **GIGO: Garbage in, garbage out!.**</code></pre>
 <p>The process of utilising data is a cycle, a standard process model that describes a common approach to data is <a href="https://www.datascience-pm.com/crisp-dm-2/">CRISP-DM</a> (Cross-industry standard process for data mining). It has six stages, listed below.</p>
 <p><img src="images/WrkData.png" class="img-fluid"></p>
-<p>This section will enable you to assess your data, through a variety of leading questions, at each stage of the cycle. How long each phase takes will depend entirely on the project, there is no right or wrong, and it is cyclical, you will return to questions as you develop the project. These are structured as questions because one guide cannot have all the answers, and therefore giving a variety of questions which hopefully ensure you do not miss anything, and learn much more which is relevant to your project. This approach will enable you to assess if the data you have is relevant to the question, and if it has the potential to answer it correctly.</p>
+<p>This section will enable you to walk through an assessment of your data, through a variety of leading questions, at each stage of the cycle. You can use it to have a think and guided discussion around data held in your Library. How long each phase takes will depend entirely on the project, there is no right or wrong, and it is cyclical, you will return to questions as you develop the project. These are structured as questions because one guide cannot have all the answers, and therefore giving a variety of questions will hopefully ensure you do not miss anything, and learn much more which is relevant to your project. This approach will enable you to assess if the data you have is relevant to the question, and if it has the potential to answer it correctly.</p>
 <p>This guide hopes to calm your nerves about using data, and to see that you are capable of answering data questions confidently.</p>
 <section id="business-understanding" class="level3">
 <h3 class="anchored" data-anchor-id="business-understanding">Business Understanding</h3>
-<p>The Business Understanding phase focuses on understanding the objectives and requirements of the project. Here you are planning your project</p>
+<p>The Business Understanding phase focuses on understanding the objectives and requirements of the project. Here you are planning your project.</p>
 <ul>
 <li>What questions are you answering?</li>
 <li>Who are your stakeholders?</li>
 <li>What are the criteria and limitations to the project?</li>
-<li>What is the goal of using this data? Doing this project?</li>
+<li>What is the goal of using this data?</li>
 <li>What resources are (or are not) available?</li>
 <li>What is the timeline on the project? And the data input specifically?</li>
 <li>What stage of the project requires data analysis?</li>
@@ -564,27 +564,27 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </section>
 <section id="data-preparation" class="level3">
 <h3 class="anchored" data-anchor-id="data-preparation">Data Preparation</h3>
-<p>A common rule of thumb is that 80% of the project is data preparation.</p>
+<p>A common rule of thumb is that 80% of the project is Data Preparation. Note that many of the prompting questions below relate specifically to tabular data as this is the kind of data that many folks in libraries will encounter when first starting to work with data. <a href="https://librarycarpentry.github.io/lc-spreadsheets/aio.html">Tidy data for Librarians</a> for instance is an excellent resource with lots more guidance and advice around preparing data, with a particular focus on spreadsheet/tabular data. But do remember that in the library domain there are many other kinds of data representations and data types.</p>
 <ul>
 <li>What data is not necessary from the dataset?</li>
 <li>How are errors or duplications handled?</li>
 <li>What new attributes or formulas are required?</li>
 <li>How do datasets interact with one another?</li>
-<li>Is the data formatted correctly?</li>
+<li>Is the data formatted correctly for the analysis you need to do?</li>
 <li>What acronyms are in use? Are they formatted correctly?</li>
 <li>Has the data been standardised?</li>
-<li>Are the column names useful and appropriate?</li>
+<li>Are the column names and/or data labels useful and appropriate?</li>
 <li>Does every database have a unique identifier column?</li>
 <li>How do you handle missing metadata?</li>
 <li>Are you editing the master / only copy?</li>
 <li>Have you documented the process so that you can provide evidence if needed?</li>
-<li>Is the data in a clear and useable tabular format (rows and columns)?</li>
+<li>Is the data in a clear and useable format?</li>
 <li>Have all merged cells been removed / updated?</li>
 </ul>
 </section>
 <section id="modelling" class="level3">
 <h3 class="anchored" data-anchor-id="modelling">Modelling</h3>
-<p>What is often regarded as the most exciting work is also often the shortest phase. Now is the time to build and assess various models or visualisations.</p>
+<p>Modelling is often regarded as the most exciting work, but is also often the shortest phase. Now is the time to build and assess various models or visualise your data. See our <em>DS Topic Guide</em> on <a href="./dataviz.html">Data Visualisation</a> for more guidance.</p>
 <ul>
 <li>What conclusions can be drawn from the data?</li>
 <li>What visualisations are appropriate to display the data?</li>
@@ -595,7 +595,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </section>
 <section id="evaluation" class="level3">
 <h3 class="anchored" data-anchor-id="evaluation">Evaluation</h3>
-<p>This phase looks more broadly at the data project and what to do next.</p>
+<p>The Evaluation phase looks more broadly at the data project and what to do next.</p>
 <ul>
 <li>Did the data fulfil the goal of this project?</li>
 <li>What was unable to be achieved?</li>
@@ -605,7 +605,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </section>
 <section id="deployment" class="level3">
 <h3 class="anchored" data-anchor-id="deployment">Deployment</h3>
-<p>Depending on the requirements, the deployment phase can be as simple as emailing a graph, or as complex as publishing a live dashboard of intricate data and visuals.</p>
+<p>Depending on the requirements, the Deployment phase can be as simple as emailing a graph, or as complex as publishing a live dashboard of intricate data and visuals.</p>
 <ul>
 <li>Who requires the outcome of this project?</li>
 <li>Will the outcome need to be presented in multiple formats?</li>
@@ -614,13 +614,15 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </ul>
 <section id="storing-a-datafile-spreadsheet" class="level4">
 <h4 class="anchored" data-anchor-id="storing-a-datafile-spreadsheet">Storing a datafile / spreadsheet</h4>
-<p>Once the data exists, it must be accessible. There are a variety of software which can store your data, and taking the time to assess the needs of your data is important.</p>
+<p>Once the data exists, it must be stored in an accessible and organised way. There are a variety of software, or open repositories online (see the <em>DS Topic Guide</em> on <a href="./openresearch.html">Supporting Open Research (Science)</a>, which can store your data, it is important to take some time to decide on the right destination.</p>
 <ul>
-<li>Is the file formatted correctly (CSV vs Microsoft Excel)?</li>
+<li>Are the files/your dataset in the right format for its intended reuse/requirements of the repository? (<a href="https://www.geeksforgeeks.org/list-of-file-formats/">see guidance on different file formats</a> and <a href="https://data.europa.eu/elearning/en/module9/#/id/co-01">Choosing the right format for Open Data</a>)</li>
 <li>Will it need to be accessed online and/or offline?</li>
-<li>Does the file require a software licence to access?</li>
+<li>Does the data require a software licence to access?</li>
 <li>What backups are required?</li>
-<li>How long are files required to be stored? Use this webpage for <a href="https://www.geeksforgeeks.org/list-of-file-formats/">guidance on different file formats</a>.</li>
+<li>How long are files required to be stored? Will they be deleted or archived?</li>
+<li>Have you established a naming convention for files? Does it account for versions, dating and author? Tip: Have titles be meaningful, in a relevant order, and versions discernible.</li>
+<li>Is there clear documentation of the processes undertaken? Therefore ensuring the task can be repeated, or to justify any conclusions. Tip: This should include the source of the data, any cleaning steps made, and all relevant metadata. Consider using <a href="https://dl.acm.org/doi/10.1145/3458723">Datasheets for Datasets</a>.</li>
 </ul>
 </section>
 </section>
@@ -641,7 +643,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <section id="library-endorsed-resources" class="level3">
 <h3 class="anchored" data-anchor-id="library-endorsed-resources">Library Endorsed Resources</h3>
 <ul>
-<li><strong>LIBER</strong> members have created the <a href="https://libereurope.github.io/ds-topic-guides/">Digital Scholarship &amp; Data Science Essentials for Library Professionals</a>, which this guide is a part of. Guidance also includes <a href="./dataviz.html">data visualisation</a> and <a href="./collectionsasdata.html">data as collections</a>, and continues to grow.</li>
+<li><strong>LIBER</strong> members have created the <a href="https://libereurope.github.io/ds-topic-guides/">Digital Scholarship &amp; Data Science Topic Guides for Library Professionals</a>, which this guide is a part of. Guidance also includes <a href="./dataviz.html">Data Visualisation</a> and <a href="./collectionsasdata.html">Collections as Data</a>, and <a href="./openresearch.html">Open Research (Open Science)</a> which further detail important elements of working with library data.</li>
 <li><strong>JISC</strong> has published resources to support <a href="https://www.jisc.ac.uk/data-analytics">data-driven decisions</a>, including interactive insights on graduate outcomes and conducting online surveys as a form of data gathering.</li>
 <li>The <strong>DSVIL</strong> (Data Science and Visualization Institute for Librarians) provides great <a href="https://www.lib.ncsu.edu/services/data-visualization">guidance and resources</a> for finding, cleaning, analysing, visualising and managing data.</li>
 <li>The <strong>Bodleian Library</strong>, University of Oxford, hosts a variety of <a href="https://www.bodleian.ox.ac.uk/collections-and-resources/data/accessing-and-using-data/data-analysis">resources to support data analysis</a> (including audio-visual), data mining, and visualisation tools.</li>
@@ -651,43 +653,22 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <li>The <strong>PLA</strong> (Public Library Association) (which is part of ALA, the American Library Association), have developed <a href="https://www.ala.org/pla/data">data tools</a> to enable public libraries to be compared across multiple metrics.</li>
 </ul>
 </section>
-<section id="learning-data-beyond-libraries" class="level3">
-<h3 class="anchored" data-anchor-id="learning-data-beyond-libraries">Learning Data Beyond Libraries</h3>
-<p>There are numerous platforms dedicated to data skills, listed below are some of the most popular for beginning your data journey.</p>
+<section id="learning-data-skills-beyond-libraries" class="level3">
+<h3 class="anchored" data-anchor-id="learning-data-skills-beyond-libraries">Learning Data Skills Beyond Libraries</h3>
+<p>There are numerous platforms dedicated to data skills more generally, listed below are some of the most popular for beginning your data journey.</p>
 <ul>
 <li><a href="https://carpentries.org/"><strong>The Carpentries</strong></a>: Community-led coding and data science courses for researchers and librarians, with three specialties; <a href="https://datacarpentry.org/">Data Carpentry</a> (data skills for conducting research), <a href="https://librarycarpentry.org/">Library Carpentry</a> (software and data skills for librarians), and <a href="https://software-carpentry.org/">Software Carpentry</a> (lab skills for research computing).</li>
 <li><a href="https://www.datacamp.com/"><strong>Datacamp</strong></a>: great for free cheat sheets (webpage or PDF) on <a href="https://www.datacamp.com/blog/what-is-data-literacy-a-comprehensive-guide-for-organizations">data literacy</a>, understanding <a href="https://www.datacamp.com/cheat-sheet/the-data-information-knowledge-wisdom-pyramid">data knowledge</a> levels and <a href="https://www.datacamp.com/cheat-sheet/data-storytelling-and-communication-cheat-sheet">data storytelling</a>. As well as resources and courses for a variety of coding and data software.</li>
 <li><a href="https://www.linkedin.com/learning/"><strong>LinkedIn Learning</strong></a>: a wonderful resource of videos for anything from coding to people management to making the perfect Microsoft Excel graph.</li>
-<li><a href="https://skillshop.withgoogle.com/"><strong>Google Skillshop</strong></a>: Training and certification in google analytics which could upport queries about library engagement.</li>
+<li><a href="https://skillshop.withgoogle.com/"><strong>Google Skillshop</strong></a>: Training and certification in google analytics which could support queries about library engagement.</li>
 </ul>
 </section>
 </section>
-<section id="taking-the-next-step" class="level2">
-<h2 class="anchored" data-anchor-id="taking-the-next-step">Taking the next step</h2>
-<section id="ensuring-good-practice" class="level3">
-<h3 class="anchored" data-anchor-id="ensuring-good-practice">Ensuring Good Practice</h3>
-<p>Working with data is very exciting and rewarding, but can quickly become overwhelming. There are fears of being hacked and having data stolen, or even losing data due to bad organisation or not knowing it needed saving. Sadly this guide cannot have all of the answers on the practices and policies which should be in place. But it will instead ask a few provoking questions to ensure you can rest the worries of data loss and theft.</p>
-<ul>
-<li>Have you established a naming convention for files? Does it account for versions, dating and author? Tip: Have titles be meaningful, in a relevant order, and versions discernible.</li>
-<li>When will the file(s) be deleted or archived?</li>
-<li>Is there clear documentation of the processes undertaken? Therefore ensuring the task can be repeated, or to justify any conclusions. Tip: This should include the source of the data, any cleaning steps made, and all relevant metadata.</li>
-<li>Where are the files stored, are the folders easy to access? Is there a naming convention and folder hierarchy in place for the project, and the team?</li>
-</ul>
-</section>
-<section id="what-skills-are-you-looking-for" class="level3">
-<h3 class="anchored" data-anchor-id="what-skills-are-you-looking-for">What skills are you looking for?</h3>
-<p>If you have read through this guide, and still thirst for more, here are some questions to encourage your exploration in library data!</p>
-<ul>
-<li>What in-house data can you combine (such as the library management system and google analytics)?</li>
-<li>Think of a report that is repeated regularly but often time consuming, is there a software or data task that could make this quicker?</li>
-<li>What software do you regularly use, how could you expand those skills? Does the library management system provide specialist training?</li>
-<li>Is coding, AI or visualisation an area you would like to explore? What else do you want to do with data?</li>
-<li>Which elements of the data process do you want to focus? Cleaning, analysing, visualising etc.</li>
-<li>Can you attend a conference which discusses library data you are interested in?</li>
-</ul>
+<section id="finding-communities-of-practice" class="level2">
+<h2 class="anchored" data-anchor-id="finding-communities-of-practice">Finding Communities of Practice</h2>
+<p>Depending on what particular area you’re interested in learning more about with regards to working with data, there are any number of communities out there to help you along the way such as: * The <a href="https://groups.google.com/g/collectionsasdata?pli=1">Collections as Data Community</a> has an active Google Group open to all where members can ask data related questions and seek advice and support. * Look to local universities, particularly Digital Humanities or Data Science groups within them, for summer schools or other group training open to the public which may provide you with the opportunity to meet like-minded individuals while learning new data skills. For example Cambridge Universities offer online and in-person <a href="https://www.cdh.cam.ac.uk/dataschools/">Cambridge Cultural Heritage Data School</a> annually or the <a href="https://esudh.github.io/about/">European Summer University in Digital Humanities “Culture and Technology”</a> are great options for learning data skills in a community setting and are open to library professionals, not just academics. * OpenRefine is a free, open source tool for data wrangling and is <em>especially</em> popular with librarians! They have a great <a href="https://openrefine.org/community">OpenRefine community</a> and lots of ways to get in touch for support and to share experiences including the <a href="https://forum.openrefine.org/">OpenRefine Forum</a>. * If managing research data is a particular area of interest of yours, the <a href="https://libereurope.eu/working-group/research-data-management/">LIBER Research Data Management Working Group</a> supports libraries to explore and gain skills to develop services for implementing FAIR research data, data management during research projects, setting up data archives/repositories to store and publish research datasets.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
