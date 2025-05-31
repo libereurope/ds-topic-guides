@@ -647,34 +647,6 @@
     "text": "Take part in a Writing Sprint!\nWe held four online Topic Guide Sprints in 2024.\n\nTuesday 14 May 2024\nTuesday 03 June 2024\nTuesday 08 October 2024\nTuesday 05 November 2024\n\nTo be notified of future sprints check back here for dates/times or join one of our working groups and we’ll email out the details!\n\nPreparing for a sprint:\n\nPlease have a quick read through the Welcome and Topic Guide pages to familiarise yourself with this resource and its purpose.\nWhen you Register you’ll see a list of our latest Topic Guides on our wishlist. Please check off any and all Topic Guides you would be happy to work on during the day of the sprint. On the day each attendee will focus on writing just one Topic Guide however. The information you provide before the sprint will help us organise this ahead of time so that as many Topic Guides as possible have at least one dedicated author.\n\nPlease have a quick read through the Author Guidance and Style Guide section.\nWe’ll be in touch after we receive your registration to send you more details and useful information ahead of the sprint so look out for our email! If you are sent a copy of the Topic Guide Template (Google Doc) that corresponds to your topic of choice ahead of time, add your name to the header, and feel free to add notes or even make a start on drafting your guide before the sprint day if you’re keen!\n\n\n\nWhat to expect on the day:\nA two hour writing sprint will generally follow this format:\n\nWelcome and participant introductions (10 minutes)\n\nOverview of the project & explanation of how the day will run (15 minutes)\n\nAllocation and confirmation of individual Topic Guide Authorship for the day (15 minutes): As a group we’ll go over the wishlist and all participants will be given access to their particular Topic Guide google doc template they’ll be using during and after the sprint.\nWriting Phase (60 minutes): You’ll have an hour to begin writing your respective guide in your Google Doc template. If more than one participant are working together on a topic we can provide breakout rooms so that you can discuss amongst yourselves how to break up the work, and share ideas as you go along. You can have your camera/mic on or off during this time and co-chairs will be on hand to answer any questions or give advice on topics.\nWrapping Up & Logging progress through Github Issues (15 minutes): We have provided an Issue Template which is pre-formatted as a Topic Guide submission checklist and will walk participants through the process of opening a new issue for your draft submission. Please fill in the issue template and provide the necessary information relating to where your draft submission is currently at. Once the issue is saved, it can continue to serve as a space to continue discussion of the ongoing status of your submission and log updates where necessary, including notifying us of when it is fully ready for final review by maintainers.\nClosing Remarks & Next Steps (5 minutes)\n\n\n\nAfter the sprint:\nDuring the sprint, you’ve drafted your Topic Guide in a Google Doc. This Google Doc can continue to serve as a ‘living document’ following the sprint until you feel the content is ready to be published. Throughout this process, we will use your Github issue to maintain an overview of the docs in terms of their status and action points so please keep this updated. Each Topic Guide will be allocated a specific Maintainer contact (one of the co-chairs) who will be in touch and work with you to see the process through to completion. You may request placing your Google Doc under restricted access if you wish. We will not do this by default, but we respect that some contributors would like to keep drafts private until fully ready for submission.\nWhen your Topic Guide is ready for our review in Google Docs, please let us know by logging an update over on Github as a comment on the Issue stating this. You can also tag the maintainers so they receive a notification as well. Maintainers will generally work with you on the final edits necessary for the submission through track changes and comments within the Google Doc itself. Once these have all been resolved maintainers will log a status update in the GitHub issue."
   },
   {
-    "objectID": "networks.html",
-    "href": "networks.html",
-    "title": "USEFUL NETWORKS",
-    "section": "",
-    "text": "Working groups are open to staff at participating LIBER Member institutions:\n\nLIBER Data Science in Libraries\nLIBER Digital Scholarship & Digital Cultural Heritage\nOr have a look at the other LIBER Working Groups - LIBER Europe\n\n\n\n\n\nAI4LAM\nCode4Lib\nElectronic Literature Organisation\nFlickr Commons\nGlam Labs International\nIIIF/UV Open Collective\nIMPACT Centre of Competence\nMuseums Computer Group\nTranskribus\nWikidata Community)\n\n\n\n\n\n\n\nRLUK Digital Scholarship Network\n\n\n\n\n\n\n\nThink we’re missing something?\n\n\n\n\n\nWe’d love to hear it! Suggest edits by opening a new Issue or adding to the discussion on existing Issues on the project Github. If you’re new to GitHub don’t worry, we have a Topic Guide for that: GitHub: How to navigate and contribute to Git-based projects! Or just drop us a line!"
-  },
-  {
-    "objectID": "networks.html#liber-working-groups",
-    "href": "networks.html#liber-working-groups",
-    "title": "USEFUL NETWORKS",
-    "section": "",
-    "text": "Working groups are open to staff at participating LIBER Member institutions:\n\nLIBER Data Science in Libraries\nLIBER Digital Scholarship & Digital Cultural Heritage\nOr have a look at the other LIBER Working Groups - LIBER Europe"
-  },
-  {
-    "objectID": "networks.html#international-networks",
-    "href": "networks.html#international-networks",
-    "title": "USEFUL NETWORKS",
-    "section": "",
-    "text": "AI4LAM\nCode4Lib\nElectronic Literature Organisation\nFlickr Commons\nGlam Labs International\nIIIF/UV Open Collective\nIMPACT Centre of Competence\nMuseums Computer Group\nTranskribus\nWikidata Community)"
-  },
-  {
-    "objectID": "networks.html#national-networks-european",
-    "href": "networks.html#national-networks-european",
-    "title": "USEFUL NETWORKS",
-    "section": "",
-    "text": "RLUK Digital Scholarship Network\n\n\n\n\n\n\n\nThink we’re missing something?\n\n\n\n\n\nWe’d love to hear it! Suggest edits by opening a new Issue or adding to the discussion on existing Issues on the project Github. If you’re new to GitHub don’t worry, we have a Topic Guide for that: GitHub: How to navigate and contribute to Git-based projects! Or just drop us a line!"
-  },
-  {
     "objectID": "references.html",
     "href": "references.html",
     "title": "RECOMMENDED READING LISTS",
@@ -816,49 +788,49 @@
   {
     "objectID": "project-overview.html",
     "href": "project-overview.html",
-    "title": "ABOUT",
+    "title": "About",
     "section": "",
     "text": "Digital Scholarship & Data Science Topic Guides for Library Professionals is a project first undertaken in 2023 as a joint collaboration between the Digital Scholarship & Digital Cultural Heritage (DSDCH) and the Data Science in Libraries (DSLib). It is an open and collaboratively curated training reference resource that aims to:"
   },
   {
     "objectID": "project-overview.html#are-ds-topic-guides-for-me",
     "href": "project-overview.html#are-ds-topic-guides-for-me",
-    "title": "ABOUT",
+    "title": "About",
     "section": "Are DS Topic Guides for me?",
     "text": "Are DS Topic Guides for me?\nAre you someone working in or around research libraries with an interest in learning more about how to do cool and interesting things with digital collections and data at your institution? Wondering how data science techniques can help you in your work? Are you interested in gaining valuable digital literacy skills and knowledge to support emerging areas of modern scholarship such as Digital Humanities? Do you need some of the technology jargon you hear about these days demystified?\nThen this resource is for you!\nIt is very important to us that the guides here are inclusive and intellectually accessible, challenging but not terrifying and as such we focus primarily on an introductory audience where no programming or particular digital skills are required.\nThough written from the research library professional perspective we think these guides will be useful for anyone currently (or aspiring to be) working in and around digital collections and data in heritage institutions:\n\nLibrary & Information Science students\nProject managers\nDevelopers\nInformation specialists\nMetadata Managers\nSubject librarians\nSystem librarians\nInstitutional leadership\n\nAnd so many more!"
   },
   {
     "objectID": "project-overview.html#project-history",
     "href": "project-overview.html#project-history",
-    "title": "ABOUT",
+    "title": "About",
     "section": "Project History",
     "text": "Project History\nThe impetus for this project has its roots in LIBER member British Library’s Digital Scholarship Training Programme, where for over a decade now, Digital Curators there have maintained bespoke learning resources on digital scholarship tools and methods for internal use as part of their staff training courses, talks reading group and Hack & Yacks. The team there has been looking for places to share these existing resources and expertise more widely with the sector in a dedicated collaborative learning space online.\nMeanwhile, both LIBER working groups noted that while the exponential expansion of digital collections, and the computational methods and tools to interact with them presented an opportunity for LIBER library professionals working within national, research, university to cultural heritage institutions, to not only support digital scholars on increasingly more complex computationally driven research, but also to apply such methods in the care and curation of heritage collections, capacity building in digital scholarship methods, including data science, was unevenly distributed across this community however.\nThough training for the sector around the use of data science and computational methods in the library context has grown considerably within the last decade, fifty-eight percent of LIBER Member respondents still noted as recently as 2019 ‘technical knowledge - such as coding or tool expertise’ as the primary deficit in their environments in Europe’s Digital Humanities Landscape: A Study From LIBER’s Digital Humanities & Digital Cultural Heritage Working Group.\nThe provision of these valuable resources remains fragmented online and across institutions at a local, national and international level. This leads to considerable inefficiency and inconsistent skills acquisition across LIBER member institutions and sustains an imbalance between the wide-spread ambitions of scholars to undertake computational research with library and heritage collections, and a paucity of institutions with capacity to enable these. Equally, it impedes research libraries and cultural institutions from benefiting from the digital transformations computational methods can offer."
   },
   {
     "objectID": "project-overview.html#core-project-team",
     "href": "project-overview.html#core-project-team",
-    "title": "ABOUT",
+    "title": "About",
     "section": "Core Project Team",
     "text": "Core Project Team\nThe site and content are maintained by the Co-Chairs and select Members of the collaborating WGs listed here who act as the core project delivery team and editors of this resource.\nJodie Double, Editor DSDCH\nPéter Király, Editor DSLib\nNora McGregor, Editor & Site Maintainer DSDCH\nPeter Verhaar, Editor DSLib"
   },
   {
     "objectID": "project-overview.html#community-contributors",
     "href": "project-overview.html#community-contributors",
-    "title": "ABOUT",
+    "title": "About",
     "section": "Community Contributors",
     "text": "Community Contributors\nEach Topic Guide is written by specific named contributors but we also welcome changes and contributions to this resource via logging issues or if you’re a more seasoned GitHub user, via pull requests to the github repository."
   },
   {
     "objectID": "project-overview.html#acknowledgements",
     "href": "project-overview.html#acknowledgements",
-    "title": "ABOUT",
+    "title": "About",
     "section": "Acknowledgements",
     "text": "Acknowledgements\nThe project team would like to thank all of our LIBER working group members who have contributed to this resource and supported our endeavours here. We have taken great inspiration from other incredible training initiatives such as the British Library Digital Scholarship Training Programme, DH Literacy Guidebook and The Programming Historian in the development of this resource and thank those projects for paving the way!"
   },
   {
     "objectID": "project-overview.html#contact-us",
     "href": "project-overview.html#contact-us",
-    "title": "ABOUT",
+    "title": "About",
     "section": "Contact us",
     "text": "Contact us\nIf you’d like to ask a question of the project team you can please send an email to Nora McGregor, nora.mcgregor@bl.uk or any of Co-Chairs and select Members of the collaborating WGs listed here who act as the core project delivery team and editors of this resource.\nJodie Double, Editor DSDCH\nPéter Király, Editor DSLib\nNora McGregor, Editor DSDCH\nPeter Verhaar, Editor DSLib"
   },
@@ -889,13 +861,6 @@
     "title": "Author Guidance & Style Guide",
     "section": "Checklist for Authors & Reviewers/Editors",
     "text": "Checklist for Authors & Reviewers/Editors\nThe following checklist reflects the key areas Reviewers and Editors will be checking over with each submitted DS Topic Guide. Authors should find this helpful too and consult it before submitting their work for final review.\n\nFront Matter (for Topic Guides only)\n\nAbstract is clear, concise and reflective of topic\nAuthor names are linked to a LIBER profile where possible or a personal/business bio page\nAuthor orcid id’s are included and resolving correctly\nTitle follows correct capitalisation (Capitalise the first, last and ‘important’ words)\nCheck for references to old “DS Essentials” and replace with “DS Topic Guides”\n\n\n\nContent\n\nContent is clear and complete and follows the Style Guidelines above\nText reflects the aim of the section (for example, Finding Communities of Practice recommends networks/networking/conferences etc. rather than advanced tutorials/lessons)\nImages on the page are directly illustrative of the point/necessary\nCheck for typos\nCheck any activities provided work\nRecommended hands-on activities and self-guided tutorials should be Open Access and freely available online\nRecommended Reading & Viewing content (scholarly texts/articles/books/manuals) should be Open Access by default and not behind a paywall. (We recommend use of a VPN for verifying this as sometimes library institution set-ups can make it harder to realise that articles are not free!) If this is not possible and it is a seminal reference work, provide a full reference for it, explain that it is paywalled content, and point readers to Worldcat if possible so they can find it in their library.\n\n\n\nText Formatting Edits\n\nWritten in British English which is the style of the EU\nCheck for markdown errors\nCheck for references to old “DS Essentials” and replace with “DS Topic Guides”\n“Topic Guides” is always referred to and written in italics as “DS Topic Guides”\n“Digital Scholarship & Data Science Topic Guides for Library Professionals” is always italicised when referenced in text. Note the use of “&” and not “and”\nHeadings are correctly formatted. The title of each guide is already in h1# so main section headers such as “Introduction” should be second-level header with h2 tag ##.\nCapitalise the first, last and ‘important’ words of every heading; for example, ‘Snow White and the Seven Dwarves’.\nReplace Latin abbreviation (eg., ex., etc.,) with full text (Accessibility)\n\n\n\nLinks\n\nCheck all links to ensure there are no broken ones\nInternal links to content within the site (such as reference to other DS Topic Guides) should be relative rather than absolute and use the .qmd extenstion. For example the markdown would look like “See the [IIIF Topic Guide](iiif.qmd).” rather than “See the [IIIF Topic Guide](https://libereurope.github.io/ds-topic-guides/iiif.html).”\nExternal links should include the “https://”\nWe highly discourage linking to articles that are behind paywalled content. However, if it is a seminal reference work, provide a full reference for it, explain that it is paywalled content, and point readers to Worldcat if possible so they can find it in their library.\n\n\n\nImages\n\nImages should be public domain or CC0 as our guides are shared under CC-BY\nImages have alt-tags and captions (Accessibility)\nImages are all saved in the project GitHub folder: https://github.com/libereurope/ds-topic-guides/tree/main/book/images (this will be automated, reviewer can ignore)\nImages are in .jpg or .png or .svg format and ideally less than 1MB (this will be automated, reviewer can ignore)\nImages are no larger than the width of our body text column (width should be less than 949 pixels) (this will be automated, reviewer can ignore)"
-  },
-  {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "CONTACT",
-    "section": "",
-    "text": "CONTACT\nIf you’d like to ask a question of the project team you can please send an email to Nora McGregor, nora.mcgregor@bl.uk or any of Co-Chairs and select Members of the collaborating WGs listed here who act as the core project delivery team and editors of this resource.\nJodie Double, Editor DSDCH\nPéter Király, Editor DSLib\nNora McGregor, Editor DSDCH\nPeter Verhaar, Editor DSLib"
   },
   {
     "objectID": "ai-ml.html",
