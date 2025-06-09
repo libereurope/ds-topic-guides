@@ -79,7 +79,7 @@ Libraries can support projects run on national portals, such as Latvia's [iesais
 
 There's a strong relationship between [IIIF](iiif.qmd) and crowdsourcing. In 2017 the British Library used [IIIF images for the 'In the Spotlight' project](https://blogs.bl.uk/digital-scholarship/2017/11/crowdsourcing-using-iiif-and-web-annotations.html), in part to save hosting costs, and in part to explore the potential for IIIF annotations in crowdsourcing. This later inspired a [collaboration with Zooniverse to support importing media into Zooniverse via IIIF manifests](https://blogs.bl.uk/digital-scholarship/2022/04/importing-images-into-zooniverse-with-a-iiif-manifest-introducing-an-experimental-feature.html). Crowdsourcing platforms that support IIIF include the [Digirati / National Library of Wales/Madoc platform](https://madoc.digirati.com/) and [From the Page](https://fromthepage.com/).
 
-## Hands-on activity and other self-guided tutorial(s)  
+## Hands-on activity/self-guided tutorial(s)
 
 The best way to learn more about crowdsourcing is to try a range of different projects. This will help you understand participant motivations, get a sense of the importance of great titles and instrutions in getting you started, and think about how data might move between GLAM systems and crowdsourcing platforms.
 
