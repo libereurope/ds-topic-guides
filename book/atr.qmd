@@ -52,8 +52,8 @@ Automatic Text Recognition typically involves multiple stages or elements, which
 1. **Image Pre-processing**: Pre-processing is the first step and focuses on enhancing the quality of the input image to improve recognition accuracy. This may include tasks such as noise reduction, skew correction (to align slanted images), and contrast adjustment. These operations are crucial when dealing with old or degraded documents, where imperfections in the image can hinder the subsequent stages.
 2. **Binarisation**: Binarisation converts a grayscale or colour image into a binary image, typically using black for the text and white for the background. This simplifies the image, making it easier for the OCR/HTR system to distinguish between the text and non-text elements. This step is especially important for historical documents, where stains, fading, or other degradation can confuse the OCR/HTR engine.
 
-![](images/ATR_1.png)
-_Examples of binarisation and its effects on legibility, created by Peter Smith who worked to improve_ [_Chinese HTR_](https://blogs.bl.uk/digital-scholarship/2024/03/handwritten-text-recognition-of-the-dunhuang-manuscripts.html) _processes_
+![Examples of binarisation and its effects on legibility, created by Peter Smith who worked to improve [_Chinese HTR_](https://blogs.bl.uk/digital-scholarship/2024/03/handwritten-text-recognition-of-the-dunhuang-manuscripts.html) processes](images/ATR_1.png)
+
 
 1. **Layout Analysis**: In layout analysis, the system identifies the structure of the document, distinguishing between various elements such as paragraphs, columns, headings, footnotes, and images. It is essential for documents with complex formatting (e.g. newspapers or tables) to ensure that the text is correctly segmented and processed. This step may also involve detecting text regions in multi-layout documents or distinguishing between handwritten and printed text.
 2. **Text Recognition**: The core of the OCR/HTR process is text recognition, where the system identifies individual characters, words, and sentences within the segmented text regions. Modern OCR/HTR engines use pattern recognition techniques or machine learning algorithms, such as neural networks, to improve accuracy. Some systems also perform language modelling, where the recognised text is checked against a dictionary or corpus to ensure contextual correctness, particularly useful for older languages or scripts.
@@ -71,8 +71,8 @@ Keeping up with, and even contributing to, developments in Automatic Text Recogn
 
 In collaboration with [PRImA Research Lab](http://www.primaresearch.org/), the British Library ran several OCR/HTR competitions with the aim of encouraging the development of state-of-the-art in text recognition software, facilitating dialogue around the challenges and opportunities of ATR, and creating openly licensed ground truth datasets. Competitions around early Bengali books and Quarterly Lists were run as part of the [Two Centuries of Indian Print](https://web.archive.org/web/20231001055233/https://www.bl.uk/projects/two-centuries-of-indian-print) project, and the project used Transkribus to create [OCR transcriptions](https://bl.iro.bl.uk/collections/d4b2009d-b28d-4518-b219-fc0cd53007e7) for the Bengali books, in collaboration with the School of Cultural Texts and Records at Jadavpur University. Additional competitions were focused on finding solutions to automatically transcribe [historical Arabic scientific manuscripts](https://web.archive.org/web/20230606024755/http://www.bl.uk/projects/Arabic-htr), using materials digitised by the Library and published on the [Qatar Digital Library (QDL)](https://qdl.qa/en/).
 
-![](images/ATR_2.png)
-_Screenshot from Transkribus, used as the ATR engine in the_ [_Two Centuries of Indian Print_](https://web.archive.org/web/20231001055233/https://www.bl.uk/projects/two-centuries-of-indian-print) _project_
+![Screenshot from Transkribus, used as the ATR engine in the [_Two Centuries of Indian Print_](https://web.archive.org/web/20231001055233/https://www.bl.uk/projects/two-centuries-of-indian-print) project](images/ATR_2.png)
+
 
 The [Open Islamicate Texts Initiative](https://openiti.org/) (OpenITI) is a collaborative project involving researchers from Aga Khan University’s Institute for the Study of Muslim Civilisations in London, the Roshan Institute for Persian Studies at the University of Maryland, College Park, and Universität Hamburg. Its goal is to establish the digital infrastructure needed for the study of Islamicate cultures. OpenITI focuses on building digital resources for Islamicate studies by enhancing optical character recognition (OCR) and handwritten text recognition (HTR) for Arabic-script texts, creating standardised OCR and HTR outputs and text encoding, and developing platforms for collaborative work on Islamicate text corpora and digital editions.
 
@@ -104,7 +104,7 @@ This is a great blog post by Chris Woodform, simply entitled [Optical character 
 
 The [IMPACT Centre of Competence](https://www.digitisation.eu/)  is a useful OCR resource. In their words, IMPACT is a ‘not for profit organisation with the mission to make the digitisation of text “better, faster, cheaper” and to further advance the state-of-the-art in the field of document imaging, language technology and the processing of historical text.’ You can find datasets, training materials, blogs and more!
 
-[![An Introduction to Ground Truth Production with the IMPACT Project](images/ATR_3.png)](<https://www.youtube.com/watch?v=NbGCkxD1PbI&ab_channel=IMPACTCentreofCompetence>)
+[![Video lecture about An Introduction to Ground Truth Production with the IMPACT Project](images/ATR_3.png)](<https://www.youtube.com/watch?v=NbGCkxD1PbI&ab_channel=IMPACTCentreofCompetence>)
 
 An excellent guide to newspaper OCR and data analysis is this [Short Guide to Historical Newspaper Data, Using R](https://bookdown.org/yann_ryan/r-for-newspaper-data/) by Yann Ryan.
 
