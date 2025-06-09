@@ -14,20 +14,18 @@ Feel free to contact [Nora McGregor](mailto:digitalresearch@bl.uk) if you're kee
 
 ## Help us with our wishlist!
 
-Contribute a new [Topic Guide](topicguides.qmd) (individually or in collaboration with others). Choose from our current wishlist or propose a new one. Contact [digitalresearch@bl.uk](mailto:digitalresearch@bl.uk) with your idea or submit an [Issue](https://github.com/libereurope/ds-topic-guides/issues) and we'll help you get started right away!
+Contribute a new [_DSTopic Guide_](topicguides.qmd) (individually or in collaboration with others). Choose from our current wishlist or propose a new one. Contact [digitalresearch@bl.uk](mailto:digitalresearch@bl.uk) with your idea or submit an [Issue](https://github.com/libereurope/ds-topic-guides/issues) and we'll help you get started right away!
 
 > **_NOTE:_** Our current wishlist for future editions includes but is not limited to topics such as:
 >
->- Climate Change and Sustainability
+>- Climate Change and Digital Sustainability
 >- Cultural Competency & Ethics in Digital Methods
 >- Demystifying Computational Environments for Digital Scholarship
 >- Digital Scholarship/Data Science Project Management, Evaluation and Impact Assessment
 >- Digital Storytelling
->- Foundation models: When and why to use LLMs or SLMs
->- Research Data Management
->- Wikimedia 
+>- Wikimedia Foundation Projects
 
-## Suggest edits to an existing [Topic Guide](topicguides.qmd)
+## Suggest edits to an existing [_DS Topic Guide_](topicguides.qmd)
 
 Know of a good case study, report or community of practice that LIBER members should know about? Open a new [Issue](https://github.com/libereurope/ds-topic-guides/issues) or add to the discussion on existing Issues on the project Github. If you're new to GitHub don't worry, we have a Topic Guide for that: [GitHub: How to navigate and contribute to Git-based projects](github.qmd)!
 
