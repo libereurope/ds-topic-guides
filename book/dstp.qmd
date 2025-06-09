@@ -1,5 +1,6 @@
 ---
 title: "Start your own local DS Training Programme"
+subtitle: "A LIBER Digital Scholarship & Data Science Topic Guide for Library Professionals"
 date: 2025-05-13
 date-modified: 2025-05-13
 doi: 10.23636/vn89-g618
