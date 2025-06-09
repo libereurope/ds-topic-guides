@@ -1,5 +1,6 @@
 ---
 title: "Copyright & Licensing: Current context and considerations for researchers and libraries using AI in research today"
+subtitle: "A LIBER Digital Scholarship & Data Science Topic Guide for Library Professionals"
 date: 2024-06-04
 date-modified: 2025-02-10
 doi: 10.23636/vn89-g618
