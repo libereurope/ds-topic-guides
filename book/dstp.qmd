@@ -112,6 +112,7 @@ After your group of the willing has been running for awhile it's useful to creat
 In this short video from a Culture24 Digital Leaders - digital skills, literacy and capacity online seminar, I talk about inspiring and supporting team members from The British Library to pursue digital skills and literacy development through their Digital Scholarship Staff Training Programme.
 
 The British Library Digital Research Team regularly share information about the training programme including topics covered over on our [Digital Scholarship Blog](https://blogs.bl.uk/digital-scholarship/index.html):
+
 * [2024 Year in Review - Digital Scholarship Training Programme](https://blogs.bl.uk/digital-scholarship/2025/01/2024-year-in-review-dstp.html)
 * [Topics in contemporary Digital Scholarship via five years of our Reading Group](https://blogs.bl.uk/digital-scholarship/2023/04/topics-contemporary-digital-scholarship-reading-group.html)
 * [What do deep learning, community archives, Livy and the politics of artefacts have in common? Topics covered in our Reading Group](https://blogs.bl.uk/digital-scholarship/2018/05/what-do-deep-learning-community-archives-livy-and-the-politics-of-artefacts-have-in-common.html)
