@@ -278,7 +278,7 @@ There is a parallel here with generative AI perhaps.
 
 In the Court’s opinion, the image cannot as a matter of principle be protected by copyright, because such an image is not the result of creative activity of a natural person – an author. The Court concluded that the image is not a copyright-protected work. The claimant argued that the image was created on the basis of his specific prompt, which justified the claimant’s copyright to the image. The Court considered that the prompt itself could only be regarded as a theme or idea for a work, neither of which can be protected by copyright. The Czech Copyright Act specifically lists themes, ideas and similar more abstract concepts as excluded from copyright protection, which is a principle generally recognised internationally.
 
-## Hands-on activity and other self-guided tutorial(s)
+## Hands-on activity/self-guided tutorial(s)
 
 This guide contains a ton of resources for learning about copyright but for something a little bit different, check out the [Copyright Card Game](https://copyrightliteracy.org/resources/copyright-the-card-game/) or online quizzes such as [European Copyright 10 Questions](https://www.era-comm.eu/stream/Free_e-presentations/Demo_Course_European_Copyright_10_Questions/story_html5.html). 
 
