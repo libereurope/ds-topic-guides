@@ -122,12 +122,12 @@ An OCLC-Liber blog post by Rebecca Bryant, Senior Programme Officer at the OCLC 
 - [**Utilising new modes of data to enhance research strategy and collaboration**](https://www.timeshighereducation.com/campus/utilising-new-modes-data-enhance-research-strategy-and-collaboration?spMailingID=27812157&spUserID=MTQ4NjQ5NDYyNDE5MgS2&spJobID=2351611476&spReportId=MjM1MTYxMTQ3NgS2) November 2023
 Digital Science, the creators of Altmetric, look at how institutions can get high-quality insights into research by standardising their data systems.
 
-## Hands-on activity and other self-guided tutorial(s) 
+## Hands-on activity/self-guided tutorial(s) 
 
 The process of utilising data is a cycle, a standard process model that describes a common approach to data is [CRISP-DM](https://www.datascience-pm.com/crisp-dm-2/) (Cross-industry standard process for data mining). It has six stages, listed below.
 
 
-![](images/WrkData.png)
+![Diagram showing the six stages of the standard process model from CRISP-DM.](images/WrkData.png)
 
 This section will enable you to walk through an assessment of your data, through a variety of leading questions, at each stage of the cycle. You can use it to have a think and guided discussion around data held in your Library. How long each phase takes will depend entirely on the project, there is no right or wrong, and it is cyclical, you will return to questions as you develop the project. These are structured as questions because one guide cannot have all the answers, and therefore giving a variety of questions will hopefully ensure you do not miss anything, and learn much more which is relevant to your project. This approach will enable you to assess if the data you have is relevant to the question, and if it has the potential to answer it correctly.
 
