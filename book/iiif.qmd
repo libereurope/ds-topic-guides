@@ -68,7 +68,7 @@ If you want the deep nitty gritty technical stuff around all the APIs and how th
 - **Choose one of the many [IIIF enabled viewers](https://iiif.io/get-started/iiif-viewers/)** for displaying your images and add it to your own collection site. Again, looking at that same [collection item](https://digital.bodleian.ox.ac.uk/objects/300f251d-1d9e-4212-b8e0-1a483bb26c43/) record above, note in the upper left hand-corner (see image below) there is an option to view in Mirador or Universal Viewer which are two different styles of IIIF viewer that afford different functionalities.
 - **Consider making your IIIF Manifests available publicly** for download so users can work with them in all the interesting ways you've now enabled!
 
-![](images/iiifviewers.png)
+![A screenshot of a Bodleian catalogue record showing the IIIF icon and different viewer options.](images/iiifviewers.png)
 
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)
@@ -80,7 +80,7 @@ There are quite a number of use cases and case studies available on the [IIIF De
 
 The example here is of the [Ōmi Kuni-ezu 近江國絵圖 Japanese Tax map](https://web.archive.org/web/20230527005027/https://library.stanford.edu/blogs/digital-library-blog/2015/11/adventures-oversized-imaging-digitizing-omi-kuni-ezu-jin-jiang) created in 1837. It’s meant to be read in the round by someone standing in the middle--you can see the scale when this zooms out-- the map is eleven by seventeen FEET, and the person standing next to it, Wayne who works in the library at Stanford, is six feet four inches tall. This image is a composite of 158 individual images with a file size of 1.27Gb.  IIIF allows just enough of an image to be delivered to a viewer--going from a whole image to just the part that they are zooming in on. Without IIIF, an end user might have to download an extremely large file, but using IIIF provides a smooth and easy viewing experience.
 
-![](images/JapaneseMap.jpg)
+![An image of a man standing next to the Ōmi Kuni-ezu 近江國絵圖 Japanese Tax map to give a sense of the scale of the object.](images/JapaneseMap.jpg)
 
 Have a play and view this image in their [Mirador viewer here](https://purl.stanford.edu/hs631zg4177)
 
@@ -88,7 +88,7 @@ Have a play and view this image in their [Mirador viewer here](https://purl.stan
 
 The virtual reconstruction of this damaged manuscript from Châteauroux in France (Grandes Chroniques de France, ca. 1460) is probably one of the most well-known and best examples of the power of IIIF to support this use case (and my own personal favourite!). At some point in the manuscripts history, fourteen of its illuminations were cut out. These illuminations eventually ended up at the Bibliothèque nationale de France in the 19th century and were digitised individually. In the demo you see the reuniting of the miniatures with the full manuscript as IIIF allows a virtual repositioning of the cut out decorations with the text, virtually reconstructing the manuscript online using the Mirador Viewer so it reflects its original state. 
 
-![](images/miniatures.png)
+![A screenshot of a digitised manuscript showing a decoration interactively overlayed in the place in which it had been removed.](images/miniatures.png)
 
 I highly recommend having a play around with the [Mirador Viewer: Châteauroux demo](https://demos.biblissima.fr/chateauroux/demo/).
 
