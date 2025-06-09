@@ -111,8 +111,7 @@ You might even find that occasionally people want to see inside something! CT Sc
 
 <iframe width="90%" height="480" src="https://www.youtube.com/embed/02DyAzjkwG0?si=D_RXD70bdG5o47KV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
-## Hands-on activity and other self-guided tutorial(s)
-
+## Hands-on activity/self-guided tutorial(s)
 If you’ve got half an hour and a colleague or friend to spare, why not take your first steps into a virtual world and have a go at making a 3D model.  
 The “Big Me, Little Me” exercise has been developed by the team at [StoryFutures](https://www.storyfutures.com/), and is a great way to start thinking about 3D modelling and the virtual world it creates.  
  
