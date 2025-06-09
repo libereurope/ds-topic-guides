@@ -7,8 +7,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Greete Veesalu">
-<meta name="dcterms.date" content="2025-05-22">
-<meta name="keywords" content="Computer Vision, Convolutional Neural Networks">
+<meta name="dcterms.date" content="2025-06-08">
+<meta name="keywords" content="Computer Vision, Convolutional Neural Networks, Deep Learning">
 
 <title>Computer Vision – Digital Scholarship &amp; Data Science Topic Guides</title>
 <style>
@@ -336,13 +336,13 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
         <div class="quarto-title-meta-date">
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">May 22, 2025</p>
+        <p class="date">June 8, 2025</p>
       </div>
     </div>
             <div class="quarto-title-meta-modified-date">
       <div class="quarto-title-meta-heading">Modified</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">May 22, 2025</p>
+        <p class="date-modified">June 8, 2025</p>
       </div>
     </div>
             <div class="quarto-title-meta-doi">
@@ -355,14 +355,14 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
     <div class="abstract">
     <div class="quarto-title-meta-heading">Abstract</div>
     <div class="quarto-title-meta-contents">
-      <p>An overview of computer vision, how it works and it’s various uses in making digital collections more accessible…</p>
+      <p>This guide introduces Computer Vision, a branch of Artificial Intelligence that enables machines to interpret and analyse visual data using Deep Learning, particularly Convolutional Neural Networks. It outlines key functions such as object detection, image segmentation, and motion analysis, along with challenges like data bias, occlusion, and ethical concerns. Focusing on the library and cultural heritage sectors, the guide explores how Computer Vision enhances image classification, metadata creation, visual search, text recognition (OCR/HTR), and accessibility. Case studies—from tools like Sheeko, imgs.ai, and JADIS—demonstrate its value in enriching collections and improving user access.</p>
     </div>
   </div>
       <div class="quarto-title-meta-keywords">
     <div class="quarto-title-meta-heading">Keywords</div>
     <div class="quarto-title-meta-contents">
       <div class="text-keywords">
-        <p>Computer Vision, Convolutional Neural Networks</p>
+        <p>Computer Vision, Convolutional Neural Networks, Deep Learning</p>
       </div>
     </div>
   </div>
@@ -374,7 +374,12 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <p>Computer Vision is a field of <a href="./ai-ml.html">Artificial Intelligence (AI)</a> that uses Deep Learning models to teach machines to “see” and interpret images and videos. At its core, Computer Vision involves functions like processing, detection, and analysis of visual data. It uses algorithms to extract meaningful information from images and enables machines to identify objects, recognise patterns, and make decisions based on what they see. Computer Vision powers many of today’s technologies—from facial recognition and object detection to autonomous vehicles, augmented reality, and Video Assistant Referees (VAR) in football. It’s also integral to tools used in cultural heritage and information management, helping libraries automatically tag, classify, and organize vast visual collections such as photographs, manuscripts, and artworks.</p>
 <p>Deep Learning uses neural networks to model complex patterns within data. These networks, much like the human brain, consist of interconnected layers of artificial neurons. During training, these models process massive datasets of images, enabling them to progressively identify features and refine their predictions with increasing accuracy. For instance, a network might initially learn to detect edges and shapes. As training progresses, it learns to identify more complex features such as curves, textures, and ultimately, the entire object itself. This continual process of feature extraction and refinement enables Deep Learning models to achieve remarkable accuracy.</p>
 <p>Convolutional Neural Networks (CNN) have become a cornerstone of image recognition as these neural networks are particularly well-suited for processing grid-like data, such as images. CNNs use convolutional layers that extract local features from the input image (edges, corners, etc.), which are then combined to form more complex representations in subsequent layers, allowing the network to learn hierarchical representations of the image content.</p>
-<p><img src="images/c-v_CNN_architecture.png" class="img-fluid"> Image retrieved from <a href="https://www.pinecone.io/learn/series/image-search/cnn/#What-Makes-a-CNN">https://www.pinecone.io/learn/series/image-search/cnn/#What-Makes-a-CNN</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/c-v_CNN_architecture.png" class="img-fluid figure-img"></p>
+<figcaption>A diagram showing a convolutional neural network for image classification, progressing from input image to feature learning, flattening, classification, and output probabilities.</figcaption>
+</figure>
+</div>
 <section id="key-functions-of-computer-vision-include" class="level3">
 <h3 class="anchored" data-anchor-id="key-functions-of-computer-vision-include">Key functions of Computer Vision include:</h3>
 <ul>
@@ -402,27 +407,34 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <h3 class="anchored" data-anchor-id="computer-vision-in-the-library-sector">Computer Vision in the Library Sector</h3>
 <p>Computer Vision can be a useful tool in addressing the challenges posed by vast and diverse collections, enabling libraries to improve services and access to knowledge at scale.</p>
 <ul>
-<li>Image Classification and Cataloguing - Libraries manage large digital libraries containing very different material. Computer Vision and automated cataloging automate the classification of the collections, thus reducing the manual labor required and improving discoverability.</li>
-<li>Object Detection and Description - Models can automatically detect features and items in the material, this is useful for creating detailed metadata in large collections. Libraries can also use object detection to improve accessibility, by generating descriptive metadata for images and videos.</li>
+<li>Image Classification and Cataloguing - Large digital libraries contain a lot of very different material, which can be hard to manage. Computer Vision can automate classification and cataloguing, reducing the manual work required, and improving discoverability.</li>
+<li>Object Detection and Description - Models can automatically detect features and items in the material, which is useful for creating detailed metadata in large collections. Libraries can also use object detection to improve accessibility by generating descriptive metadata for images and videos.</li>
 <li><a href="./atr.html">Automatic Text Recognition</a> - Optical Character Recognition (OCR) and Handwritten Text Recognition (HTR) helps libraries to make printed texts and handwritten documents digital. Thus, libraries use OCR/HTR to create searchable digital collections of books, manuscripts, newspapers, etc. OCR/HTR also supports accessibility, enabling text-to-speech conversions for visually impaired users.</li>
-<li>Visual Search and Content-Based Retrieval - Computer Vision improves search functionality in digital libraries through visual search. This allows users to upload an image and retrieve visually similar items from the collection. Content-based image retrieval also supports researchers by enabling them to find works that are similar.</li>
+<li>Visual Search and Content-Based Retrieval - Computer Vision improves search functionality in digital libraries through visual search. This allows users to upload an image and retrieve visually similar items from the collection. Content-based image retrieval also supports researchers by enabling them to find works that are similar. <br><br></li>
 </ul>
 </section>
 </section>
 <section id="relevance-to-the-library-sector-case-studiesuse-cases" class="level2">
 <h2 class="anchored" data-anchor-id="relevance-to-the-library-sector-case-studiesuse-cases">Relevance to the Library Sector (Case Studies/Use Cases)</h2>
-<p>Having explored the foundational concepts of Computer Vision, let’s now delve into how it is being applied in the library sector. We will take a look at some key applications within areas like collection enrichment, access and delivery, and accessibility.</p>
+<p>Having explored the foundational concepts of Computer Vision, let’s now delve into how it is being applied in the library sector. We will take a look at some key applications within areas like collection enrichment, access and delivery, ans well as accessibility.</p>
 <section id="enrichment-of-collections" class="level3">
 <h3 class="anchored" data-anchor-id="enrichment-of-collections">Enrichment of collections</h3>
 <p>Computer Vision is transforming the enrichment of library collections by automating the classification and annotation of visual materials. With the help of object detection and image recognition, it identifies objects, patterns, and relationships within images, enabling the creation of richer metadata and contextual information. This not only improves discoverability, allowing users to locate materials more easily, but also allows for deeper insights into the historical, artistic, or cultural significance of the materials.</p>
-<p>A <a href="https://journal.code4lib.org/articles/17186">case study conducted by the University of Calgary’s Libraries and Cultural Resources</a> explored the use of <a href="https://sheeko.org/">Sheeko</a>, a metadata generation software, to create descriptive metadata from images using pre-trained models. The study concluded that, with moderate human intervention, both the descriptions and titles generated by the pre-trained models were usable. Similarly, <a href="https://saintgeorgeonabike.eu/">Saint George on a Bike</a> which was a project led by Europeana, aimed to improve the classification and metadata of cultural heritage objects, by using CNNs for object detection to identify and create semantic context for the images. These examples demonstrate the potential of combining automated AI-powered tools with human expertise to improve metadata creation, while enriching cultural heritage collections and making them more accessible and meaningful for diverse audiences.</p>
-<p><img src="images/c-v_SGoaB.jpg" class="img-fluid"></p>
+<p>A <a href="https://journal.code4lib.org/articles/17186">case study conducted by the University of Calgary’s Libraries and Cultural Resources</a> explored the use of <a href="https://sheeko.org/">Sheeko</a>, a metadata generation software, to create descriptive metadata from images using pre-trained models. The study concluded that, with moderate human intervention, both the descriptions and titles generated by the pre-trained models were usable. Similarly, the Europeana led project <a href="https://saintgeorgeonabike.eu/">Saint George on a Bike</a> aimed to improve the classification and metadata of cultural heritage objects, by using CNNs for object detection to identify and create semantic context for the images. These examples demonstrate the potential of combining automated AI-powered tools with human expertise to improve metadata creation, while enriching cultural heritage collections and making them more accessible and meaningful for diverse audiences. You can see some examples of how this works in this video about the Saint George on a Bike project:</p>
+<iframe width="90%" height="480" src="https://www.youtube.com/embed/ZbUEs0SULKQ?si=4KIM-fUEzBRgINbO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+</iframe>
 </section>
 <section id="access-and-delivery" class="level3">
 <h3 class="anchored" data-anchor-id="access-and-delivery">Access and delivery</h3>
 <p>Similarly, Computer Vision is improving access, delivery, and research within library collections by enabling more intuitive and sophisticated ways to explore and analyse visual data. Advances in image recognition and retrieval allow users to discover connections, find similar materials, and engage with collections in entirely new ways, improving both the efficiency and depth of exploration.</p>
 <p>For instance, <a href="https://imgs.ai/interface">imgs.ai</a> is a text-based visual search engine designed for digital collections. It uses approximate k-NN algorithms and integrates the OpenAI CLIP model to link textual queries with visually similar content, offering new ways to navigate collections. Similarly, <a href="https://www.nb.no/maken/">MAKEN</a>, a service developed by the National Library of Norway, uses object detection to identify and retrieve similar images from the library’s digital collection. Thus providing users with yet another possibility of engaging with visual material. These examples show how Computer Vision is making it easier to access digital collections, helping users to find connections, and discover materials quickly and effortlessly.</p>
-<p><img src="images/c-v_MAKEN.jpg" class="img-fluid"> <a href="https://dhlab.yale.edu/projects/pixplot/">PixPlot</a> is a project by the digital humanities lab of Yale University Library, it uses CNNs to cluster similar images.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/c-v_MAKEN.jpg" class="img-fluid figure-img"></p>
+<figcaption>Screenshot of MAKEN’s home page. It is in Norwegian and offers a search tool to find similar books or images, with book covers and a search bar displayed on a dark background.</figcaption>
+</figure>
+</div>
+<p><a href="https://dhlab.yale.edu/projects/pixplot/">PixPlot</a> is a project by the digital humanities lab of Yale University Library, it uses CNNs to cluster similar images.</p>
 </section>
 <section id="accessibility" class="level3">
 <h3 class="anchored" data-anchor-id="accessibility">Accessibility</h3>
@@ -432,20 +444,19 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 <section id="semantic-segmentation-of-maps" class="level3">
 <h3 class="anchored" data-anchor-id="semantic-segmentation-of-maps">Semantic segmentation of maps</h3>
 <p>Semantic segmentation in an exciting frontier where Computer Vision can be of use for identifying and categorising distinct elements within maps, such as roads, buildings, water bodies, and land use regions. By using CNNs and U-Net architectures, models partition maps into meaningful segments, allowing for detailed analysis and improved usability. This supports historical research, geographic analysis, and so on, by extracting structured data from cartographic sources.</p>
-<p>For example, <a href="https://bnf-jadis.github.io/#">JADIS</a>, developed by the National Library of France, it is a tool designed for semantically segmented, georeferenced, and geocoded maps of Paris.</p>
-<p><img src="images/c-v_JADIS.jpg" class="img-fluid"></p>
-<p>Similarly, <a href="https://mapreader.readthedocs.io/en/v1.1.1/index.html">MapReader</a>, an outcome of <a href="https://livingwithmachines.ac.uk/">the Living with the Machines project</a>, offers a Computer Vision pipeline for analysing large collections of historical maps.</p>
+<p>For example, <a href="https://bnf-jadis.github.io/#">JADIS</a>, developed by the National Library of France, is a tool designed for semantically segmented, georeferenced, and geocoded maps of Paris. <img src="images/c-v_JADIS.jpg" class="img-fluid" alt="A vintage map of Paris from 1834 is displayed via JADIS interface, showing streets, buildings, and the Seine River, with navigation and layer options visible on the right."></p>
+<p>Similarly, <a href="https://mapreader.readthedocs.io/en/v1.1.1/index.html">MapReader</a>, an outcome of the <a href="https://livingwithmachines.ac.uk/">Living with Machines</a> project, offers a Computer Vision pipeline for analysing large collections of historical maps. <br><br></p>
 </section>
 </section>
 <section id="hands-on-activity-and-other-self-guided-tutorials" class="level2">
 <h2 class="anchored" data-anchor-id="hands-on-activity-and-other-self-guided-tutorials">Hands-on activity and other self-guided tutorial(s)</h2>
 <p>For those new to the field, <a href="https://colab.google/">Google Colab Notebooks</a> offer a good starting point with plenty of notebooks on Computer Vision, one great example being <a href="https://github.com/domingomery/visioncolab">this collection</a>.</p>
-<p><a href="https://playground.tensorflow.org/">The TensorFlow Playground</a> allows users to experiment with neural network architectures in an interactive way, offering insight into the understanding of how those work.</p>
+<p><a href="https://playground.tensorflow.org/">The TensorFlow Playground</a> allows users to experiment with neural network architectures in an interactive way, offering insight into the understanding of how they work.</p>
 <p><a href="https://glam-workbench.net/">GLAM Workbench</a> is a hands-on guide that focuses on applying Computer Vision to GLAM collections, mainly from New Zealand and Australia. It explores how digitised images can be analysed to identify patterns and improve the accessibility of digital heritage.</p>
 <p>If a more humanities oriented point of view is desired, then Computer Vision related tutorials can also be found at <a href="https://programminghistorian.org/en/lessons/?search=computer+vision">the Programming Historian</a>.</p>
 <p>The <a href="https://marketplace.sshopencloud.eu/">Social Sciences &amp; Humanities Open Marketplace</a> has quite a lot of useful links to free Computer Vision tutorials and training materials worth a look at <a href="https://marketplace.sshopencloud.eu/search?q=computer+vision">(search: computer vision)</a>.</p>
 <p>For practical coding experience, versatile tutorials for using open-source tools can be found at <a href="https://docs.opencv.org/5.x/index.html">OpenCV</a> and <a href="https://realpython.com/">RealPython</a> and <a href="https://pytorch.org/">PyTorch</a> are handy.</p>
-<p>Top universities, for example <a href="https://pll.harvard.edu/catalog">Harvard</a>, <a href="https://online.stanford.edu/">Stanford</a> and <a href="https://www.mooc.fi/en/">Helsinki</a>, offer, sometimes free, online courses as do sites like <a href="https://www.coursera.org/courses?query=free">Coursera</a>, <a href="https://www.futurelearn.com/">FutureLearn</a>, and <a href="https://www.udemy.com/courses/free/">Udemy</a>.</p>
+<p>Top universities, for example <a href="https://pll.harvard.edu/catalog">Harvard</a>, <a href="https://online.stanford.edu/">Stanford</a> and <a href="https://www.mooc.fi/en/">Helsinki</a>, offer, sometimes free, online courses as do sites like <a href="https://www.coursera.org/courses?query=free">Coursera</a>, <a href="https://www.futurelearn.com/">FutureLearn</a>, and <a href="https://www.udemy.com/courses/free/">Udemy</a></p>
 </section>
 <section id="recommended-readingviewing" class="level2">
 <h2 class="anchored" data-anchor-id="recommended-readingviewing">Recommended Reading/Viewing</h2>
@@ -459,7 +470,7 @@ gtag('config', 'G-54HL7T1Z2K', { 'anonymize_ip': true});
 </section>
 <section id="finding-communities-of-practice" class="level2">
 <h2 class="anchored" data-anchor-id="finding-communities-of-practice">Finding Communities of Practice</h2>
-<p>There are many international communities online where one can join and start to learn more about applications of Computer Vision in libraries and seek support for your own aspirations in this area. <a href="https://sites.google.com/view/ai4lam">AI4LAM</a>, <a href="https://www.cenl.org/network_groups/ai-in-libraries-network-group/">CENL network group ‘AI in libraries’</a>, <a href="https://www.ifla.org/units/ai/">IFLA Artificial Intelligence Special Interest Group</a> and the <a href="https://iiif.io/community/groups/AIML/">IIIF AI/ML community group</a> are great places to find and meet others working with Computer Vision in libraries. There are also conferences and events like <a href="https://sites.google.com/view/ai4lam/events">Fantastic Futures</a> which offer opportunities to learn from and meet like-minded people. The Slack workspaces of <a href="https://ai4lam.slack.com/join/shared_invite/zt-1kknojl1j-rsoXJRllrzvNuu3lh~GXpA#/shared-invite/email">AI4LAM</a> or <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGV9QSFo8i2z1R5iIMP7B2JVhS9akHqcykWF5_y4mtWqVrBA/viewform">IIIF</a> are open to all and really helpful spaces for asking questions of the community.</p>
+<p>There are many international communities online where one can join and start to learn more about applications of Computer Vision in libraries and seek support for your own aspirations in this area. <a href="https://sites.google.com/view/ai4lam">Artificial Intelligence for Libraries, Archives and Museums (AI4LAM)</a>, <a href="https://www.cenl.org/network_groups/ai-in-libraries-network-group/">CENL network group ‘AI in libraries’</a>, <a href="https://www.ifla.org/units/ai/">IFLA Artificial Intelligence Special Interest Group</a> and the <a href="https://iiif.io/community/groups/AIML/">International Image Interoperability Framework’s (IIIF) AI/ML community group</a> are great places to find and meet others working with Computer Vision in libraries. There are also conferences and events like <a href="https://sites.google.com/view/ai4lam/events">Fantastic Futures</a> which offer opportunities to learn from and meet like-minded people. The Slack workspaces of <a href="https://ai4lam.slack.com/join/shared_invite/zt-1kknojl1j-rsoXJRllrzvNuu3lh~GXpA#/shared-invite/email">AI4LAM</a> or <a href="https://docs.google.com/forms/d/e/1FAIpQLSdGV9QSFo8i2z1R5iIMP7B2JVhS9akHqcykWF5_y4mtWqVrBA/viewform">IIIF</a> are open to all and really helpful spaces for asking questions of the community.</p>
 
 
 </section>
