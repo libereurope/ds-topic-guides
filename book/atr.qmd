@@ -78,7 +78,7 @@ The [Open Islamicate Texts Initiative](https://openiti.org/) (OpenITI) is a coll
 
 The [Legacies of Curatorial Voice in the Descriptions of Incunabula Collections at the British Library](https://blogs.bl.uk/digital-scholarship/2023/08/my-ahrc-rluk-professional-practice-fellowship-a-year-on.html) project was part of Digital Curator Dr Rossitza Atanassova's AHRC-RLUK funded Professional Practice Fellowship Project (2022–23). It aimed to explore innovative methods for working with digitised catalogues, enhancing the discoverability and usability of the collections they document. The research centred on the _Catalogue of Books Printed in the 15th Century Now at the British Museum_ (BMC), published between 1908 and 2007, which describes over 12,700 volumes in the British Library's incunabula collection. It used Transkribus as the ATR software and also as a [search and publishing web platform](https://app.transkribus.org/sites/BL-Incunabula). The project could then apply computational techniques and corpus analysis of the catalogue data thanks to the availability of OCRed text and provides fresh insights into this resource!
 
-## Hands-on activity and other self-guided tutorial(s)  
+## Hands-on activity/self-guided tutorial(s)
 
 Here are some excellent resources to get you started:
 
