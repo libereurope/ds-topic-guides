@@ -40,7 +40,7 @@ What does publishing linked open data enable? Linked Open Data (LOD) is a method
 
 Have a quick look at this video from Europeana explaining the high-level basic principle of LOD before we dive a bit deeper into how it practically works:
 
-[![Watch the video](images/Lod3.png)](https://player.vimeo.com/video/36752317?h=1af34f93f0)
+[![A video by Europeana Pro providing an introduction to Linked Open Data](images/Lod3.png)](https://player.vimeo.com/video/36752317?h=1af34f93f0)
 [Linked Open Data | Europeana PRO](https://pro.europeana.eu/page/linked-open-data)
 
 
@@ -139,11 +139,11 @@ The benefits of the publishing and use of the Semantic Web and LOD are:
 
 Linked Open Data can be queried and accessed with [SPARQL](https://www.w3.org/TR/sparql11-query/), an RDF query language. However, though there are many benefits, it’s worth being aware that the use of APIs based on SPARQL can be complex for less technical users since they need to understand how the data is modelled as well as be able to type a query. In addition, data quality has become crucial and several initiatives are focused on the assessment of the data quality provided by the catalogues.
 
-### Case Study: [**Manuscripts on Wikidata: the state of the art? | by Martin L Poulter | Medium**](https://medium.com/@infobomb/manuscripts-on-wikidata-the-state-of-the-art-7aeab63e0d56)
+### Case Study: [Manuscripts on Wikidata: the state of the art? by Martin L Poulter](https://medium.com/@infobomb/manuscripts-on-wikidata-the-state-of-the-art-7aeab63e0d56)
 
 This example shows how to use Wikidata, a community-driven approach based on the Semantic Web and LOD that enables volunteers to edit the metadata, to describe manuscripts. It shows the expressivity of the vocabulary provided by Wikidata and the benefits of using Wikidata as a repository in terms of visibility and reuse.
 
-![](images/Lod4.png)
+![A screenshot of a Wikidata-generated infobox for the Khalili section of the Jami’ al-Tawarikh](images/Lod4.png)
 
 ## Hands-on activity and other self-guided tutorial(s) 
 
@@ -175,7 +175,7 @@ If you are interested in learning more about LOD in terms of how to transform tr
 
 I can also recommend the excellent [Best Practices for Library Linked Open Data (LOD) guide](https://libereurope.eu/article/libers-linked-open-data-working-group-publishes-best-practices-for-library-linked-open-data-lod-publication/) published by the LIBER Linked Open Data (LOD) Working Group in 2021 which outlines in detail six steps for publishing library linked data.
 
-![](images/lod.png)
+![Screenshot of a diagram from Best Practices for Library Linked Open Data (LOD) guide showing the six steps for publishing library linked data.](images/lod.png)
 
 Some examples of research articles to read providing additional details and information include:
 
