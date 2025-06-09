@@ -105,7 +105,7 @@ For example, [JADIS](https://bnf-jadis.github.io/#), developed by the National L
 Similarly, [MapReader](https://mapreader.readthedocs.io/en/v1.1.1/index.html), an outcome of the [Living with Machines](https://livingwithmachines.ac.uk/) project, offers a Computer Vision pipeline for analysing large collections of historical maps.
 <br/><br/>
 
-## Hands-on activity and other self-guided tutorial(s)
+## Hands-on activity/self-guided tutorial(s)
 For those new to the field, [Google Colab Notebooks](https://colab.google/) offer a good starting point with plenty of notebooks on Computer Vision, one great example being [this collection](https://github.com/domingomery/visioncolab).
 
 [The TensorFlow Playground](https://playground.tensorflow.org/) allows users to experiment with neural network architectures in an interactive way, offering insight into the understanding of how they work.
