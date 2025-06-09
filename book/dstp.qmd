@@ -73,7 +73,7 @@ Nothing compares to individual staff digital transformation stories though, and 
 
 Read more about [Graham Jevon's digital transformation journey](https://blogs.bl.uk/digital-scholarship/2024/05/recovered-pages-graham-jevon.html) on the British Library Digital Scholarship blog or have a look at this [series of videos](https://youtube.com/playlist?list=PLVRvouzCZmFdVQZn-pJvI_GXip_16sg_R&feature=shared) we created to mark the 10th Anniversary of the [British Library Digital Scholarship Training Programme](https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html) in 2022. It highlights specific transformative experiences for staff who took time out to engage in our Digital Scholarship Training Programme over the years.
 
-[![A video of British Library staff responding to the questions of "How are you using your new skills in your own work?"](images/DSTP.png)](https://www.youtube.com/embed/CrCP5rYai9M?si=A9kw93B_TvOoDFnV)
+[![A video of British Library staff responding to the question "How are you using your new skills in your own work?"](images/DSTP.png)](https://www.youtube.com/embed/CrCP5rYai9M?si=A9kw93B_TvOoDFnV)
 
 ### Try running a monthly "Hack & Yack"
 Establishing what we call a regular Hack & Yack style meeting is a really nice way to learn something new with other colleagues and removing the planning and expectations around a formal training offering. At the British Library our Hack & Yack's are once a month for two hours on a set day and time. It is a casual, hands-on session where colleagues from across all departments of the institution come together to understand a current topic or digital method by working through an online tutorial or demonstration at everyone's own pace but with support of each other. 
