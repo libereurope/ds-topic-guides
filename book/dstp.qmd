@@ -39,7 +39,7 @@ The Digital Research Team has been providing training to British Library staff f
 
 This *DS Topic Guide* shares a few things we've learned along the way about establishing an internal community of practice and training programme. It includes practical pointers for using the materials presented here to start a localised and sustainable digital scholarship and data science training programme at your own institution! 
 
-## Relevance to the Library Sector <br>(Case Studies/Use Cases)</br>  
+## Relevance to the Library Sector (Case Studies/Use Cases)  
 
 To understand the importance of supporting the development of digital skills in our sector, one only needs to look at [_Digital Scholarship & Data Science Topic Guides for Library Professionals_](https://libereurope.github.io/ds-topic-guides/), which contains a plethora of useful real-life applications of new technologies being put into action in libraries. The [*DS Topic Guide*: Getting Started in DS](gettingstarted.qmd.qmd) also provides extensive evidence such as a number of [Digital Scholarship & Data Science Skills Competency Frameworks](https://libereurope.github.io/ds-topic-guides/gettingstarted.html#recommended-readingviewing) for library staff which underscore the urgent need for upskilling.   
 
