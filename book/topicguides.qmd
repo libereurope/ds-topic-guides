@@ -33,3 +33,8 @@ Each _DS Topic Guide_ is structured to make it easy to quickly find the informat
 - Recommended reading & viewing
 - Finding Communities of Practice</div>
 </div>
+
+::: {.callout-tip collapse=true}
+## Are we missing something? Keen to contribute a new guide?
+We'd love to hear about it! Vist our [Contribute to our Project](https://libereurope.github.io/ds-topic-guides/contributing.html) page for more details. Or just drop us a line at digitalresearch@bl.uk! 
+:::
