@@ -250,7 +250,7 @@ Since handwriting can be tricky and ambiguous you might have a Computer Vision m
 
 Sometimes a model trained for a particular task (in the case of this HTR example, identifying a particular handwriting style) can be applied to similar content (other handwriting styles) with very good results. Transkribus has [Public AI Models (transkribus.org)](https://www.transkribus.org/public-models) that have been created by users of the system and are then shared and can be reused by anyone.
 
-## Hands-on activity and other self-guided tutorial(s)  
+## Hands-on activity/self-guided tutorial(s)
 
 ### Tutorials in machine learning  
 
