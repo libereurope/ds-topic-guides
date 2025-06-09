@@ -77,8 +77,7 @@ Though AI and machine learning are highly interlinked today, early developments 
 
 [**Traditional AI**](https://cloud.google.com/docs/ai-ml/generative-ai/generative-ai-or-traditional-ai) is a term sometimes employed nowadays to refer to AI systems which use machine learning for doing rule based prediction tasks (as distinct from Generative AI). These systems analyse data we give them, recognise patterns and provide insights on that data. This is the type of AI we have made a whole lot of use of in the library world to date for things like classifying collections for metadata enhancement for instance (e.g., such as automatically transcribing handwritten texts, or [identifying genre of digitised texts](https://living-with-machines.github.io/genre-classification/zooniverse.html)). 
 
-![](images/ArabicHTR.jpg)
-Snapshot of an interface from Transkribus software used to create data to train a model to recognise handwritten arabic manuscript pages from a British Library collection.
+![Snapshot of an interface from Transkribus software used to create data to train a model to recognise handwritten arabic manuscript pages from a British Library collection.](images/ArabicHTR.jpg)
 
 [**Generative AI**](https://www.ifla.org/g/ai/generative-ai/) on the other hand refers broadly to systems whose primary function is to generate new content (e.g., continuing a conversation, writing a book, creating a piece of art), often in response to text or image prompts. This is the territory inhabited by conversation generating AI systems like ChatGPT for example, and we’re only just now exploring the potential applications for these new powerful systems in library work.   
 
@@ -206,7 +205,7 @@ It’s good to get in the habit of trying out (see our hands-on activity below f
 
 **Named Entity Recognition (NER)** is a text analysis process within NLP that helps turn unstructured text into structured text. A sentence or a chunk of text is parsed through to find entities that can be put under categories like names, organisations, locations, quantities, monetary values, percentages, etc.
 
-![](images/NER.png)
+![Screenshot of a named entity recognition software text editor displaying a paragraph of text with words highlighted with identified entity descriptions](images/NER.png)
 
 <br/>In the library world it can be used as part of a process to understand what subjects (people, places, concepts) are contained within a digitised text and help us enhance our catalogue records for items or search functionality. There is a very nicely outlined use case here of how the [United States Holocaust Memorial Museum used NER](https://blog.ehri-project.eu/2018/08/27/named-entity-recognition/) to automatically extract person names and location from Oral History Transcript to improve indexing and search in their catalogue.
 
@@ -241,7 +240,7 @@ We can use computer vision to train models to automatically analyse and understa
 
 In the library world we can use this to label millions of images with descriptive metadata ("this is a picture of a cat"), or, as we see below, a model can be trained to classify this image as a newspaper based on objects identified in the layout (for example, a nameplate for the newspaper, a headline, photographs, and illustrations and so on). The model learns how to identify that this is the NYT based on learning from other newspaper images it’s seen (for example, if given NY Tribune, NY Times, and NY Post images, it can distinguish between the various titles).
 
-![](images/CV.png)
+![Screenshot of two pages of newspaper with different objects on each page highlighted with a description and a probability chart showing what newspaper it could be based on those objects](images/CV.png)
 
 ### Putting it altogether: ML + CV + NLP 
 
@@ -317,7 +316,7 @@ The following workshop [Exploring Hands-on AI](https://cdsleiden.github.io/explo
 * The AI4LAM community maintains an excellent curated list, [Awesome AI for LAM](https://github.com/AI4LAM/awesome-ai4lam
 ), of resources, projects, and tools for using Artificial Intelligence in Libraries, Archives, and Museums.
 
-[![Watch the video](images/YouTube.png)](https://www.youtube.com/embed/CrCP5rYai9M?si=A9kw93B_TvOoDFnV)
+[![Video lecture entitled New Digital Frontiers  – AI & Machine Learning in Libraries from the Digital Shift Forum](images/YouTube.png)](https://www.youtube.com/embed/CrCP5rYai9M?si=A9kw93B_TvOoDFnV)
 
 There are of course untold numbers of lists out there with resources for learning more about AI & Machine Learning but I think this particular guide is exceptionally useful in its coverage and topics selected, particularly as they are quite specifically for Librarians: [Add'tl Reading for Librarians & Faculty - Using AI Tools in Your Research - Research Guides at Northwestern University](https://libguides.northwestern.edu/ai-tools-research/librarians)
 
