@@ -99,6 +99,7 @@ Beyond text, Computer Vision enables creation of descriptive metadata for visual
 Semantic segmentation in an exciting frontier where Computer Vision can be of use for identifying and categorising distinct elements within maps, such as roads, buildings, water bodies, and land use regions. By using CNNs and U-Net architectures, models partition maps into meaningful segments, allowing for detailed analysis and improved usability. This supports historical research, geographic analysis, and so on, by extracting structured data from cartographic sources.
 
 For example, [JADIS](https://bnf-jadis.github.io/#), developed by the National Library of France, is a tool designed for semantically segmented, georeferenced, and geocoded maps of Paris.
+
 ![A vintage map of Paris from 1834 is displayed via JADIS interface, showing streets, buildings, and the Seine River, with navigation and layer options visible on the right.](images/c-v_JADIS.jpg)
 
 Similarly, [MapReader](https://mapreader.readthedocs.io/en/v1.1.1/index.html), an outcome of the [Living with Machines](https://livingwithmachines.ac.uk/) project, offers a Computer Vision pipeline for analysing large collections of historical maps.
