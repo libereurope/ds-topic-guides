@@ -505,14 +505,14 @@
     "href": "contributing.html#help-us-with-our-wishlist",
     "title": "Contribute to our Project",
     "section": "Help us with our wishlist!",
-    "text": "Help us with our wishlist!\nContribute a new Topic Guide (individually or in collaboration with others). Choose from our current wishlist or propose a new one. Contact digitalresearch@bl.uk with your idea or submit an Issue and we’ll help you get started right away!\n\nNOTE: Our current wishlist for future editions includes but is not limited to topics such as:\n\nClimate Change and Sustainability\nCultural Competency & Ethics in Digital Methods\nDemystifying Computational Environments for Digital Scholarship\nDigital Scholarship/Data Science Project Management, Evaluation and Impact Assessment\nDigital Storytelling\nFoundation models: When and why to use LLMs or SLMs\nResearch Data Management\nWikimedia"
+    "text": "Help us with our wishlist!\nContribute a new DSTopic Guide (individually or in collaboration with others). Choose from our current wishlist or propose a new one. Contact digitalresearch@bl.uk with your idea or submit an Issue and we’ll help you get started right away!\n\nNOTE: Our current wishlist for future editions includes but is not limited to topics such as:\n\nClimate Change and Digital Sustainability\nCultural Competency & Ethics in Digital Methods\nDemystifying Computational Environments for Digital Scholarship\nDigital Scholarship/Data Science Project Management, Evaluation and Impact Assessment\nDigital Storytelling\nWikimedia Foundation Projects"
   },
   {
-    "objectID": "contributing.html#suggest-edits-to-an-existing-topic-guide",
-    "href": "contributing.html#suggest-edits-to-an-existing-topic-guide",
+    "objectID": "contributing.html#suggest-edits-to-an-existing-ds-topic-guide",
+    "href": "contributing.html#suggest-edits-to-an-existing-ds-topic-guide",
     "title": "Contribute to our Project",
-    "section": "Suggest edits to an existing Topic Guide",
-    "text": "Suggest edits to an existing Topic Guide\nKnow of a good case study, report or community of practice that LIBER members should know about? Open a new Issue or add to the discussion on existing Issues on the project Github. If you’re new to GitHub don’t worry, we have a Topic Guide for that: GitHub: How to navigate and contribute to Git-based projects!"
+    "section": "Suggest edits to an existing DS Topic Guide",
+    "text": "Suggest edits to an existing DS Topic Guide\nKnow of a good case study, report or community of practice that LIBER members should know about? Open a new Issue or add to the discussion on existing Issues on the project Github. If you’re new to GitHub don’t worry, we have a Topic Guide for that: GitHub: How to navigate and contribute to Git-based projects!"
   },
   {
     "objectID": "contributing.html#join-a-working-group-and-help-with-ongoing-maintenance-and-review",
