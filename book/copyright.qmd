@@ -286,7 +286,7 @@ This guide contains a ton of resources for learning about copyright but for some
 
 On February 26 2025, the LIBER Copyright & Legal Matters Working Group hosted a webinar to explore the implications of the AI Act for scientific libraries and how they can prepare for its implementation. The session aimed to provide the attendees with a deeper understanding of the AI Act and you can watch it here:
 
-[![Watch the video](images/YouTubeCopyright.png)](https://www.youtube.com/embed/UZl2_MXybYw?si=HJ8uQehkB7H0nrvV)
+[![A LIBER produced video lecture on AI Regulation and Licensing Contracts: A Webinar on Navigating the Legal Landscape](images/YouTubeCopyright.png)](https://www.youtube.com/embed/UZl2_MXybYw?si=HJ8uQehkB7H0nrvV)
 
 Copyright and AI is a constantly moving area and it can be hard to keep up with the latest developments but we can recommend following the [The IPKat (ipkitten.blogspot.com)](https://ipkitten.blogspot.com/) and [Kluwer Copyright Blog (kluweriplaw.com)](https://copyrightblog.kluweriplaw.com/) and [News from the LIBER Copyright & Legal Matters Working Group](https://libereurope.eu/working-group/liber-copyright-legal-matters-working-group/news/) for excellent updates.
 
