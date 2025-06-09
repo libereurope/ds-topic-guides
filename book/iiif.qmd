@@ -92,7 +92,7 @@ The virtual reconstruction of this damaged manuscript from Châteauroux in Franc
 
 I highly recommend having a play around with the [Mirador Viewer: Châteauroux demo](https://demos.biblissima.fr/chateauroux/demo/).
 
-## Hands-on activity and other self-guided tutorial(s)
+## Hands-on activity/self-guided tutorial(s)
 
 The following tutorials are two of my favourite recommendations for colleagues interested in having a play with IIIF manifests yourself and in the process gaining a practical understanding of how they work, and the benefits!
 
