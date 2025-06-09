@@ -145,7 +145,7 @@ This example shows how to use Wikidata, a community-driven approach based on the
 
 ![A screenshot of a Wikidata-generated infobox for the Khalili section of the Jami’ al-Tawarikh](images/Lod4.jpg)
 
-## Hands-on activity and other self-guided tutorial(s) 
+## Hands-on activity/self-guided tutorial(s)
 
 As part of my National Research Librarian’s fellowship at National Library of Scotland exploring the adoption of Semantic Web technologies to transform, enrich and assess the Data Foundry’s digital collections, I created [a collection of Jupyter Notebooks](https://github.com/NLS-Digital-Scholarship/nls-fellowship-2022-23) that enables users to:
 
