@@ -92,7 +92,7 @@ In the recommended reading section of this *DS Topic Guide* we have linked to a 
 * Digital scholars are, today, using technology in innovative ways, expectations have already changed, they’re seeking access at scale to our collections for computational analysis, they're using Generative AI to ask their research questions, we need to understand these technologies to understand how the nature of archival enquiry is changing
 * Cultural heritage digital collections are only going to grow and we need the digital skills to work confidently with them at scale
 
-## Hands-on activity and other self-guided tutorial(s)
+## Hands-on activity/self-guided tutorial(s)
 
 Each *DS Topic Guide* on this site includes a range of specific hands-on activities and other self-guided tutorials colleagues across Europe personally recommend. When you’re ready to go further and have a better idea of the specific skills you need for a particular task, we can recommend having a good search through these excellent platforms which host or link to a great many in-depth training materials:
 
