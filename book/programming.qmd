@@ -78,7 +78,7 @@ The British Library, The National Archives and Birkbeck University in the UK par
 
 The [code4lib](https://code4lib.org/) journal publishes many articles with case studies on applications in library contexts.
 
-## Hands-on activity and other self-guided tutorial(s)
+## Hands-on activity/self-guided tutorial(s)
 
 Starting any of these tutorials requires somewhere to write code. This will likely either be in an Integrated Development Environment (IDE), a code editing program that has lots of helpful features for writing and running code, or a tool that runs in-browser. Which you choose is influenced by personal taste and whether institutional IT restrictions allow installing software on your computer. If you can install software on your laptop then the tutorials below will contain all the information needed. If not then we have tried to include options that work in-browser without installing anything.
 
