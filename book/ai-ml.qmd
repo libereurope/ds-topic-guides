@@ -1,5 +1,6 @@
 ---
 title: "AI & Machine Learning in Libraries"
+subtitle: "Digital Scholarship and Data Science Topic Guides for Library Professionals"
 date: 2025-05-13
 date-modified: 2025-05-13
 doi: https://doi.org/10.23636/vn89-g618
@@ -37,7 +38,7 @@ keywords:
 license: "CC BY 4.0"
 
 format:
-  pdf: default
+  pdf: default   
   html: default
 ---
 ## Introduction 
