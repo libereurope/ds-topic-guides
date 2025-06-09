@@ -167,7 +167,7 @@ Eventually, a computer system will come to the end of its life and need replacin
 
 Sometimes, circumstances change around a system. It might be that requirements change, or an organisation finds itself doing something new. An API is a kind of insurance policy in these circumstances. It potentially allows you to extend the functionality of a system to meet new challenges. These might be something you need to do continuously, or just once. For example, you might want to bulk update the classification of some books. With an API you could write a program that would go through your collection, look for matching criteria and update accordingly. By always having access to your own data via an API, you have the insurance of being able to react flexibly if circumstances change.
 
-## Hands-on activity and other self-guided tutorial(s)
+## Hands-on activity/self-guided tutorial(s)
 
 Let’s try a few real-world examples of getting information from an API as this is the easiest way to understand the process.
 
