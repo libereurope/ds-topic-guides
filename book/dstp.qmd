@@ -45,7 +45,7 @@ To understand the importance of supporting the development of digital skills in 
 
 But what are the benefits in particular of establishing a local training programme or building a community of practice for staff in your institution? By far the most compelling argument we've found is that by creating a welcoming space, and some structure, where colleagues can regularly come together, explore new ideas and share knowledge, a culture of continuous learning has thrived. This makes keeping up with the latest developments in digital scholarship and data science applications  much easier.  
 
-## Hands-on activity and other self-guided tutorial(s)
+## Hands-on activity/self-guided tutorial(s)
 
 If you've been thinking about getting your own local training programme up and running, whether a small casual interest group or a full-blown digital transformation initiative, the following practical steps can be used to help you on your way!
 
