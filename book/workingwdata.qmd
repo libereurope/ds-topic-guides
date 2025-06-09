@@ -1,5 +1,6 @@
 ---
 title: "Working with Data"
+subtitle: "A LIBER Digital Scholarship & Data Science Topic Guide for Library Professionals"
 date: 2025-05-21
 date-modified: 2025-05-21
 doi: 10.23636/vn89-g618
