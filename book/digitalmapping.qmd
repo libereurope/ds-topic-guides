@@ -73,7 +73,7 @@ If the previous example illustrates how geolocated data can help study editions 
 
 Finally, digital mapping can be used for digital storytelling, narrating stories related to places such as with [Curiocity](https://curiocity.nlb.gov.sg/) by the National Library of Singapore. The library has curated, along with the National Archives, stories related to places in Singapore, mixing maps and photographs to explore their past and present cultural significance.
 
-## Hands-on activity and other self-guided tutorial(s) 
+## Hands-on activity/self-guided tutorial(s)
 
 Here are some helpful tools that can be used to begin digital mapping. They are divided by typology: web-based, software, and coding-based. Some are designed specifically for humanities and cultural heritage collections data while others are designed for more generic geospatial data. Most have great documentation and tutorials available.
 
