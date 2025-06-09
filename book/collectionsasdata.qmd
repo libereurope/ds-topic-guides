@@ -68,7 +68,7 @@ More advanced approaches are focused on the concept of data spaces, which are ne
 
 It is important to note that institutions need to carefully consider how and for what purpose they want to publish their digital content. For instance, the National Library of the Netherlands has recently [restricted access to collections for training commercial AI](https://www.kb.nl/en/news/kb-restricts-access-to-collections-for-training-commercial-ai). See our [*DS Topic Guide* on Copyright and Licensing](copyright.qmd) for more on that.
 
-## Hands-on activity and other self-guided tutorial(s)
+## Hands-on activity/self-guided tutorial(s)
 
 One simple activity you could do at your institution is to gather a group of like-minded colleagues together and have a read through [Fifty things](https://collectionsasdata.github.io/fiftythings/), [Vancouver Statement on Collections as data](https://zenodo.org/records/8342166) and/or [A Checklist to Publish Collections as Data in GLAM Institutions](https://glamlabs.io/checklist/) and have a look at some of the case studies above, and as a group consider the questions:  
 
