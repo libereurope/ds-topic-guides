@@ -1,5 +1,6 @@
 ---
 title: "Supporting Open Research (Open Science)"
+subtitle: "A LIBER Digital Scholarship & Data Science Topic Guide for Library Professionals"
 date: 2025-02-10
 date-modified: 2025-02-10
 doi: 10.23636/vn89-g618
