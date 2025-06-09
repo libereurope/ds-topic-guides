@@ -74,7 +74,7 @@ There’s also huge value in making visualisations like this available in physic
 You can explore other use cases in this [helpful list](https://web.archive.org/web/20241010180405/https://libguides.umn.edu/c.php?g=921727&p=6642990) from the University of Minnesota Libraries. They've catalogued library specific resources for a range of use cases like the teaching, evaluation, and history of data visualisation in libraries. 
 
 
-## Hands-on activity and other self-guided tutorial(s)
+## Hands-on activity/self-guided tutorial(s)
 The best way to understand the value of data visualisations is to produce them for your datasets. Here are a few tools you can plug datasets into, organised by type and the skills needed to use them.  
 
 ### Immediate results
