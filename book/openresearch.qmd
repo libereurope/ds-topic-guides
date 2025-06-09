@@ -177,7 +177,7 @@ Some institutions may find that creating institutional platforms, such as a repo
 
 Many more ideas and suggestions can be found in the [Implementing Open Access Guide](https://open-access.network/en/information/policy-frameworks/implementing-open-access#c7515) published by the Open Access Network, such as having a fund for OA publishing, adopting an OA policy and integrating open practices in repositories.
 
-## Hands-on activity and other self-guided tutorial(s)  
+## Hands-on activity/self-guided tutorial(s)
 
 [Skills4EOSC](https://www.skills4eosc.eu/) is an EU funded project that started in 2022 and offers "a comprehensive training program designed to equip researchers, data stewards, and other stakeholders with essential skills for navigating the evolving landscape of Open Science and the European Open Science Cloud (EOSC)"". Some training is asynchronous and you can enroll yourself at any time such as [Learning path for (data) librarians: Technical skills are the bridge to reproducible research](https://learning.skills4eosc.eu/enrol/index.php?id=47).
 
