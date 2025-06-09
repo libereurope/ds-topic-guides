@@ -16,7 +16,6 @@ author:
 secondary-authors:
   - name: 
       literal: Stephen McGregor
-    orcid: 0000-0001-6560-5586
     email: semcgregor@hotmail.com
     url: https://www.tenfive.ai
   - name: 
