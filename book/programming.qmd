@@ -1,5 +1,6 @@
 ---
 title: "Programming for Librarians: Where to begin"
+subtitle: "A LIBER Digital Scholarship & Data Science Topic Guide for Library Professionals"
 date: 2025-05-14
 date-modified: 2025-05-14
 doi: 10.23636/vn89-g618
