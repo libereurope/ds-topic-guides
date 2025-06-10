@@ -40,8 +40,9 @@ secondary-authors:
 abstract: > 
   A short guide explaining how libraries can get started in supporting Open Research (Open Science).
 keywords:
-  - TBD
-  - TBD
+  - Open Science
+  - Open Research
+  - Fair
 license: "CC BY 4.0"
 
 format:
