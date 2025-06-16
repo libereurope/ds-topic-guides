@@ -3,7 +3,7 @@ title: "Linked Open Data in Library Use Today"
 subtitle: "A LIBER Digital Scholarship & Data Science Topic Guide for Library Professionals"
 date: 2025-05-20
 date-modified: 2025-05-20
-doi: 10.23636/vn89-g618
+doi: 10.23636/aftn-ah80
 author:
   - name: Gustavo Candela
     orcid: 0000-0001-6122-0777
