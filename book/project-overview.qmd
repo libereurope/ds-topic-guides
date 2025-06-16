@@ -52,9 +52,10 @@ The provision of these valuable resources remains fragmented online and across i
 
 The site and content are maintained by the Co-Chairs and select Members of the collaborating WGs listed here who act as the core project delivery team and editors of this resource.
 
+[Nora McGregor](https://libereurope.eu/member/nora-mcgregor/), Managing Editor & Site Maintainer [DSDCH](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/) 
+
 [Jodie Double](https://libereurope.eu/member/jodie-double/), Editor [DSDCH](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/)  
 [Péter Király](https://libereurope.eu/member/peter-kiraly-phd/), Editor [DSLib](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/)  
-[Nora McGregor](https://libereurope.eu/member/nora-mcgregor/), Editor & Site Maintainer [DSDCH](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/)  
 [Peter Verhaar](https://libereurope.eu/member/peter_verhaar/), Editor [DSLib](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/)
 
 ## Community Contributors 
@@ -68,8 +69,3 @@ The project team would like to thank all of our LIBER working group members who 
 ## Contact us
 
 If you’d like to ask a question of the project team you can please send an email to Nora McGregor, [nora.mcgregor@bl.uk](mailto:nora.mcgregor@bl.uk) or any of Co-Chairs and select Members of the collaborating WGs listed here who act as the core project delivery team and editors of this resource.
-
-[Jodie Double](https://libereurope.eu/member/jodie-double/), Editor [DSDCH](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/)  
-[Péter Király](https://libereurope.eu/member/peter-kiraly-phd/), Editor [DSLib](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/)  
-[Nora McGregor](https://libereurope.eu/member/nora-mcgregor/), Editor [DSDCH](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/)  
-[Peter Verhaar](https://libereurope.eu/member/peter_verhaar/), Editor [DSLib](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/)
