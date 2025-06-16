@@ -3,7 +3,7 @@ title: "APIs: A starter guide for Librarians"
 subtitle: "A LIBER Digital Scholarship & Data Science Topic Guide for Library Professionals"
 date: 2025-05-20
 date-modified: 2025-05-20
-doi: 10.23636/vn89-g618
+doi: 10.23636/e7za-7h66
 author:
   - name: Liam Green-Hughes
     orcid: 0000-0002-3852-5879
