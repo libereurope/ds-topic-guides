@@ -3,7 +3,7 @@ title: "Computer Vision"
 subtitle: "A LIBER Digital Scholarship & Data Science Topic Guide for Library Professionals"
 date: 2025-06-08
 date-modified: 2025-06-08
-doi: 10.23636/vn89-g618
+doi: 10.23636/veqt-j257
 author:
   - name: Greete Veesalu
     orcid: 0009-0002-6742-1873
