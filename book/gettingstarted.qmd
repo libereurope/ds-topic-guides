@@ -3,7 +3,7 @@ title: "Getting Started in DS"
 subtitle: "A LIBER Digital Scholarship & Data Science Topic Guide for Library Professionals"
 date: 2025-05-13
 date-modified: 2025-05-13
-doi: 10.23636/vn89-g618
+doi: 10.23636/7ng1-9q16
 author:
   - name: Nora McGregor
     orcid: 0000-0001-6560-5586
