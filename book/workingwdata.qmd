@@ -3,7 +3,7 @@ title: "Working with Data"
 subtitle: "A LIBER Digital Scholarship & Data Science Topic Guide for Library Professionals"
 date: 2025-05-21
 date-modified: 2025-05-21
-doi: 10.23636/vn89-g618
+doi: 10.23636/dcq9-yx75
 author:
   - name: Niamh Malin
     orcid: 0000-0002-4735-2113
