@@ -3,7 +3,7 @@ title: "Supporting Open Research (Open Science)"
 subtitle: "A LIBER Digital Scholarship & Data Science Topic Guide for Library Professionals"
 date: 2025-06-10
 date-modified: 2025-06-10
-doi: 10.23636/vn89-g618
+doi: 10.23636/j32r-mf33
 author:
   - name: Eleonora Gandolfi
     orcid: 0000-0001-8544-1670
