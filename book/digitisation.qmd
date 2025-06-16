@@ -3,7 +3,7 @@ title: "Digitisation: Imaging, 3D and RTI"
 subtitle: "A LIBER Digital Scholarship & Data Science Topic Guide for Library Professionals"
 date: 2025-03-25
 date-modified: 2025-03-25
-doi: 10.23636/vn89-g618
+doi: 10.23636/bbsp-4r12
 author:
   - name: Andy Corrigan
     orcid: 0000-0002-3896-2489
