@@ -3,7 +3,7 @@ title: "AI & Machine Learning in Libraries"
 subtitle: "A LIBER Digital Scholarship & Data Science Topic Guide for Library Professionals"
 date: 2025-05-13
 date-modified: 2025-05-13
-doi: https://doi.org/10.23636/vn89-g618
+doi: https://doi.org/10.23636/a1ye-3a47
 author:
   - name: Nora McGregor
     orcid: 0000-0001-6560-5586
