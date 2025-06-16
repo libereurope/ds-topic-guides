@@ -3,7 +3,7 @@ title: "Data Visualisation"
 subtitle: "A LIBER Digital Scholarship & Data Science Topic Guide for Library Professionals"
 date: 2025-01-28
 date-modified: 2025-01-28
-doi: 10.23636/vn89-g618
+doi: 10.23636/wr4x-2g59
 author:
   - name: Harry Lloyd
     orcid: 0009-0009-3519-171X
