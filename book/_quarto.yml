@@ -14,12 +14,7 @@ website:
   repo-url: https://github.com/libereurope/ds-topic-guides/
   repo-subdir: book
   repo-actions: [source, issue] 
-  announcement: 
-    icon: info-circle
-    dismissable: true
-    content: "**Currently under construction** - we're hard at work finalising the content of _DS Topic Guides_ ahead of our July 4 launch at the LIBER Annual 2025 conference! Stay tuned!"
-    type: light
-    position: below-navbar
+  
     
   navbar:
     background: primary
