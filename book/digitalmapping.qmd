@@ -3,7 +3,7 @@ title: "Digital Mapping"
 subtitle: "A LIBER Digital Scholarship & Data Science Topic Guide for Library Professionals"
 date: 2025-01-27
 date-modified: 2025-01-27
-doi: 10.23636/vn89-g618
+doi: 10.23636/kk5z-aj21
 author:
   - name: Valentina Vavassori
     orcid: 0000-0003-1130-642X
