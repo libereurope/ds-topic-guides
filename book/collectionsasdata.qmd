@@ -3,7 +3,7 @@ title: "Collections as Data: Getting Started"
 subtitle: "A LIBER Digital Scholarship & Data Science Topic Guide for Library Professionals"
 date: 2024-06-04
 date-modified: 2025-02-10
-doi: 10.23636/vn89-g618
+doi: 10.23636/c3h4-yw41
 author:
   - name: Gustavo Candela
     orcid: 0000-0001-6122-0777
