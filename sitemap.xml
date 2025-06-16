@@ -1,103 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://libereurope.github.io/ds-topic-guides/api.html</loc>
-    <lastmod>2025-06-11T09:29:05.032Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-topic-guides/atr.html</loc>
-    <lastmod>2025-06-11T09:29:05.032Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-topic-guides/index.html</loc>
-    <lastmod>2025-06-11T09:29:05.091Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-topic-guides/crowdsourcing.html</loc>
-    <lastmod>2025-06-11T09:29:05.033Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-topic-guides/digitalmapping.html</loc>
-    <lastmod>2025-06-11T09:29:05.033Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-topic-guides/programming.html</loc>
-    <lastmod>2025-06-11T09:29:05.093Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-topic-guides/dstp.html</loc>
-    <lastmod>2025-06-11T09:29:05.034Z</lastmod>
-  </url>
-  <url>
     <loc>https://libereurope.github.io/ds-topic-guides/licensing.html</loc>
-    <lastmod>2025-06-11T09:29:05.091Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-topic-guides/collectionsasdata.html</loc>
-    <lastmod>2025-06-11T09:29:05.032Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-topic-guides/topicguides.html</loc>
-    <lastmod>2025-06-11T09:29:05.094Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-topic-guides/contributing.html</loc>
-    <lastmod>2025-06-11T09:29:05.033Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-topic-guides/project-overview.html</loc>
-    <lastmod>2025-06-11T09:29:05.094Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-topic-guides/iiif.html</loc>
-    <lastmod>2025-06-11T09:29:05.034Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-topic-guides/dataviz.html</loc>
-    <lastmod>2025-06-11T09:29:05.033Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-topic-guides/guidelines.html</loc>
-    <lastmod>2025-06-11T09:29:05.034Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-topic-guides/ai-ml.html</loc>
-    <lastmod>2025-06-11T09:29:05.032Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-topic-guides/lod.html</loc>
-    <lastmod>2025-06-11T09:29:05.091Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-topic-guides/openresearch.html</loc>
-    <lastmod>2025-06-11T09:29:05.093Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-topic-guides/computer-vision.html</loc>
-    <lastmod>2025-06-11T09:29:05.032Z</lastmod>
-  </url>
-  <url>
-    <loc>https://libereurope.github.io/ds-topic-guides/digitisation.html</loc>
-    <lastmod>2025-06-11T09:29:05.034Z</lastmod>
+    <lastmod>2025-06-16T08:30:13.658Z</lastmod>
   </url>
   <url>
     <loc>https://libereurope.github.io/ds-topic-guides/gettingstarted.html</loc>
-    <lastmod>2025-06-11T09:29:05.034Z</lastmod>
+    <lastmod>2025-06-16T08:30:13.605Z</lastmod>
   </url>
   <url>
-    <loc>https://libereurope.github.io/ds-topic-guides/github.html</loc>
-    <lastmod>2025-06-11T09:29:05.034Z</lastmod>
+    <loc>https://libereurope.github.io/ds-topic-guides/digitisation.html</loc>
+    <lastmod>2025-06-16T08:30:13.605Z</lastmod>
   </url>
   <url>
-    <loc>https://libereurope.github.io/ds-topic-guides/copyright.html</loc>
-    <lastmod>2025-06-11T09:29:05.033Z</lastmod>
+    <loc>https://libereurope.github.io/ds-topic-guides/api.html</loc>
+    <lastmod>2025-06-16T08:30:13.604Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-topic-guides/index.html</loc>
+    <lastmod>2025-06-16T08:30:13.658Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-topic-guides/topicguides.html</loc>
+    <lastmod>2025-06-16T08:30:13.660Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-topic-guides/iiif.html</loc>
+    <lastmod>2025-06-16T08:30:13.606Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-topic-guides/crowdsourcing.html</loc>
+    <lastmod>2025-06-16T08:30:13.605Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-topic-guides/dstp.html</loc>
+    <lastmod>2025-06-16T08:30:13.605Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-topic-guides/openresearch.html</loc>
+    <lastmod>2025-06-16T08:30:13.660Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-topic-guides/atr.html</loc>
+    <lastmod>2025-06-16T08:30:13.604Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-topic-guides/contributing.html</loc>
+    <lastmod>2025-06-16T08:30:13.604Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-topic-guides/guidelines.html</loc>
+    <lastmod>2025-06-16T08:30:13.606Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-topic-guides/programming.html</loc>
+    <lastmod>2025-06-16T08:30:13.660Z</lastmod>
   </url>
   <url>
     <loc>https://libereurope.github.io/ds-topic-guides/workingwdata.html</loc>
-    <lastmod>2025-06-11T09:29:05.094Z</lastmod>
+    <lastmod>2025-06-16T08:30:13.660Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-topic-guides/lod.html</loc>
+    <lastmod>2025-06-16T08:30:13.658Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-topic-guides/project-overview.html</loc>
+    <lastmod>2025-06-16T08:30:13.660Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-topic-guides/computer-vision.html</loc>
+    <lastmod>2025-06-16T08:30:13.604Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-topic-guides/ai-ml.html</loc>
+    <lastmod>2025-06-16T08:30:13.604Z</lastmod>
   </url>
   <url>
     <loc>https://libereurope.github.io/ds-topic-guides/template.html</loc>
-    <lastmod>2025-06-11T09:29:05.094Z</lastmod>
+    <lastmod>2025-06-16T08:30:13.660Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-topic-guides/digitalmapping.html</loc>
+    <lastmod>2025-06-16T08:30:13.605Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-topic-guides/github.html</loc>
+    <lastmod>2025-06-16T08:30:13.606Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-topic-guides/collectionsasdata.html</loc>
+    <lastmod>2025-06-16T08:30:13.604Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-topic-guides/dataviz.html</loc>
+    <lastmod>2025-06-16T08:30:13.605Z</lastmod>
+  </url>
+  <url>
+    <loc>https://libereurope.github.io/ds-topic-guides/copyright.html</loc>
+    <lastmod>2025-06-16T08:30:13.604Z</lastmod>
   </url>
 </urlset>
