@@ -85,7 +85,10 @@ Starting any of these tutorials requires somewhere to write code. This will like
 
 ### Python Tutorials
 The tutorials below recommend local installs of Python. If this isn't possible you can try [Google Colab](https://colab.research.google.com/), a 'notebook' style interface, or this [online IDE](https://www.onlineide.pro/playground/python), for an IDE interface. Notebooks use different blocks of code called cells that can be run individually, and are good for experimentation. IDEs run an entire code file each time, and are better for reproducibility and larger code projects.
-* The [Bits and Bots study group](https://openpreservation.org/blogs/study-group-bits-and-bots-here-we-go-again/) is an excellent place to begin to get to grips with Python in a playful way. The study group was founded by professionals in digital preservation Francesca Mackenzie (National Archives UK), Lotte Wijsman, and Susanne van den Eijkel (National Archives of the Netherlands) who realised that a basic level of technical skills can significantly enhance their work in archives. You can join their study group when it's running or just follow along with the course materials on their project github at your own pace:
+
+* The [Bits and Bots study group](https://openpreservation.org/blogs/study-group-bits-and-bots-here-we-go-again/) is an excellent place to begin to get to grips with Python in a playful way. The study group was founded by professionals in digital preservation Francesca Mackenzie (National Archives UK), Lotte Wijsman, and Susanne van den Eijkel (National Archives of the Netherlands) who realised that a basic level of technical skills can significantly enhance their work in archives. 
+You can join their study group when it's running or just follow along with the course materials on their project github at your own pace:
+
     - [Guide to building games with Python Modules 1-8. pdf](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2024/Python_recources/Python%20Guide%20-%20modules%201%20-%208.pdf)
     - [Guide to Website/Twine Based Games Modules 1-8.pdf](https://github.com/Lotte-W/Bits-and-Bots-study-group/blob/main/2024/front-end_resources/HTML_Twine%20Guide%20-%20modules%201-8.pdf) 
 
