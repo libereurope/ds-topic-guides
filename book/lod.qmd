@@ -63,10 +63,10 @@ In a [2020 survey](https://libereurope.eu/article/linked-open-data-impressions-c
 
 |   **Name of the Dataset**   | **Description** |
 |---|---|
-| **[GeoNames](geonames.org)** | Contains over 25 million geographical names and consists of over 11 million unique features whereof 4.8 million populated places and 13 million alternate names. |
-| **[ISNI](isni.org)**        | ISNI is an identifier for uniquely identifying the public identities of contributors (both individuals and groups) to creative works.| 
-| **[VIAF](viaf.org)**        | OCLC's Virtual Authority file (VIAF), an aggregation of multiple authority files from different countries and regions.| 
-| **[Wikidata](wikidata.org)**  | Wikidata is a free and open knowledge base that can be read and edited by both humans and machines. Wikidata acts as central storage for the structured data of its Wikimedia sister projects including Wikipedia, Wikisource and others.|    
+| **[GeoNames](https://www.geonames.org/ontology/documentation.html)** | Contains over 25 million geographical names and consists of over 11 million unique features whereof 4.8 million populated places and 13 million alternate names. |
+| **[ISNI](https://isni.org/)**        | ISNI is an identifier for uniquely identifying the public identities of contributors (both individuals and groups) to creative works.| 
+| **[VIAF](https://viaf.org)**        | OCLC's Virtual Authority file (VIAF), an aggregation of multiple authority files from different countries and regions.| 
+| **[Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page)**  | Wikidata is a free and open knowledge base that can be read and edited by both humans and machines. Wikidata acts as central storage for the structured data of its Wikimedia sister projects including Wikipedia, Wikisource and others.|    
 
 
 There are many more datasets that can be used depending on your needs (see [Linked Data Survey (oclc.org)](https://www.oclc.org/research/areas/data-science/linkeddata/linked-data-survey.html); some examples of advanced data models are [Bibliographic Framework (BIBFRAME)](https://www.loc.gov/bibframe/) and [Library Reference Model (LRM)](https://en.wikipedia.org/wiki/IFLA_Library_Reference_Model). In addition, the [lod-cloud](https://lod-cloud.net/) provides more than one thousand LOD repositories classified by categories and based on different domains such as geography and government.  
