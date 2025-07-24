@@ -11,7 +11,7 @@ Each _DS Topic Guide_ follows a distinct structure, beginning with a Header Sect
 
 ### Front Matter
 
-This [markdown template](template.qmd) shows an example of what information is required for the header, and how each section should be formatted and can be used as the basis for starting a new guide. Note: The project team will ensure each_DS Topic Guide_ is given an individual DOI through Zenodo once published. 
+This [markdown template](https://github.com/libereurope/ds-topic-guides/blob/main/book/template.qmd) shows an example of what information is required for the header, and how each section should be formatted and can be used as the basis for starting a new guide. Note: The project team will ensure each_DS Topic Guide_ is given an individual DOI once published. 
 
 ### I: Introduction to the topic 
 This section should provide a concise overview of the topic, written in a relaxed and natural way. It does not need to contain the world’s knowledge, just enough high-level knowledge to get the key concepts across. It should be pitched at a beginner/foundational level.
