@@ -1,26 +1,17 @@
 name: Submission Tracker
 description: Submit a new Topic Guide idea to DS Topic Guides.
-title: "[SUBMISSION]: "
+title: "New Submission: [Please insert your draft Topic Guide Title here]"
 labels: 'new Topic Guide submission/suggestion'
 body:
   - type: markdown
     attributes:
       value: |
-        Thank you for your interest in contributing to DS Topic Guides! Please use this template to submit your Topic Guide idea to the editorial team for consideration.  
-  - type: textarea
-    id: title
-    attributes:
-      label: Draft Title
-      description: Please provide here a draft title for your Topic Guide
-      placeholder: Title of the Topic Guide.
-      value: <insert title here>
-    validations:
-      required: true
-  - type: textarea
+        Thank you for your interest in contributing to DS Topic Guides! Please use this issue template to submit your Topic Guide proposal to the editorial team for consideration. Replace the text in brackets above with your Topic Guide title.  
+   - type: textarea
     id: summary
     attributes:
       label: Topic Guide Proposal (Summary)
-      description: Please briefly describe your Topic Guide idea including the new Topic Guide's purpose and relevance to the work of library professionals.
+      description: Please briefly describe your Topic Guide idea here including the new Topic Guide's purpose and relevance to the work of library professionals.
       placeholder: Summary of the Topic Guide.
       value: <insert summary here>
     validations:
@@ -28,8 +19,8 @@ body:
   - type: textarea
     id: contributors
     attributes:
-      label: Contributors
-      description: Please specify the full names, emails, Institution, and ORCID iDs of contributors to the Topic Guide.
+      label: Contributors Details
+      description: Please specify the full name, email, Institution, and ORCID iDs of contributors to the Topic Guide.
       placeholder: Contributors to the Topic Guide.
       value: 
     validations:
@@ -56,7 +47,7 @@ body:
     id: submission-checklist
     attributes:
       label: Submission Method
-      description: Please select your preferred method for sharing your draft submission
+      description: Please select your preferred method for sharing your draft submission if accepted
       options:
         - label: Happy to fork this repository
         - label: Please send a google template
