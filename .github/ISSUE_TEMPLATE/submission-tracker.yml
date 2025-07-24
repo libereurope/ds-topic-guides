@@ -12,8 +12,8 @@ body:
     attributes:
       label: Topic Guide Proposal (Summary)
       description: Please briefly describe your Topic Guide idea here including the new Topic Guide's purpose and relevance to the work of library professionals.
-      placeholder: Summary of the Topic Guide.
-      value: <insert summary here>
+      placeholder: 
+      value: 
     validations:
       required: true
   - type: textarea
@@ -30,16 +30,16 @@ body:
     attributes:
       label: Submission Date
       description: Please specify the estimated date on which the first draft could be delivered.
-      placeholder: Estimated date of first draft submission.
+      placeholder: 
       value: 
     validations:
       required: true
   - type: textarea
     id: related-topics
     attributes:
-      label: Related Topics
+      label: Related DS Topics Guides
       description: Are there any existing Topic Guides that may relate to/be referenced to your Topic Guide?
-      placeholder: List any existing topic guides that may relate to/be referenced in some way.
+      placeholder: 
       value: 
     validations:
       required: true
@@ -59,7 +59,7 @@ body:
     attributes:
       label: Any other comments?
       description: Please use the following text area to include any other notes or comments for the editors.  
-      placeholder: Notes and Comments.
+      placeholder: 
       value: 
     validations:
       required: true
