@@ -28,8 +28,8 @@ body:
   - type: textarea
     id: liber-member
     attributes:
-      label: Are at least one of the author's from a LIBER institution at the time of writing? 
-      description: If not, we will pair you with a co-author from the LIBER network to ensure the European research library context is maintained. Please let us know if this is needed.
+      label: Is at least one Author from a LIBER Member institution at the time of writing? 
+      description: If not, we will pair you with a co-author from the LIBER network (https://libereurope.eu/liber-participants/) to ensure the European research library context is maintained. Please let us know if this is needed.
       placeholder: 
       value: 
     validations:
