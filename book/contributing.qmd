@@ -12,9 +12,9 @@ There are several ways to contribute to the ongoing update and future developmen
 
 Feel free to contact [Nora McGregor](mailto:digitalresearch@bl.uk) if you're keen to discuss!
 
-## Contribute a new [_DSTopic Guide_](topicguides.qmd) (individually or in collaboration with others). 
+## Contribute a new _DSTopic Guide_ 
 
-Choose from our current wishlist or propose a brand new one! Contact [digitalresearch@bl.uk](mailto:digitalresearch@bl.uk) with your idea or submit an [Issue](https://github.com/libereurope/ds-topic-guides/issues) by clicking on New Issue > Submission Tracker and we'll help you get started right away!
+Choose from our current wishlist or propose a brand new one! Contact [digitalresearch@bl.uk](mailto:digitalresearch@bl.uk) with your idea or submit a proposal by filling in our [**New Issue>Submission Tracker** Template](https://github.com/libereurope/ds-topic-guides/issues) and once your proposal is reviewed and approved we'll help you get started right away! Authors can submit using our [DS Topic Guide: [Template]](https://docs.google.com/document/d/154zvn1mhghAddNqW0gJvKp9E8u2VLU8krnPo1wtm_Mk/edit?usp=sharing) or by forking the repository and using our template. 
 
 > **_NOTE:_** Our current wishlist for future editions includes but is not limited to topics such as:
 >
