@@ -34,19 +34,6 @@ body:
       value: 
     validations:
       required: true
-  
-  
-  
-  
-  - type: input
-    id: submission-date
-    attributes:
-      label: Submission Date
-      description: Please specify the estimated date on which the first draft could be delivered.
-      placeholder: 
-      value: 
-    validations:
-      required: true
   - type: textarea
     id: related-topics
     attributes:
@@ -57,20 +44,14 @@ body:
     validations:
       required: true
 
-  
-  
-  
-  
-  
   - type: checkboxes
     id: submission-checklist
     attributes:
       label: Submission Method
       description: Please select your preferred method for sharing your draft submission if accepted
       options:
-        - label: Fork this repository, create a new guide using the existing MD template and submit a pull request (https://github.com/libereurope/ds-topic-guides/blob/main/book/template.qmd)
-        - label: Use the google template and submit via email
-        - label: No preference
+        - label: **GitHub**: Fork this repository, create a new guide using the existing [QMD template]((https://github.com/libereurope/ds-topic-guides/blob/main/book/template.qmd)) and submit a pull request 
+        - label: **Google Doc Template**: Complete the [DS Topic Guide: [Template] google doc](https://docs.google.com/document/d/154zvn1mhghAddNqW0gJvKp9E8u2VLU8krnPo1wtm_Mk/edit?usp=sharing) and submit via email 
     validations:
       required: true
   - type: textarea
