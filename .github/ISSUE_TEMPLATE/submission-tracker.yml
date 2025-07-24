@@ -37,8 +37,8 @@ body:
   - type: textarea
     id: related-topics
     attributes:
-      label: Related DS Topics Guides
-      description: Are there any existing Topic Guides that may relate to/be referenced to your Topic Guide?
+      label: Related DS Topic Guides
+      description: Are there any existing DS Topic Guides that may relate to/be referenced to your Topic Guide?
       placeholder: 
       value: 
     validations:
@@ -49,8 +49,8 @@ body:
       label: Submission Method
       description: Please select your preferred method for sharing your draft submission if accepted
       options:
-        - label: Happy to fork this repository
-        - label: Please send a google template
+        - label: Fork this repository, create a new guide using the existing MD template and submit a pull request (https://github.com/libereurope/ds-topic-guides/blob/main/book/template.qmd)
+        - label: Use the google template and submit via email
         - label: No preference
     validations:
       required: true
