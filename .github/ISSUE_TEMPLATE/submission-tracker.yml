@@ -19,8 +19,8 @@ body:
   - type: textarea
     id: contributors
     attributes:
-      label: Contributors Details
-      description: Please specify the full name, email, Institution, and ORCID iDs of contributors to the Topic Guide.
+      label: Author Details
+      description: Please specify the full Name, Email, Institution, and ORCID iDs of authors and co-authors to the Topic Guide.
       placeholder: Contributors to the Topic Guide.
       value: 
     validations:
@@ -31,7 +31,7 @@ body:
       label: Submission Date
       description: Please specify the estimated date on which the first draft could be delivered.
       placeholder: Estimated date of first draft submission.
-      value: <YYYY-MM-DD>
+      value: 
     validations:
       required: true
   - type: textarea
@@ -40,7 +40,7 @@ body:
       label: Related Topics
       description: Are there any existing Topic Guides that may relate to/be referenced to your Topic Guide?
       placeholder: List any existing topic guides that may relate to/be referenced in some way.
-      value: <1. Topic 1>
+      value: 
     validations:
       required: true
   - type: checkboxes
