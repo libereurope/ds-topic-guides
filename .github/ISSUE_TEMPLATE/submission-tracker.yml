@@ -49,8 +49,8 @@ body:
       label: Submission Method
       description: Please select your preferred method for sharing your draft submission if accepted
       options:
-        - label: GitHub Fork this repository, create a new guide using the existing QMD template https://github.com/libereurope/ds-topic-guides/blob/main/book/template.qmd and submit a pull request 
-        - label: Google Doc Template https://docs.google.com/document/d/154zvn1mhghAddNqW0gJvKp9E8u2VLU8krnPo1wtm_Mk/edit?usp=sharing) and submit via email 
+        - label: Fork this GitHub repository, create a new guide using the existing QMD template (https://github.com/libereurope/ds-topic-guides/blob/main/book/template.qmd) and submit a pull request 
+        - label: Use the Google Doc Template (https://docs.google.com/document/d/154zvn1mhghAddNqW0gJvKp9E8u2VLU8krnPo1wtm_Mk/edit?usp=sharing) and submit draft via email 
     validations:
       required: true
   - type: textarea
