@@ -10,8 +10,8 @@ body:
   - type: textarea
     id: title
     attributes:
-      label: Title
-      description: What is the title of the potential Topic Guide?
+      label: Draft Title
+      description: Please provide here a draft title for your Topic Guide
       placeholder: Title of the Topic Guide.
       value: <insert title here>
     validations:
@@ -19,8 +19,8 @@ body:
   - type: textarea
     id: summary
     attributes:
-      label: Summary
-      description: Please summarise the new Topic Guide's purpose.
+      label: Topic Guide Proposal (Summary)
+      description: Please briefly describe your Topic Guide idea including the new Topic Guide's purpose and relevance to the work of library professionals.
       placeholder: Summary of the Topic Guide.
       value: <insert summary here>
     validations:
@@ -29,9 +29,9 @@ body:
     id: contributors
     attributes:
       label: Contributors
-      description: Please specify the full names and ORCID iDs of the contributors to the Topic Guide.
+      description: Please specify the full names, emails, Institution, and ORCID iDs of contributors to the Topic Guide.
       placeholder: Contributors to the Topic Guide.
-      value: <First Name, Last Name, ORCID iD>
+      value: 
     validations:
       required: true
   - type: input
@@ -59,14 +59,14 @@ body:
       description: Please select your preferred method for sharing your draft submission
       options:
         - label: Happy to fork this repository
-        - label: Please send me a google template
+        - label: Please send a google template
         - label: No preference
     validations:
       required: true
   - type: textarea
     id: comments
     attributes:
-      label: Comments
+      label: Any other comments?
       description: Please use the following text area to include any other notes or comments for the editors.  
       placeholder: Notes and Comments.
       value: 
