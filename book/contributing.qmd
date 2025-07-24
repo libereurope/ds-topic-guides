@@ -12,9 +12,9 @@ There are several ways to contribute to the ongoing update and future developmen
 
 Feel free to contact [Nora McGregor](mailto:digitalresearch@bl.uk) if you're keen to discuss!
 
-## Help us with our wishlist!
+## Contribute a new [_DSTopic Guide_](topicguides.qmd) (individually or in collaboration with others). 
 
-Contribute a new [_DSTopic Guide_](topicguides.qmd) (individually or in collaboration with others). Choose from our current wishlist or propose a new one. Contact [digitalresearch@bl.uk](mailto:digitalresearch@bl.uk) with your idea or submit an [Issue](https://github.com/libereurope/ds-topic-guides/issues) and we'll help you get started right away!
+Choose from our current wishlist or propose a brand new one! Contact [digitalresearch@bl.uk](mailto:digitalresearch@bl.uk) with your idea or submit an [Issue](https://github.com/libereurope/ds-topic-guides/issues) by clicking on New Issue > Submission Tracker and we'll help you get started right away!
 
 > **_NOTE:_** Our current wishlist for future editions includes but is not limited to topics such as:
 >
@@ -46,10 +46,10 @@ To be notified of future sprints check back here for dates/times or join one of 
 
 #### Preparing for a sprint:
 
-1. Please have a quick read through the [Welcome](index.qmd) and [Topic Guide](topicguides.qmd) pages to familiarise yourself with this resource and its purpose.
-2. When you [Register](https://forms.office.com/Pages/ResponsePage.aspx?id=t0ykIcP5AE-a-r0ejoi82X7ZIEJh0odPq9ej1FnpQEJUNTlTTTQ3WjBWU0gxOTdaNk1WSUpVV1FPRS4u) you'll see a list of our latest Topic Guides on our wishlist. Please check off any and all Topic Guides you would be happy to work on during the day of the sprint. On the day each attendee will focus on writing just one Topic Guide however. The information you provide before the sprint will help us organise this ahead of time so that as many Topic Guides as possible have at least one dedicated author.  
+1. Please have a quick read through the [Welcome](index.qmd) and [DS Topic Guide](topicguides.qmd) pages to familiarise yourself with this resource and its purpose.
+2. When you register you'll see a list of our latest DS Topic Guides on our wishlist. Please check off any and all DS Topic Guides you would be happy to work on during the day of the sprint. On the day each attendee will focus on writing just one DS Topic Guide however. The information you provide before the sprint will help us organise this ahead of time so that as many DS Topic Guides as possible have at least one dedicated author.  
 3. Please have a quick read through the [Author Guidance and Style Guide](guidelines.qmd) section. 
-4. We'll be in touch after we receive your registration to send you more details and useful information ahead of the sprint so look out for our email! If you are sent a copy of the Topic Guide Template (Google Doc) that corresponds to your topic of choice ahead of time, add your name to the header, and feel free to add notes or even make a start on drafting your guide before the sprint day if you're keen!
+4. We'll be in touch after we receive your registration to send you more details and useful information ahead of the sprint so look out for our email! If you are sent a copy of the [*DS Topic Guide Template (Google Doc)*](https://docs.google.com/document/d/154zvn1mhghAddNqW0gJvKp9E8u2VLU8krnPo1wtm_Mk/edit?usp=sharing) that corresponds to your topic of choice ahead of time, add your name to the header, and feel free to add notes or even make a start on drafting your guide before the sprint day if you're keen!
 
 #### What to expect on the day:
 A two hour writing sprint will generally follow this format:
@@ -63,7 +63,7 @@ A two hour writing sprint will generally follow this format:
 
 #### After the sprint:
 
-During the sprint, you’ve drafted your Topic Guide in a Google Doc. This Google Doc can continue to serve as a ‘living document’ following the sprint until you feel the content is ready to be published. Throughout this process, we will use your Github issue to maintain an overview of the docs in terms of their status and action points so please keep this updated. Each Topic Guide will be allocated a specific Maintainer contact (one of the co-chairs) who will be in touch and work with you to see the process through to completion. You may request placing your Google Doc under restricted access if you wish. We will not do this by default, but we respect that some contributors would like to keep drafts private until fully ready for submission.
+During the sprint, you’ve drafted your DS Topic Guide in a Google Doc. This Google Doc can continue to serve as a ‘living document’ following the sprint until you feel the content is ready to be published. Throughout this process, we will use your Github issue to maintain an overview of the docs in terms of their status and action points so please keep this updated. Each Topic Guide will be allocated a specific Maintainer contact (one of the co-chairs) who will be in touch and work with you to see the process through to completion. You may request placing your Google Doc under restricted access if you wish. We will not do this by default, but we respect that some contributors would like to keep drafts private until fully ready for submission.
 
 When your Topic Guide is ready for our review in Google Docs, please let us know by logging an update over on Github as a comment on the Issue stating this. You can also tag the maintainers so they receive a notification as well. Maintainers will generally work with you on the final edits necessary for the submission through track changes and comments within the Google Doc itself. Once these have all been resolved maintainers will log a status update in the GitHub issue.
 
