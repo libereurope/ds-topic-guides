@@ -1,17 +1,17 @@
 name: Submission Tracker
-description: Submit a Topic Guide to DS Essentials.
+description: Submit a new Topic Guide idea to DS Topic Guides.
 title: "[SUBMISSION]: "
-labels: 'enhancement'
+labels: 'new Topic Guide submission/suggestion'
 body:
   - type: markdown
     attributes:
       value: |
-        Use this template submit your Topic Guide and ensure the necessary metadata are available.  
+        Thank you for your interest in contributing to DS Topic Guides! Please use this template to submit your Topic Guide idea to the editorial team for consideration.  
   - type: textarea
     id: title
     attributes:
       label: Title
-      description: What is the title of the Topic Guide?
+      description: What is the title of the potential Topic Guide?
       placeholder: Title of the Topic Guide.
       value: <insert title here>
     validations:
@@ -20,7 +20,7 @@ body:
     id: summary
     attributes:
       label: Summary
-      description: Please summarize the Topic Guide's purpose in two sentences or less.
+      description: Please summarise the new Topic Guide's purpose.
       placeholder: Summary of the Topic Guide.
       value: <insert summary here>
     validations:
@@ -38,8 +38,8 @@ body:
     id: submission-date
     attributes:
       label: Submission Date
-      description: Please specify the date on which the first draft was submitted.
-      placeholder: Date of first draft submission.
+      description: Please specify the estimated date on which the first draft could be delivered.
+      placeholder: Estimated date of first draft submission.
       value: <YYYY-MM-DD>
     validations:
       required: true
@@ -52,45 +52,23 @@ body:
       value: <1. Topic 1>
     validations:
       required: true
-  - type: input
-    id: google-doc-url
-    attributes:
-      label: Link to Google Doc
-      description: Please provide to link the the Google Doc of your submission.
-      placeholder: Google Doc URL.
-      value: <insert url here>
-    validations:
-      required: true
-  - type: checkboxes
-    id: access-requirements
-    attributes:
-      label: Access Requirements
-      description: Please specify if you want to restrict access to your Google Doc until it's finalized.
-      options:
-        - label: Yes, I would like to restrict access to the Google Doc.
-        - label: No, there is no need to restrict access to the Google Doc.
-    validations:
-      required: true
   - type: checkboxes
     id: submission-checklist
     attributes:
-      label: Submission Checklist
-      description: Please specify if you want to restrict access to your Google Doc until it's finalized.
+      label: Submission Method
+      description: Please select your preferred method for sharing your draft submission
       options:
-        - label: Learning Objectives
-        - label: Introduction to the Topic
-        - label: Relevance to the Library Sector
-        - label: Hands-On Activity & Other Self-Guided Tutorials
-        - label: Recommended Reading & Viewing
-        - label: Taking Next Steps
+        - label: Happy to fork this repository
+        - label: Please send me a google template
+        - label: No preference
     validations:
       required: true
   - type: textarea
     id: comments
     attributes:
-      label: comments
-      description: Please use the following text area to include any other notes or comments. This can also include a (current) status statement and action points.
+      label: Comments
+      description: Please use the following text area to include any other notes or comments for the editors.  
       placeholder: Notes and Comments.
-      value: <status update / action points / comments / to-dos / notes>
+      value: 
     validations:
       required: true
