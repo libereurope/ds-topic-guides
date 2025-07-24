@@ -14,8 +14,9 @@ Feel free to contact [Nora McGregor](mailto:digitalresearch@bl.uk) if you're kee
 
 ## Contribute a new _DS Topic Guide_ 
 
-Choose from our current wishlist below or propose a brand new one! Contact [digitalresearch@bl.uk](mailto:digitalresearch@bl.uk) with your idea or feel free to submit a proposal on the project GitHub by filling in our [**New Issue>Submission Tracker** Template](https://github.com/libereurope/ds-topic-guides/issues). Once your proposal is reviewed and approved we'll help you get started right away! Authors can submit drafts in either of two ways:
-
+1. Choose from our current wishlist below or propose a brand new one! Not a member of a LIBER Member Institution? Not a problem, we will pair you up with a co-author from the LIBER network (https://libereurope.eu/liber-participants/) to ensure the european research library context is duly represented within the content. 
+2. Contact [digitalresearch@bl.uk](mailto:digitalresearch@bl.uk) with your idea or feel free to submit a proposal directly on the project GitHub by filling in our [**New Issue>Submission Tracker** Template](https://github.com/libereurope/ds-topic-guides/issues). 
+3. Once your proposal is reviewed and approved we'll help you get started right away! Authors will have the option to submit drafts in either of two ways:
 - Using a copy of our google doc [DS Topic Guide: [Template]](https://docs.google.com/document/d/154zvn1mhghAddNqW0gJvKp9E8u2VLU8krnPo1wtm_Mk/edit?usp=sharing) and emailing it to [digitalresearch@bl.uk](mailto:digitalresearch@bl.uk)
 - Forking the [repository](https://github.com/libereurope/ds-topic-guides), creating a new guide using the existing [template.qmd] (https://github.com/libereurope/ds-topic-guides/blob/main/book/template.qmd) and submitting a pull request
 
@@ -28,7 +29,7 @@ Choose from our current wishlist below or propose a brand new one! Contact [digi
 >- Digital Storytelling
 >- Wikimedia Foundation Projects
 
-## Suggest edits to an existing [_DS Topic Guide_](topicguides.qmd)
+## Suggest edits to an existing _DS Topic Guide_
 
 Know of a good case study, report or community of practice that LIBER members should know about? Open a new [Issue](https://github.com/libereurope/ds-topic-guides/issues) or add to the discussion on existing Issues on the project Github. If you're new to GitHub don't worry, we have a Topic Guide for that: [GitHub: How to navigate and contribute to Git-based projects](github.qmd)!
 
