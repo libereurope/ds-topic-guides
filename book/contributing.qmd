@@ -18,7 +18,7 @@ Feel free to contact [Nora McGregor](mailto:digitalresearch@bl.uk) if you're kee
 2. Contact [digitalresearch@bl.uk](mailto:digitalresearch@bl.uk) with your idea or feel free to submit a proposal directly on the project GitHub by filling in our [**New Issue>Submission Tracker**](https://github.com/libereurope/ds-topic-guides/issues) template. 
 3. Once your proposal is reviewed and approved we'll help you get started right away! Authors will have the option to submit drafts in either of two ways:
       - Using a copy of our google doc [DS Topic Guide: [Template]](https://docs.google.com/document/d/154zvn1mhghAddNqW0gJvKp9E8u2VLU8krnPo1wtm_Mk/edit?usp=sharing) and emailing it to [digitalresearch@bl.uk](mailto:digitalresearch@bl.uk)
-      - Forking the [repository](https://github.com/libereurope/ds-topic-guides), creating a new guide using the existing [template.qmd] (https://github.com/libereurope/ds-topic-guides/blob/main/book/template.qmd) and submitting a pull request
+      - Forking the [repository](https://github.com/libereurope/ds-topic-guides), creating a new guide using the existing [template.qmd](https://github.com/libereurope/ds-topic-guides/blob/main/book/template.qmd) and submitting a pull request
 
 > **_NOTE:_** Our current wishlist for future editions includes but is not limited to topics such as:
 >
