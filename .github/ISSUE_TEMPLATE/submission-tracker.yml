@@ -7,7 +7,7 @@ body:
     attributes:
       value: |
         Thank you for your interest in contributing to DS Topic Guides! Please use this issue template to submit your Topic Guide proposal to the editorial team for consideration. Replace the text in brackets above with your Topic Guide title.  
-   - type: textarea
+  - type: textarea
     id: summary
     attributes:
       label: Topic Guide Proposal (Summary)
