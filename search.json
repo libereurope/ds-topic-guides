@@ -692,11 +692,11 @@
     "text": "The first edition of Digital Scholarship & Data Science Topic Guides for Library Professionals, launched at the LIBER Annual Conference in Summer 2025, draws heavily on the existing skills framework and topics covered in the British Library’s Digital Scholarship Training Programme, as well as those recommended by attendees of development workshops hosted by LIBER working groups throughout 2023/2024.\nThere are several ways to contribute to the ongoing update and future development of this resource.\nFeel free to contact Nora McGregor if you’re keen to discuss!"
   },
   {
-    "objectID": "contributing.html#contribute-a-new-dstopic-guide",
-    "href": "contributing.html#contribute-a-new-dstopic-guide",
+    "objectID": "contributing.html#contribute-a-new-ds-topic-guide",
+    "href": "contributing.html#contribute-a-new-ds-topic-guide",
     "title": "Contribute to our Project",
-    "section": "Contribute a new DSTopic Guide",
-    "text": "Contribute a new DSTopic Guide\nChoose from our current wishlist or propose a brand new one! Contact digitalresearch@bl.uk with your idea or submit a proposal by filling in our New Issue&gt;Submission Tracker Template and once your proposal is reviewed and approved we’ll help you get started right away! Authors can submit using our DS Topic Guide: [Template] or by forking the repository and using our template.\n\nNOTE: Our current wishlist for future editions includes but is not limited to topics such as:\n\nClimate Change and Digital Sustainability\nCultural Competency & Ethics in Digital Methods\nDemystifying Computational Environments for Digital Scholarship\nDigital Scholarship/Data Science Project Management, Evaluation and Impact Assessment\nDigital Storytelling\nWikimedia Foundation Projects"
+    "section": "Contribute a new DS Topic Guide",
+    "text": "Contribute a new DS Topic Guide\nChoose from our current wishlist below or propose a brand new one! Contact digitalresearch@bl.uk with your idea or feel free to submit a proposal on the project GitHub by filling in our New Issue&gt;Submission Tracker Template. Once your proposal is reviewed and approved we’ll help you get started right away! Authors can submit drafts in either of two ways:\n\nUsing a copy of our google doc DS Topic Guide: [Template] and emailing it to digitalresearch@bl.uk\nForking the repository, creating a new guide using the existing [template.qmd] (https://github.com/libereurope/ds-topic-guides/blob/main/book/template.qmd) and submitting a pull request\n\n\nNOTE: Our current wishlist for future editions includes but is not limited to topics such as:\n\nClimate Change and Digital Sustainability\nCultural Competency & Ethics in Digital Methods\nDemystifying Computational Environments for Digital Scholarship\nDigital Scholarship/Data Science Project Management, Evaluation and Impact Assessment\nDigital Storytelling\nWikimedia Foundation Projects"
   },
   {
     "objectID": "contributing.html#suggest-edits-to-an-existing-ds-topic-guide",
