@@ -38,7 +38,7 @@ body:
     id: related-topics
     attributes:
       label: Related DS Topic Guides
-      description: Are there any existing DS Topic Guides that may relate to/be referenced to your Topic Guide?
+      description: Are there any existing DS Topic Guides that may relate to or be referenced by your Topic Guide?
       placeholder: 
       value: 
     validations:
