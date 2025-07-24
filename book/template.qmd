@@ -1,26 +1,35 @@
 ---
-title: "------"
-date: yyyy-mm-dd
-date-modified: yyyy-mm-dd
+title: "---"
+subtitle: "---"
+date: YYYY-MM-DD
+date-modified: YYYY-MM-DD
+doi: 
 author:
-  - name: 
-    id: jc
+  - name:
     orcid: 
     email: 
+    url: 
     affiliation: 
-      - name: 
-        city: 
+      - name:
+        city:
         country: 
-        url: 
+secondary-authors:
+  - name: 
+      literal: 
+    email: 
+    url: 
+  - name: 
+      literal: 
+    orcid: 
+    email: 
+    url: 
+
 abstract: > 
-license: "CC BY"
-citation: 
-  container-title: Digital Scholarship & Data Science Topic Guides
-  volume: 1
-  issue: 1
-  doi: TBD
+  
+license: "CC BY 4.0"
+
 format:
-  pdf: default
+  pdf: default   
   html: default
 ---
 
@@ -28,7 +37,7 @@ format:
 
 ## Relevance to the Library Sector (Case Studies/Use Cases)
 
-## Hands-on activity and other self-guided tutorial(s)  
+## Hands-on activity/self-guided tutorial(s) 
 
 ## Recommended Reading & Viewing
 
