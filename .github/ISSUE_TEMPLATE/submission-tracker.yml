@@ -25,6 +25,19 @@ body:
       value: 
     validations:
       required: true
+  - type: textarea
+    id: liber-member
+    attributes:
+      label: Are at least one of the author's from a LIBER institution at the time of writing? 
+      description: If not, we will pair you with a co-author from the LIBER network to ensure the European research library context is maintained. Please let us know if this is needed.
+      placeholder: 
+      value: 
+    validations:
+      required: true
+  
+  
+  
+  
   - type: input
     id: submission-date
     attributes:
@@ -43,6 +56,12 @@ body:
       value: 
     validations:
       required: true
+
+  
+  
+  
+  
+  
   - type: checkboxes
     id: submission-checklist
     attributes:
