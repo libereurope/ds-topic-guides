@@ -2,7 +2,7 @@
 title: "Open Access Monitoring and Open Research Information"
 subtitle: "A LIBER Digital Scholarship & Data Science Topic Guides for Library Professionals"
 date: YYYY-MM-DD
-date-modified: 2025-10-09
+date-modified: 2025-10-13
 doi: 0000-0000-0000-0000
 author:
   - name: Dorothea Strecker
@@ -54,7 +54,7 @@ This LIBER *DS Topic Guide* focuses on the role of libraries in the Open Access 
 
 The Open Access transition is already well underway: Since 2020, the number of Open Access research publications of European countries has increased steadily, and since 2016, the number of closed research publications is declining (see @fig-1).
 
-![Number and publication status of research publications from European countries (data source: [Hosking et al., 2025](https://doi.org/10.5281/zenodo.17083778))](images/oa_europe.png){#fig-1}
+![Number and publication status of research publications from European countries (data source: [Hosking et al., 2025](https://doi.org/10.5281/zenodo.17083778))](images/oa_europe.png){#fig-1 fig-alt="The image shows a bar plot with the publication output of European countries per year, for the years 2000 to 2024. The bars are filled by publication status - closed, gold, hybrid, green, and open other."}
 
 Libraries are affected by the Open Access transformation and have taken on new roles, such as establishing researcher consultation and publishing services. Researcher consultations typically involve providing direct support through avenues like virtual training courses on Open Access policies and practices, alongside dedicated consultation hours offered by Open Access officers based within the library (e.g. [services at University of Göttingen](https://www.sub.uni-goettingen.de/en/publishing-open-access/publication-funds/#c3338)). Complementing this, library publishing services encompass a range of infrastructure and activities, including the hosting and management of institutional repositories, the operation of university publishing houses (e.g. [Göttingen University Press](https://www.sub.uni-goettingen.de/en/publishing-open-access/publishing/goettingen-university-press/)) to facilitate Open Access dissemination, the administration of open access publication funds and the critical negotiation of transformative "Publish and Read" agreements with publishers on behalf of their institutions. Furthermore, libraries actively foster communities by organizing networking activities, such as the Open Science Meet-ups (e.g. [Göttingen Open Science Meet-up](https://www.sub.uni-goettingen.de/en/publishing-open-access/open-science-open-access/)). To succeed in these new roles, many libraries have started to monitor the publication output of the research organizations they serve. These monitoring activities observe developments in publication patterns, and can be used to measure compliance with Open Access mandates by their institutions and/or funding agencies. There are now tools that facilitate publication monitoring for research organizations, such as [COKI](https://open.coki.ac/about/), the [Open Access Monitor](https://open-access-monitor.de) in Germany, or the [French Open Science Monitor](https://frenchopensciencemonitor.esr.gouv.fr).
 
