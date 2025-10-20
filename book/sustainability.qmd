@@ -1,18 +1,18 @@
 ---
-title: "---"
-subtitle: "---"
-date: YYYY-MM-DD
-date-modified: YYYY-MM-DD
+title: "Digital Sustainability"
+subtitle: "A LIBER Digital Scholarship & Data Science Topic Guide for Library Professionals"
+date: 2025-10-20
+date-modified: 2025-10-20
 doi: 0000-0000-0000-0000
 author:
-  - name:
-    orcid: 
-    email: 
-    url: 
-    affiliation: 
-      - name:
-        city:
-        country: 
+  - name: Adi Keinan-Schoonbaert
+    orcid: 0000-0002-4382-3328
+    email: digitalresearch@bl.uk 
+    url: https://libereurope.eu/member/adi-keinan-schoonbaert/
+    affiliation:  
+      - name: British Library
+        city: London
+        country: UK
 secondary-authors:
   - name: 
       literal: 
@@ -25,7 +25,11 @@ secondary-authors:
     url: 
 
 abstract: > 
-  
+  Explore the many sides of digital sustainability and learn how libraries can measure and reduce their digital footprint.
+
+keywords:
+  - Climate change
+  - Sustainability
 license: "CC BY 4.0"
 
 format:
