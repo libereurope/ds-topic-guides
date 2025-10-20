@@ -28,8 +28,11 @@ abstract: >
   Explore the many sides of digital sustainability and learn how libraries can measure and reduce their digital footprint.
 
 keywords:
-  - Climate change
+  - Digital
+  - Environment
   - Sustainability
+  - Climate Change
+  - Decarbonisation
 license: "CC BY 4.0"
 
 format:
