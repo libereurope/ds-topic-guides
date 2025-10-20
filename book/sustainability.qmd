@@ -1,0 +1,44 @@
+---
+title: "---"
+subtitle: "---"
+date: YYYY-MM-DD
+date-modified: YYYY-MM-DD
+doi: 0000-0000-0000-0000
+author:
+  - name:
+    orcid: 
+    email: 
+    url: 
+    affiliation: 
+      - name:
+        city:
+        country: 
+secondary-authors:
+  - name: 
+      literal: 
+    email: 
+    url: 
+  - name: 
+      literal: 
+    orcid: 
+    email: 
+    url: 
+
+abstract: > 
+  
+license: "CC BY 4.0"
+
+format:
+  pdf: default   
+  html: default
+---
+
+## Introduction
+
+## Relevance to the Library Sector (Case Studies/Use Cases)
+
+## Hands-on activity/self-guided tutorial(s) 
+
+## Recommended Reading & Viewing
+
+## Finding Communities of Practice
