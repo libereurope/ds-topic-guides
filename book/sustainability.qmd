@@ -51,7 +51,7 @@ Every email sent, every video streamed, every chatbot query made relies on data 
 
 That's where the term _Digital Sustainability_ comes in. Put simply, it's about recognising the environmental footprint of our digital lives, and making conscious choices to reduce it. Just as we might decide to cycle instead of drive, or turn down the thermostat at home, we can also make digital choices - from how we manage our files to how we design websites - that lessen the impact of our online activities.
 
-!\[[_Visualisation_](https://ciaranmalik.org/wp-content/uploads/2023/11/ciaran-malik-visualising-the-scale-of-carbon-emissions-1.png) _of the scale of_ [_CO<sub>2</sub>e_](https://www.climatepartner.com/en/knowledge/glossary/carbon-dioxide-equivalent) _emissions, created by_ [_Cíaran Malik_](https://ciaranmalik.org/about/)\](images/Sustainability1.png)
+![[_Visualisation_](https://ciaranmalik.org/wp-content/uploads/2023/11/ciaran-malik-visualising-the-scale-of-carbon-emissions-1.png) _of the scale of_ [_CO<sub>2</sub>e_](https://www.climatepartner.com/en/knowledge/glossary/carbon-dioxide-equivalent) _emissions, created by_ [_Cíaran Malik_](https://ciaranmalik.org/about/)](images/Sustainability1.png)
 
 Digital sustainability invites us to think differently about our relationship with technology - not as something separate from the environment, but as an integral part of it. For libraries, this perspective offers both challenges and opportunities: how can digital collections, services, and infrastructure be managed in ways that align with environmental goals? In the next section, we'll explore why this topic matters to the library sector and how libraries can take practical steps to make their digital operations more sustainable.
 
@@ -75,7 +75,7 @@ The [Box Plymouth](https://www.theboxplymouth.com/) has been actively addressing
 
 Efficiency and energy-conscious workflows are central to their strategy. Primary digital content is stored on LTO tapes, which consume energy only when in use, and automation has been introduced to preservation and monitoring tasks to reduce computer workload. Integrity checks are scheduled during off-peak hours, and redundant or duplicated content is regularly removed. The team is also implementing a Digital Asset Management system to streamline storage and prevent duplication. By combining these strategies, The Box ensures sustainable digital practice without compromising professional archiving standards, while improving organisational efficiency and supporting broader climate-conscious goals.
 
-!\[_Screenshot from a_ [_blog post by Stacey Anderson_](https://www.theboxplymouth.com/blog/moving-image/world-digital-preservation-day-2023-reflecting-on-practice)_, Media Archivist at the Box Plymouth, about digital preservation and environmental sustainability_\](images/Sustainability2.png)
+![_Screenshot from a_ [_blog post by Stacey Anderson_](https://www.theboxplymouth.com/blog/moving-image/world-digital-preservation-day-2023-reflecting-on-practice)_, Media Archivist at the Box Plymouth, about digital preservation and environmental sustainability_](images/Sustainability2.png)
 
 **Greening the Web**
 
@@ -101,15 +101,13 @@ Another self-pace course is the [Green Software Practitioner](https://learn.gree
 
 And if you like MOOCs, the [ISIT Sustainable IT Academy](https://www.isit-academy.org/) offers two freely accessible MOOCs designed to introduce and deepen understanding of Sustainable IT. The _Awareness Sustainable IT MOOC_ provides a short, introductory programme suitable for anyone seeking a first look at the topic. The more extensive _Complete Sustainable IT MOOC_ includes 4.5 hours of video, text, and interactive content, offering theoretical foundations to understand the principles of Sustainable IT.
 
-!\[_Screenshot from the_ [_Sustainable IT Academy'_](https://www.isit-academy.org/)_s Sustainable IT MOOC_\](images/Sustainability3.png)
+![_Screenshot from the_ [_Sustainable IT Academy'_](https://www.isit-academy.org/)_s Sustainable IT MOOC_](images/Sustainability3.png)
 
 If your library has a research team, you might want to consider the [Green DiSC](https://www.software.ac.uk/GreenDiSC) Digital Sustainability Certification. This is the first open-access certification programme designed to guide research groups and institutions in addressing the environmental impacts of their computing practices. You can watch [this webinar](https://www.youtube.com/watch?v=OPxXyBuBvWI) (from December 2024) if you'd like to know more. And for some hands-on tool trials, take a look at the resources available on the [Green Coding](https://www.green-coding.io/) website - it has lists or products and services which can help you transform your software to a more sustainable one.
 
 These tutorials mainly focus on green IT and software, but what about learning about the impact your institutional or project website is having on the environment? To get started on a better understanding of your web presence, try some of these calculators and test out your carbon footprint - for example, the Green Web Foundation's [Green Web](https://www.thegreenwebfoundation.org/green-web-check/) calculator, or the [Website Carbon Calculator](https://www.websitecarbon.com/) created by Wholegrain Digital. The latter also created this wonderful [Digital Declutter toolkit](https://www.wholegraindigital.com/digitaldeclutter/) that can help you measure and reduce the digital carbon emissions of your business, covering topics such as IT hardware, video calls and streaming, websites, emails, and more.
 
-!\[ _Screenshot from Wholegrain Digital's_ [_Digital Declutter for Businesses_](https://www.wholegraindigital.com/digitaldeclutter/) _toolkit_
-
-\](images/Sustainability4.png)
+![ _Screenshot from Wholegrain Digital's_ [_Digital Declutter for Businesses_](https://www.wholegraindigital.com/digitaldeclutter/) _toolkit_](images/Sustainability4.png)
 
 Another thing you'd might like to estimate is the impact of your cloud storage data. It's difficult to assess how environmentally friendly different data storage options for libraries are, because their environmental footprint is largely invisible at the point of use. Additional storage is available _just-so,_ with a clear financial cost but little evidence of the carbon cost. Take a look at the [Cloud Carbon Footprint](https://www.cloudcarbonfootprint.org/), which is a free and open source cloud carbon emissions measurement and analysis tool; or Microsoft's [Emissions Impact Dashboard](https://www.microsoft.com/en-ca/sustainability/emissions-impact-dashboard), if you'd like to estimate Microsoft Azure or Microsoft 365 cloud services carbon emissions. Both tools will help you understand the carbon footprint of your cloud usage and suggest ways to reduce it.
 
@@ -120,7 +118,7 @@ An excellent first port of call would be the [Digital Humanities Climate Coaliti
 
 The [Digital Decarbonisation](https://digitaldecarb.org/) website tackles the topic of data, with the aim to encourage the responsible use of data in order to reduce and minimise related carbon emissions. It includes toolkits and calculators, but also some useful articles, blog posts and videos. More specific to libraries, the [Living Knowledge Network](https://living-knowledge-network.co.uk/), which is a network of UK libraries and Library Authorities, hold regular free webinars. One of the themes they often include in their programming is sustainability - see [past webinars here](https://staff.living-knowledge-network.co.uk/webinars?time=ondemand&time=upcoming&filter-theme=sustainability&search-box=).
 
-!\[_Screenshot from the Digital Decarbonisation project's_ [_toolkit page_](https://digitaldecarb.org/toolkit/)\](images/Sustainability5.png)
+![_Screenshot from the Digital Decarbonisation project's_ [_toolkit page_](https://digitaldecarb.org/toolkit/)](images/Sustainability5.png)
 
 In addition, the British Library has been hosting a webinar series entitled "Libraries and positive climate action", and in February 2025 the session was dedicated to digital - "is digital a problem or a solution?". The webinar explored the positive and negative climate impacts of digital activities, and highlighted how libraries were rethinking their practices with sustainability in mind. A recording of this webinar is available to watch (passcode: ^25&hbz@).A recording of this webinar is [available to watch](https://gbr01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fus02web.zoom.us%2Frec%2Fshare%2FjVFm5QlRw_9x5xrY2ZV1Oew4YZ0nhJ_SB0oHIg4VKjVoEqhi1Nf9lPzN8wKVmtJw.9JcVlVgS8kP5fvD_&data=05%7C02%7C%7C89000bd3871044f131f708dd4d005ea1%7C21a44cb7f9c34f009afabd1e8e88bcd9%7C0%7C0%7C638751386182459573%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=FC2FgpGODHPto9ahDIvTFx6C6RUkSlzZcukICmMcewQ%3D&reserved=0) (passcode: ^25&hbz@).
 
@@ -145,7 +143,7 @@ As mentioned above, the [Digital Humanities Climate Coalition](https://www.cdcs.
 
 Take a look at IFLA's [Environment, Sustainability and Libraries Section](https://www.ifla.org/units/environment-sustainability-and-libraries/) (ENSULIB) - it's not limited to digital sustainability per se but covers broader library strategies. ENSULIB aims to empower librarians to lead their communities toward more environmentally sustainable practices, supporting this goal by sharing resources on green librarianship, showcasing sustainable library projects worldwide, fostering discussion, and leading by example. Check out [this page](https://www.ifla.org/g/environment-sustainability-and-libraries/get-involved-with-ensulib/) to see how you can get involved!
 
-!\[ _Screenshot from IFLA's_ [_Environment, Sustainability and Libraries Section_](https://www.ifla.org/units/environment-sustainability-and-libraries/)\](images/Sustainability6.png)
+![ _Screenshot from IFLA's_ [_Environment, Sustainability and Libraries Section_](https://www.ifla.org/units/environment-sustainability-and-libraries/)](images/Sustainability6.png)
 
 JISC is a digital, data and technology agency focused on tertiary education, research and innovation. [Sustainability](https://www.jisc.ac.uk/about-us/sustainability) is a core part of their strategy, and you can join their Digital Sustainability Community and/or sign up for their outstanding [digital sustainability newsletter](https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?SUBED1=DIGITAL-SUSTAINABILITY) (see [previous issues here](https://infrastructure.jiscinvolve.org/wp/)). Another excellent newsletter that you can sign up for is [Curiously Green](https://www.wholegraindigital.com/curiously-green/) - dedicated to the green web, and run by Wholegrain Digital.
 
