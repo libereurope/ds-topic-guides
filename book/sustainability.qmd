@@ -13,6 +13,17 @@ author:
       - name: British Library
         city: London
         country: UK
+  - name: with special contributions from “Hack & Yack” session* participants Jez Cope, Catherine Ross, Lanie Okorodudu, Andrea Deri, Alex White, Angela Lofthouse, Mabel Msonthi, Gosta Johansson, Harry Lloyd, Rimma Lough, Jo Kent, Georgia Dack
+    orcid: 
+    email:  
+    url: 
+    affiliation:  
+      - name: 
+        city:
+        country: 
+
+
+
 secondary-authors:
   - name: 
       literal: Nora McGregor
