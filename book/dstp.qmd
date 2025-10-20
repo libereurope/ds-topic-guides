@@ -36,7 +36,7 @@ format:
 
 ## Introduction 
 
-The Digital Research Team has been providing training to British Library staff for over a decade through our bespoke [Digital Scholarship Training Programme](https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html).
+The Digital Research Team has been providing training to British Library staff for over a decade through our bespoke [Digital Scholarship Training Programme](https://web.archive.org/web/20250703151409/https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html).
 
 This *DS Topic Guide* shares a few things we've learned along the way about establishing an internal community of practice and training programme. It includes practical pointers for using the materials presented here to start a localised and sustainable digital scholarship and data science training programme at your own institution! 
 
@@ -72,7 +72,7 @@ Nothing compares to individual staff digital transformation stories though, and 
 
 >_"The Digital Scholarship Training Programme has introduced me to new software, opened my eyes to digital opportunities, provided inspiration for me to improve, and helped me attain new skills"_ -Graham Jevon, British Library
 
-Read more about [Graham Jevon's digital transformation journey](https://blogs.bl.uk/digital-scholarship/2024/05/recovered-pages-graham-jevon.html) on the British Library Digital Scholarship blog or have a look at this [series of videos](https://youtube.com/playlist?list=PLVRvouzCZmFdVQZn-pJvI_GXip_16sg_R&feature=shared) we created to mark the 10th Anniversary of the [British Library Digital Scholarship Training Programme](https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html) in 2022. It highlights specific transformative experiences for staff who took time out to engage in our Digital Scholarship Training Programme over the years.
+Read more about [Graham Jevon's digital transformation journey](https://web.archive.org/web/20250419061252/https://blogs.bl.uk/digital-scholarship/2024/05/recovered-pages-graham-jevon.html) on the British Library Digital Scholarship blog or have a look at this [series of videos](https://youtube.com/playlist?list=PLVRvouzCZmFdVQZn-pJvI_GXip_16sg_R&feature=shared) we created to mark the 10th Anniversary of the [British Library Digital Scholarship Training Programme](https://web.archive.org/web/20250703151409/https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html) in 2022. It highlights specific transformative experiences for staff who took time out to engage in our Digital Scholarship Training Programme over the years.
 
 [![A video of British Library staff responding to the question "How are you using your new skills in your own work?"](images/DSTP.png)](https://www.youtube.com/embed/CrCP5rYai9M?si=A9kw93B_TvOoDFnV)
 
@@ -114,9 +114,9 @@ In this short video from a Culture24 Digital Leaders - digital skills, literacy 
 
 The British Library Digital Research Team regularly share information about the training programme including topics covered over on our [Digital Scholarship Blog](https://blogs.bl.uk/digital-scholarship/index.html):
 
-* [2024 Year in Review - Digital Scholarship Training Programme](https://blogs.bl.uk/digital-scholarship/2025/01/2024-year-in-review-dstp.html)
-* [Topics in contemporary Digital Scholarship via five years of our Reading Group](https://blogs.bl.uk/digital-scholarship/2023/04/topics-contemporary-digital-scholarship-reading-group.html)
-* [What do deep learning, community archives, Livy and the politics of artefacts have in common? Topics covered in our Reading Group](https://blogs.bl.uk/digital-scholarship/2018/05/what-do-deep-learning-community-archives-livy-and-the-politics-of-artefacts-have-in-common.html)
+* [2024 Year in Review - Digital Scholarship Training Programme](https://web.archive.org/web/20250604221127/https://blogs.bl.uk/digital-scholarship/2025/01/2024-year-in-review-dstp.html)
+* [Topics in contemporary Digital Scholarship via five years of our Reading Group](https://web.archive.org/web/20250715160755/https://blogs.bl.uk/digital-scholarship/2023/04/topics-contemporary-digital-scholarship-reading-group.html)
+* [What do deep learning, community archives, Livy and the politics of artefacts have in common? Topics covered in our Reading Group](https://web.archive.org/web/20240624073706/https://blogs.bl.uk/digital-scholarship/2018/05/what-do-deep-learning-community-archives-livy-and-the-politics-of-artefacts-have-in-common.html)
 
 ## Finding Communities of Practice
 
