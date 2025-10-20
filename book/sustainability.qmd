@@ -15,14 +15,10 @@ author:
         country: UK
 secondary-authors:
   - name: 
-      literal: 
-    email: 
-    url: 
-  - name: 
-      literal: 
-    orcid: 
-    email: 
-    url: 
+      literal: Nora McGregor
+    orcid: 0000-0001-6560-5586
+    email: digitalresearch@bl.uk 
+    url: https://libereurope.eu/member/nora-mcgregor/
 
 abstract: > 
   Explore the many sides of digital sustainability and learn how libraries can measure and reduce their digital footprint.
