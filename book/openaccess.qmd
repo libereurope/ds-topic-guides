@@ -22,6 +22,12 @@ author:
       - name: Göttingen State and University Library
         city: Göttingen
         country: Germany
+secondary-authors:
+  - name: 
+      literal: Nora McGregor
+    orcid: 0000-0001-6560-5586
+    email: digitalresearch@bl.uk 
+    url: https://libereurope.eu/member/nora-mcgregor/
 
 abstract: >
   A quick overview of Open Access, potential implications for your library, along with some practical advice on how to take steps to monitor the Open Access transformation at your own research organization using open research information.
