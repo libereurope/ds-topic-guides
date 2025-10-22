@@ -1,0 +1,104 @@
+---
+title: "Open Access Monitoring and Open Research Information"
+subtitle: "A LIBER Digital Scholarship & Data Science Topic Guides for Library Professionals"
+date: YYYY-MM-DD
+date-modified: 2025-10-13
+doi: 0000-0000-0000-0000
+author:
+  - name: Dorothea Strecker
+    orcid: 0000-0002-9754-3807
+    email: dorothea.strecker@hu-berlin.de
+    url: https://www.ibi.hu-berlin.de/de/institut/personen/strecker
+    affiliation: 
+      - name: Humboldt-Universität zu Berlin
+        city: Berlin
+        country: Germany
+  
+  - name: Sophia Dörner
+    orcid: 0000-0001-8747-3422
+    email: sophia.doerner@sub.uni-goettingen.de
+    url: https://www.sub.uni-goettingen.de/en/contact/staff-a-z/staff-details/person/sophia-doerner/
+    affiliation: 
+      - name: Göttingen State and University Library
+        city: Göttingen
+        country: Germany
+
+abstract: >
+  A quick overview of Open Access, potential implications for your library, along with some practical advice on how to take steps to monitor the Open Access transformation at your own research organization using open research information.
+keywords:
+  - Open Access
+  - Open Research Information
+  - Open Access Transformation
+  - Open Access Monitoring
+  
+license: "CC BY 4.0"
+
+format:
+  pdf: default   
+  html: default
+---
+
+## Introduction
+
+Open Science is an umbrella term that encompasses various practices aiming to make research processes and outputs openly available ([UNESCO 2021](https://doi.org/10.54677/MNMH8546), p. 7). For more information on Open Science and libraries, please refer to the LIBER *DS Topic Guide* [Supporting Open Research (Open Science)](https://libereurope.github.io/ds-topic-guides/openresearch.html).
+
+One of the pillars of Open Science is Open Access. In short, you could say that Open Access is removing financial, legal and other barriers restricting access to research literature. One of the most widely used definitions of Open Access originates from the [Budapest Declaration](https://www.budapestopenaccessinitiative.org/read/).
+
+The [history of the Open Access movement](https://open-access.network/en/information/open-access-primers/history-of-the-open-access-movement) can be traced back to the 1990s. Today, many stakeholders support a transition to establish Open Access as the dominant publishing model, including research organizations, funding organizations and others. A “drive for openness” is also part of the LIBER Strategy 2023-2027. The goal is to “[facilitate] multiple, innovative roads to Open Access that establish a default setting of diverse, inclusive, and sustainable access to scholarship and research communication.” ([LIBER 2022](https://libereurope.eu/wp-content/uploads/2022/01/LIBER_STRAT_A5_digital-final-1.pdf), p. 6)
+
+This LIBER *DS Topic Guide* focuses on the role of libraries in the Open Access transformation and references resources for library professionals interested in monitoring Open Access developments.
+
+## Relevance to the Library Sector (Case Studies/Use Cases)
+
+### Monitoring publication output
+
+The Open Access transition is already well underway: Since 2020, the number of Open Access research publications of European countries has increased steadily, and since 2016, the number of closed research publications is declining (see @fig-1).
+
+![Number and publication status of research publications from European countries (data source: [Hosking et al., 2025](https://doi.org/10.5281/zenodo.17083778))](images/oa_europe.png){#fig-1 fig-alt="The image shows a bar plot with the publication output of European countries per year, for the years 2000 to 2024. The bars are filled by publication status - closed, gold, hybrid, green, and open other."}
+
+Libraries are affected by the Open Access transformation and have taken on new roles, such as establishing researcher consultation and publishing services. Researcher consultations typically involve providing direct support through avenues like virtual training courses on Open Access policies and practices, alongside dedicated consultation hours offered by Open Access officers based within the library (e.g. [services at University of Göttingen](https://www.sub.uni-goettingen.de/en/publishing-open-access/publication-funds/#c3338)). Complementing this, library publishing services encompass a range of infrastructure and activities, including the hosting and management of institutional repositories, the operation of university publishing houses (e.g. [Göttingen University Press](https://www.sub.uni-goettingen.de/en/publishing-open-access/publishing/goettingen-university-press/)) to facilitate Open Access dissemination, the administration of open access publication funds and the critical negotiation of transformative "Publish and Read" agreements with publishers on behalf of their institutions. Furthermore, libraries actively foster communities by organizing networking activities, such as the Open Science Meet-ups (e.g. [Göttingen Open Science Meet-up](https://www.sub.uni-goettingen.de/en/publishing-open-access/open-science-open-access/)). To succeed in these new roles, many libraries have started to monitor the publication output of the research organizations they serve. These monitoring activities observe developments in publication patterns, and can be used to measure compliance with Open Access mandates by their institutions and/or funding agencies. There are now tools that facilitate publication monitoring for research organizations, such as [COKI](https://open.coki.ac/about/), the [Open Access Monitor](https://open-access-monitor.de) in Germany, or the [French Open Science Monitor](https://frenchopensciencemonitor.esr.gouv.fr).
+
+### Monitoring publication costs
+
+Because there are many pathways to achieving Open Access, libraries face a range of new budgetcost implications and undertaking monitoring activities can help libraries stay atop of new cost types --- such as article processing charges ([APCs](https://open-access.network/en/information/glossary#c6264)) and other publication related costs ([Kemp and Skinner, 2024](https://doi.org/10.5281/zenodo.14013060)). Journals which offer open access publishing options will often require payment of APC charges and other charges. Institutions may be able or wish to provide some financial relief to researchers through purchasing agreements made with open access publishers to cover some or all of the costs, but these can vary greatly. Indeed, rRedirecting funding streams is an important component of the Open Access transition, but there is much debate about the specific configuration. For example, APC-based Open Access is often criticized because a small number of large publishers benefit most from APC payments, APC pricing does not reflect the actual production costs, and APCs rise quickly ([Butler et al., 2023](https://doi.org/10.1162/qss_a_00272) ; [Haustein et al., 2024](https://doi.org/10.48550/arXiv.2407.16551)). APCs can also pose a barrier to publication for researchers with limited financial resources [Borrego, 2023](https://doi.org/10.1002/leap.1558). One major challenge libraries face with APC-based Open Access is the intransparency of costs. APC prices listed on publisher websites can differ from the amounts paid by authors ([Kemp and Skinner, 2024](https://doi.org/10.5281/zenodo.14013060)), for example if authors are granted a discount or the research organization has a contract with the publisher. Therefore price lists can only offer an estimate of Open Access payments, and even collecting APC listing prices from publisher websites requires significant effort ([Butler et al., 2023](https://doi.org/10.1162/qss_a_00272)). Costs incurred are more difficult to track, even within one institution. The main reason for this is that many organizational units can be involved in paying APCs and they might not communicate and exchange cost data effectively ([Collister et al., 2025](https://doi.org/10.5281/zenodo.15611424)). 
+
+Despite these challenges, many institutions have started to monitor publication output and expenses to increase transparency ([Strecker et al., 2025](https://doi.org/10.1515/bfp-2025-0008); **in German**), and some make payments related to Open Access publications public as part of the initiative [OpenAPC](https://treemaps.openapc.net/page/about.html).
+
+Monitoring activities can provide insights into publication output and funding streams of research organizations. This can be very helpful for the strategic development of library services and improve transparency of the publishing system. Libraries can monitor publication output or publication costs, but a complete overview requires both ([Pampel, 2022](https://doi.org/10.1629/uksg.576)).
+
+### Open research information
+
+Open Access monitoring analyzes research information to accompany the Open Access transition. Research information refers to “information (sometimes referred to as metadata) relating to the conduct and communication of research.” ([source](https://barcelona-declaration.org/definitions/#research-information)). Traditionally, research information has often been accessed through closed, intransparent and expensive services. In recent years, the reliance on closed sources has been criticized and advocacy for open research information has gained momentum, culminating in the publication of the Barcelona Declaration ([Kramer et al., 2024](https://doi.org/10.5281/zenodo.10958522)).
+
+Switching to open research information has become feasible: Research has shown that OpenAlex, a large source of open research information, offers similar reference counts compared to closed providers ([Culbert et al., 2025](https://doi.org/10.1007/s11192-025-05293-3)), and has more comprehensive geographic and linguistic coverage for Open Access publications ([Simard et al., 2025](https://doi.org/10.1162/qss.a.1)). As a result of these developments, some research organizations have ended their contracts with providers of closed research information, for example [Sorbonne University](https://www.sorbonne-universite.fr/en/news/sorbonne-university-unsubscribes-web-science) and [Utrecht University](https://www.uu.nl/en/news/access-to-web-of-science-will-end-on-1-january-2026).
+
+Below, we have compiled some useful resources for librarians interested in Open Access monitoring and open research information.
+
+The LIBER Topic Guides are a collaborative effort, and the lists below can be extended if incomplete. Read [here](https://libereurope.github.io/ds-topic-guides/contributing.html) how you can contribute.
+
+
+## Hands-on activity/self-guided tutorial(s) 
+
+OA Datenpraxis Notebooks: As part of the DFG-funded project [OA Datenpraxis](https://oa-datenpraxis.de), we have developed interactive notebooks outlining how librarians can use [OpenAlex](https://oa-datenpraxis.de/OpenAlex.html) and [OpenAPC](https://oa-datenpraxis.de/OpenAPC.html) to analyze Open Access publication output and expenditures for research organizations. The notebooks use R. Users don't need to install software, and no prior knowledge is required.
+
+[OpenAlex API Tutorials](https://github.com/ourresearch/openalex-api-tutorials): A collection of Python Jupyter notebooks walking users through common examples of using data from the OpenAlex API
+
+
+## Recommended Reading & Viewing
+
+[Open Access Monitoring: Guidelines and Recommendations for Research Organisations and Funders](https://doi.org/10.5281/zenodo.4905554): Open Access monitoring Guidelines by Science Europe
+
+[The Principles of Open Science Monitoring](https://doi.org/10.5281/zenodo.15807481): Principles on Open Science monitoring developed by a group of representatives from 41 countries
+
+[Workshop on Open Citations & Open Scholarly Metadata 2025, Day 2](https://www.youtube.com/watch?v=5_6F1453HGY&list=PLJfoW7ub2AkxzLLaXcpJOt5ccSdG24WH2): Conference recordings
+
+[Why open library metadata?](https://www.cni.org/topics/information-access-retrieval/why-open-library-metadata): Recording of a talk at the Coalition for Networked Information
+
+[OurResearch Youtube Channel](https://www.youtube.com/@OurResearch/videos): Presentation recordings and demos
+
+
+## Finding Communities of Practice
+
+- [LIBER Open Access Working Group](https://libereurope.eu/working-group/open-access-working-group/)
+- [Open Science Monitoring Initiative Working Groups](https://open-science-monitoring.org/working-groups/)
+- [Barcelona Declaration Working Groups](https://barcelona-declaration.org/working_groups/)
