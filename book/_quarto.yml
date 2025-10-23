@@ -60,6 +60,8 @@ website:
           - text: "---"
           - digitalmapping.qmd
           - text: "---"
+          - sustainability.qmd
+          - text: "---"
           - digitisation.qmd
           - text: "---"
           - github.qmd
