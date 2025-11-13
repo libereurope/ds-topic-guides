@@ -70,6 +70,8 @@ website:
           - text: "---"
           - lod.qmd
           - text: "---"
+          - openaccess.qmd
+          - text: "---"
           - programming.qmd
           - text: "---"
           - openresearch.qmd
