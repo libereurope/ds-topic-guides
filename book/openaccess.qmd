@@ -3,7 +3,7 @@ title: "Open Access Monitoring and Open Research Information"
 subtitle: "A LIBER Digital Scholarship & Data Science Topic Guides for Library Professionals"
 date: 2025-11-13
 date-modified: 2025-11-13
-doi: 0000-0000-0000-0000
+doi: 10.23636/dwcn-x827
 author:
   - name: Dorothea Strecker
     orcid: 0000-0002-9754-3807
