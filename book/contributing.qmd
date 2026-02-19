@@ -22,11 +22,11 @@ Feel free to contact [Nora McGregor](mailto:digitalresearch@bl.uk) if you're kee
 
 > **_NOTE:_** Our current wishlist for future editions includes but is not limited to topics such as:
 >
->- Climate Change and Digital Sustainability
 >- Cultural Competency & Ethics in Digital Methods
 >- Demystifying Computational Environments for Digital Scholarship
 >- Digital Scholarship/Data Science Project Management, Evaluation and Impact Assessment
 >- Digital Storytelling
+>- Notebooks: Using Jupyter Notebooks/Google Colab for sharing code and text
 >- Wikimedia Foundation Projects
 
 ## Suggest edits to an existing _DS Topic Guide_
