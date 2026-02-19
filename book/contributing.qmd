@@ -6,6 +6,12 @@ format:
 sidebar: false
 ---
 
+::: callout-important
+
+## Save the date!
+Our next Edit-a-Thon, open to all LIBER members, will be held online **Thursday 23 April 2026 10:00-12:00 (London)**. Contact [Nora McGregor](mailto:digitalresearch@bl.uk) for more information! 
+:::
+
 The first edition of _Digital Scholarship & Data Science Topic Guides for Library Professionals_, launched at the LIBER Annual Conference in Summer 2025, draws heavily on the existing skills framework and topics covered in the [British Library’s Digital Scholarship Training Programme](https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html), as well as those recommended by attendees of development workshops hosted by LIBER working groups throughout 2023/2024.
 
 There are several ways to contribute to the ongoing update and future development of this resource.
@@ -37,9 +43,9 @@ Know of a good case study, report or community of practice that LIBER members sh
 
 We view this resource as capturing a snapshot in time and will endeavour to fully review all content a minimum of once annually to check for link rot, and content relevancy. The project team editors are committed to making quick fixes when raised throughout the year, while formal sprints and reviews coinciding with LIBER Annual Summer Conference and Winter events will be used for soliciting new content and undertaking more complex updates to the resource each year and creating new editions as necessary. Join one of the [LIBER Working Groups Digital Scholarship and Digital Cultural Heritage WG](https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/) or [Data Science in Libraries](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/) (open to all staff of [LIBER member institutions](https://libereurope.eu/liber-participants/)) to keep up with the developments and help out with ongoing maintenance of this project! 
 
-## Take part in a Writing Sprint! 
+## Take part in an Edit-a-Thon / Writing Sprint! 
 
-We held four online Topic Guide Sprints in 2024. 
+We held four online Topic Guide Writing Sprints in 2024. 
  
 - Tuesday 14 May 2024
 - Tuesday 03 June 2024
@@ -48,7 +54,7 @@ We held four online Topic Guide Sprints in 2024.
 
 To be notified of future sprints check back here for dates/times or join one of our working groups and we'll email out the details!
 
-#### Preparing for a sprint:
+#### Preparing for a sprint or edit-a-thon:
 
 1. Please have a quick read through the [Welcome](index.qmd) and [DS Topic Guide](topicguides.qmd) pages to familiarise yourself with this resource and its purpose.
 2. When you register you'll see a list of our latest DS Topic Guides on our wishlist. Please check off any and all DS Topic Guides you would be happy to work on during the day of the sprint. On the day each attendee will focus on writing just one DS Topic Guide however. The information you provide before the sprint will help us organise this ahead of time so that as many DS Topic Guides as possible have at least one dedicated author.  
