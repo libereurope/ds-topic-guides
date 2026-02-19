@@ -8,10 +8,9 @@ sidebar: false
 
 ::: {.callout-warning icon=false}
 
-## Join us at our next Edit-a-Thon! 
-Our next Topic Guides writing sprint and editing event will be held online **Thursday 23 April 2026 10:00-12:00 (London)**.<br> 
+## Join us at our next online Edit-a-Thon: **Thursday 23 April 2026 10:00-12:00 (London)** 
 Open to all LIBER members who would like to contribute a new guide, or edit and enhance an existing one. <br>
-Contact [Nora McGregor](mailto:digitalresearch@bl.uk) for more information! 
+Contact [Nora McGregor](mailto:digitalresearch@bl.uk) for more information and to register your interest! 
 :::
 
 The first edition of _Digital Scholarship & Data Science Topic Guides for Library Professionals_, launched at the LIBER Annual Conference in Summer 2025, draws heavily on the existing skills framework and topics covered in the [British Library’s Digital Scholarship Training Programme](https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html), as well as those recommended by attendees of development workshops hosted by LIBER working groups throughout 2023/2024.
