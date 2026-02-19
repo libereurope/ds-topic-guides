@@ -14,7 +14,7 @@ Read more about all the ways you can contribute below. <br>
 Contact [Nora McGregor](mailto:digitalresearch@bl.uk) to register your interest! 
 :::
 
-The first edition of _Digital Scholarship & Data Science Topic Guides for Library Professionals_, launched at the LIBER Annual Conference in Summer 2025, draws heavily on the existing skills framework and topics covered in the [British Library’s Digital Scholarship Training Programme](https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html), as well as those recommended by attendees of development workshops hosted by LIBER working groups throughout 2023/2024.
+The first edition of _Digital Scholarship & Data Science Topic Guides for Library Professionals_, launched at the LIBER Annual Conference in Summer 2025, draws heavily on the existing skills framework and topics covered in the [British Library’s Digital Scholarship Training Programme](https://blogs.bl.uk/digital-scholarship/2024/04/recovered-pages-dstp.html), as well as those recommended by attendees of development workshops hosted by LIBER working groups throughout 2023/2024. We are committed to keeping _DS Topic Guides_ updated throughout the current LIBER 2023-2027 strategy period.
 
 There are several ways to contribute to the ongoing update and future development of this resource.
 
@@ -47,16 +47,11 @@ We view this resource as capturing a snapshot in time and will endeavour to full
 
 ## Take part in an Edit-a-Thon / Writing Sprint! 
 
-We held four online Topic Guide Writing Sprints in 2024. 
- 
-- Tuesday 14 May 2024
-- Tuesday 03 June 2024
-- Tuesday 08 October 2024 
-- Tuesday 05 November 2024 
+Our next Edit-a-Thon is coming up **Thursday 23 April 2026 10:00-12:00 (London)**!
 
-To be notified of future sprints check back here for dates/times or join one of our working groups and we'll email out the details!
+To be notified of more sprints check back here for dates/times or join one of our working groups and we'll email out the details!
 
-#### Preparing for a sprint or edit-a-thon:
+#### Preparing for an Edit-a-Thon/Sprint:
 
 1. Please have a quick read through the [Welcome](index.qmd) and [DS Topic Guide](topicguides.qmd) pages to familiarise yourself with this resource and its purpose.
 2. When you register you'll see a list of our latest DS Topic Guides on our wishlist. Please check off any and all DS Topic Guides you would be happy to work on during the day of the sprint. On the day each attendee will focus on writing just one DS Topic Guide however. The information you provide before the sprint will help us organise this ahead of time so that as many DS Topic Guides as possible have at least one dedicated author.  
@@ -68,16 +63,23 @@ A two hour writing sprint will generally follow this format:
 
 1. Welcome and participant introductions (10 minutes)  
 2. Overview of the project & explanation of how the day will run (15 minutes)  
-3. Allocation and confirmation of individual Topic Guide Authorship for the day (15 minutes): As a group we'll go over the wishlist and all participants will be given access to their particular Topic Guide google doc template they'll be using during and after the sprint.
-4. Writing Phase (60 minutes): You'll have an hour to begin writing your respective guide in your Google Doc template. If more than one participant are working together on a topic we can provide breakout rooms so that you can discuss amongst yourselves how to break up the work, and share ideas as you go along. You can have your camera/mic on or off during this time and co-chairs will be on hand to answer any questions or give advice on topics.
+3. Allocation and confirmation of individual Topic Guide Authorship for the day (15 minutes): As a group we'll go over the wishlist and all participants will be given access to their particular Topic Guide google doc or mark down template they'll be using during and after the sprint.
+4. Writing Phase (60 minutes): You'll have an hour to begin writing your respective guide in your template. If more than one participant are working together on a topic we can provide breakout rooms so that you can discuss amongst yourselves how to break up the work, and share ideas as you go along. You can have your camera/mic on or off during this time and co-chairs will be on hand to answer any questions or give advice on topics.
 5. Wrapping Up & Logging progress through Github Issues (15 minutes): We have provided an [Issue Template](https://github.com/libereurope/ds-topic-guides/issues) which is pre-formatted as a Topic Guide submission checklist and will walk participants through the process of opening a new issue for your draft submission. Please fill in the issue template and provide the necessary information relating to where your draft submission is currently at. Once the issue is saved, it can continue to serve as a space to continue discussion of the ongoing status of your submission and log updates where necessary, including notifying us of when it is fully ready for final review by maintainers. 
 6. Closing Remarks & Next Steps (5 minutes)
 
 #### After the sprint:
 
-During the sprint, you’ve drafted your DS Topic Guide in a Google Doc. This Google Doc can continue to serve as a ‘living document’ following the sprint until you feel the content is ready to be published. Throughout this process, we will use your Github issue to maintain an overview of the docs in terms of their status and action points so please keep this updated. Each Topic Guide will be allocated a specific Maintainer contact (one of the co-chairs) who will be in touch and work with you to see the process through to completion. You may request placing your Google Doc under restricted access if you wish. We will not do this by default, but we respect that some contributors would like to keep drafts private until fully ready for submission.
+During the sprint, you’ve drafted your DS Topic Guide in either your google doc or markdown template. This document can continue to serve as a ‘living document’ following the sprint until you feel the content is ready to be published. Throughout this process, we will use your Github issue to maintain an overview of the docs in terms of their status and action points so please keep this updated. Each Topic Guide will be allocated a specific Maintainer contact (one of the co-chairs) who will be in touch and work with you to see the process through to completion. You may request placing your doc under restricted access if you wish. We will not do this by default, but we respect that some contributors would like to keep drafts private until fully ready for submission.
 
-When your Topic Guide is ready for our review in Google Docs, please let us know by logging an update over on Github as a comment on the Issue stating this. You can also tag the maintainers so they receive a notification as well. Maintainers will generally work with you on the final edits necessary for the submission through track changes and comments within the Google Doc itself. Once these have all been resolved maintainers will log a status update in the GitHub issue.
+When your Topic Guide is ready for our review, please let us know by logging an update over on Github as a comment on the Issue stating this. You can also tag the maintainers so they receive a notification as well. Maintainers will generally work with you on the final edits necessary for the submission through track changes and comments within the Google Doc itself. Once these have all been resolved maintainers will log a status update in the GitHub issue.
 
+### Sprints
+We held four online Topic Guide Writing Sprints in 2024. 
+ 
+- Tuesday 14 May 2024
+- Tuesday 03 June 2024
+- Tuesday 08 October 2024 
+- Tuesday 05 November 2024 
 
 
