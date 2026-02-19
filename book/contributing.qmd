@@ -6,7 +6,7 @@ format:
 sidebar: false
 ---
 
-::: {.callout-note icon=false}
+::: {.callout-warning icon=false}
 
 ## Join us at our next Edit-a-Thon! 
 Our next Topic Guides writing sprint and editing event will be held online **Thursday 23 April 2026 10:00-12:00 (London)**.<br> 
