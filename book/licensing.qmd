@@ -26,7 +26,7 @@ No additional restrictions — You may not apply legal terms or technological me
 
 Suggested citations are written in [APA](https://apastyle.apa.org/style-grammar-guidelines/references/examples/journal-article-references) (American Psychological Association) citation style for Journal Articles and are given on each individual guide:
 
-McGregor, Nora, “IIIF,” _Digital Scholarship & Data Science Topic Guides for Library Professionals_ (2024), \[DOI link\]  
+e.g. McGregor, Nora, “IIIF,” _Digital Scholarship & Data Science Topic Guides for Library Professionals_ (2024), <https://doi.org/10.23636/ej8h-tr12>  
 
 To cite the full resource:
 
