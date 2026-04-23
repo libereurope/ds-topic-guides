@@ -119,6 +119,8 @@ An excellent guide to newspaper OCR and data analysis is this [Short Guide to Hi
 
 Many excellent data analysis tools such as NLP can also be found on this [GitHub page](https://github.com/Living-with-machines/dhoxss-text2tech?tab=readme-ov-file), which collated materials used for the Text to Tech workshop at the Digital Humanities Oxford Summer School, by Kaspar von Beelen, Mariona Coll Ardanuy and Federico Nanni (and [this](https://huggingface.co/learn/nlp-course/chapter1/1) is another brilliant introduction into NLP!).
 
+The blog by FromThePage is a good source on everythig on GenAI and ATR and how the landscape is changing (https://content.fromthepage.com/).
+
 There are many papers on OCR/HTR but here’s a small selection:
 
 - Khan, R., Gupta, N., Sinhababu, A., & Chakravarty, R. (2023). Impact of Conversational and Generative AI Systems on Libraries: A Use Case Large Language Model (LLM). _Science & Technology Libraries_, 1–15. <https://doi.org/10.1080/0194262X.2023.2254814>
@@ -126,6 +128,7 @@ There are many papers on OCR/HTR but here’s a small selection:
 - Nguyen, T.T.H., Jatowt, A., Coustaty, M., & Doucet, A. (2021). Survey of Post-OCR Processing Approaches. _ACM Computing Surveys (CSUR)_, 54(6), 1-37. <https://doi.org/10.1145/3453476>
 - Smith, D.A. & Cordell, R. (2018). [A Research Agenda for Historical and Multilingual Optical Character Recognition](http://hdl.handle.net/2047/D20297452).
 - Van Strien, D., Beelen, K., Ardanuy, M., Hosseini, K., McGillivray, B., & Colavizza, G. (2020). _Assessing the impact of OCR quality on downstream NLP tasks_. SCITEPRESS - Science and Technology Publications. <https://doi.org/10.17863/CAM.52068>
+- Boros, E., Ehrmann, M. , Romanello, M., Najem-Meyer, S. and Kaplan, F. (2024). Post-Correction of Historical Text Transcripts with Large Language Models: An Exploratory Study. In Proceedings of the 8th Joint SIGHUM Workshop on Computational Linguistics for Cultural Heritage, Social Sciences, Humanities and Literature (LaTeCH-CLfL 2024), pages 133–159, St. Julians, Malta. Association for Computational Linguistics.
 
 Some journals to look out for include, for example, the [International Journal on Document Analysis and Recognition (IJDAR)](https://link.springer.com/journal/10032), [Pattern Recognition](https://www.sciencedirect.com/journal/pattern-recognition), or the [IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI)](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34).
 
@@ -158,6 +161,6 @@ When it comes to ground truth datasets, a good place to look is the [HTR-United]
 [OCR-D](https://ocr-d.de/en/) is a good place to visit too, and it has a ground truth repository [available here](https://github.com/OCR-D/gt_structure_text/releases).
 
 ## Finding Communities of Practice 
-Some tools and platforms have solid communities around them which you can get in touch with - or be a part of. [Transkribus](https://www.transkribus.org/), for example, has an active [Facebook](https://www.facebook.com/transkribus) page and a [user group](https://www.facebook.com/groups/614090738935143), where Transkribus users can ask questions and get support from the Transkribus team and from each other.
+Some tools and platforms have solid communities around them which you can get in touch with - or be a part of. [Transkribus](https://www.transkribus.org/), for example, has an active [Facebook](https://www.facebook.com/transkribus) page and a [user group](https://www.facebook.com/groups/614090738935143), where Transkribus users can ask questions and get support from the Transkribus team and from each other. AI4LAM has a Working Group on ATR (https://ai4lam.org/working-groups/#automatic-text-recognition) that is free to join and where everyone can share challenges, projects and experiences.
 
 Several conference series discuss advances in OCR/HTR, and would be a good place to meet colleagues and hear about interesting ATR projects. For example, the International Conference on Document Analysis and Recognition ([ICDAR](https://en.wikipedia.org/wiki/International_Conference_on_Document_Analysis_and_Recognition)) and the International Conference on Frontiers in Handwriting Recognition (ICFHR) have been well established. Alternatively, many Digital Humanities conferences will have papers on this topic, e.g. the [ADHO DH conference serie](https://adho.org/conference/) or [AI4LAM Fantastic Futures](https://sites.google.com/view/ai4lam) conferences.
