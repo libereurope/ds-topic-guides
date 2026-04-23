@@ -126,4 +126,4 @@ Here are some communities that you may want to engage with:
 - LIBER (Ligue des Bibliothèques Européennes de Recherche – Association of European Research Libraries) host a [Data Science working group](https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/) which touches on data visualisation
 - SCONUL (UK) have a community of interest for [business intelligence](https://www.sconul.ac.uk/cpd-hub/community-of-interest-groups/business-intelligence/) that covers analysing and visualising library data.
 
-Above all remember your audience. Keep clear in your mind what it is you are trying to communicate, and to who, and ask yourself if your visualisation does that. Continue to refine it until it does, and you'll have made a good visualisation. 
+Above all remember your audience. Keep clear in your mind what you are trying to communicate, to whom, and ask whether your visualisation does that. Continue to refine until it does so, and good luck! 
