@@ -2,7 +2,7 @@
 title: "Open Access Monitoring and Open Research Information"
 subtitle: "A LIBER Digital Scholarship & Data Science Topic Guides for Library Professionals"
 date: 2025-11-13
-date-modified: 2025-11-13
+date-modified: 2026-05-18
 doi: 10.23636/dwcn-x827
 author:
   - name: Dorothea Strecker
@@ -85,9 +85,9 @@ The LIBER Topic Guides are a collaborative effort, and the lists below can be ex
 
 ## Hands-on activity/self-guided tutorial(s) 
 
-OA Datenpraxis Notebooks: As part of the DFG-funded project [OA Datenpraxis](https://oa-datenpraxis.de), we have developed interactive notebooks outlining how librarians can use [OpenAlex](https://oa-datenpraxis.de/OpenAlex.html) and [OpenAPC](https://oa-datenpraxis.de/OpenAPC.html) to analyze Open Access publication output and expenditures for research organizations. The notebooks use R. Users don't need to install software, and no prior knowledge is required.
+OA Datenpraxis Notebooks: As part of the DFG-funded project [OA Datenpraxis](https://oa-datenpraxis.de), we have developed interactive notebooks outlining how librarians can use [OpenAlex](https://oa-datenpraxis.de/OpenAlex.html) and [OpenAPC](https://oa-datenpraxis.de/OpenAPC.html) to analyze Open Access publication output and expenditures for research organizations. The notebooks also include a guide on [search strategies](https://oa-datenpraxis.de/ROR.html), which compares ROR-based versus string-based approaches in OpenAlex for retrieving an institution's publication data, accounting for institutional hierarchies. The notebooks use R. Users don't need to install software, and no prior knowledge is required.
 
-[OpenAlex API Tutorials](https://github.com/ourresearch/openalex-api-tutorials): A collection of Python Jupyter notebooks walking users through common examples of using data from the OpenAlex API
+[OpenAlex API Tutorials](https://github.com/ourresearch/openalex-api-tutorials): A collection of Python Jupyter notebooks walking users through common examples of using data from the OpenAlex API. Note that these notebooks predate some recent changes to OpenAlex (including the introduction of a free API key requirement) and may need adjustments to run smoothly. For up-to-date examples, see the official [OpenAlex Recipes](https://developers.openalex.org/guides/recipes).
 
 
 ## Recommended Reading & Viewing
