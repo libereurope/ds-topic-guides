@@ -62,7 +62,6 @@ Many institutions have started to adopt the collections as data principles to va
 
 - [Data Foundry](https://data.nls.uk/) at the National Library of Scotland provides datasets in the form of downloadable files. Each of them includes a website with transparent information about the creation and curation of the content. It also provides examples of use and prototypes in the form of [Jupyter Notebooks](https://data.nls.uk/tools/jupyter-notebooks/).
 - National Library of Luxembourg provides a digital collection based on [Historical newspapers](https://data.bnl.lu/data/historical-newspapers/). It follows an innovative approach by providing different datasets in terms of the size and the content according to the purpose of the reuse (for example "getting started" or "Big Data").
-- [British Library Labs](https://labs.biblios.tech/item-category/datasets/) provides a selection of datasets made available under open licences to experiment.
 - [DATA-KBR-BE](https://www.kbr.be/en/projects/data-kbr-be/) is a project that aims at facilitating data-level access to the KBR (Royal Library of Belgium) digitised and born-digital collections for digital humanities research.
 - [Biblioteca Virtual Miguel de Cervantes](https://data.cervantesvirtual.com/) (BVMC Labs) is a digital library that published its bibliographic catalogue in the form of Linked Open Data. It also provides examples of use by means of Jupyter Notebooks.
 
