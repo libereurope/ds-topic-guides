@@ -294,6 +294,7 @@ All being well you will see a response in the right-hand side. “200” will be
 ### Once you’re feeling a little more confident, these tutorials will help you go further:
 
 - Wikimedia offers some incredibly useful APIs of particular interest to libraries who contribute to or have collection items there. They have an entire tutorial to help beginners: [Getting started with Wikimedia APIs - API Portal](https://api.wikimedia.org/wiki/Getting_started_with_Wikimedia_APIs)
+- Have a look at some working code examples using free public REST APIs on [PublicApi](https://publicapis.io/rest-api-examples) 
 - Dataquest has a nice tutorial on using the Python language to call APIs: [How to Use an API in Python](https://www.dataquest.io/blog/api-in-python)
 - You can even use APIs to integrate with the latest AI tools. Here are some examples from OpenAI: [Developer quickstart: Take your first steps with the OpenAI API.](https://platform.openai.com/docs/quickstart?language-preference=curl)
 - Once you are a bit more confident with how APIs work, why not try designing one? For example, how would you go about designing an API for a publisher to allow them to keep track of books, editions and authors? This guide should help: [RESTful web API design](https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design).
