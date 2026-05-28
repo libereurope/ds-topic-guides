@@ -7,8 +7,7 @@ doi: 10.23636/e7za-7h66
 author:
   - name: Liam Green-Hughes
     orcid: 0000-0002-3852-5879
-    email: labs@bl.uk
-    url: https://www.bl.uk
+    url: https://libereurope.eu/article/in-memoriam-liam-green-hughes/
     affiliation: 
       - name: British Library
         city: London
