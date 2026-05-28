@@ -164,7 +164,6 @@ An international, participatory community focused on advancing the use of artifi
  International, diverse and inclusive community of developers and technologists for libraries, museums, and archives who are dedicated to seeking to share ideas and build collaboration (Free)
  - [IIIF Community](https://iiif.io/community/) 
  IIIF Groups meet regularly to discuss various contexts of IIIF usage for a particular idea or initiative from technical and non-technical perspectives. (Free)
-  - [IMPACT Centre of Competence](https://www.digitisation.eu/) IMPACT is a not for profit organisation with the mission to make the digitisation of text “better, faster, cheaper” and to further advance the state-of-the-art in the field of document imaging, language technology and the processing of historical text (Paid membership model)
  - [International GLAM Labs Community](https://glamlabs.io/)
 An international group dedicated to sharing knowledge around setting up, maintaining and sustaining Galleries, Libraries, Archives and Museums' cultural heritage innovation Labs (Free)
  - [Museums Computer Group](https://museumscomputergroup.org.uk/)
