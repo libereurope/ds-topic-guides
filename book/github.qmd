@@ -17,7 +17,7 @@ author:
   - name: Liam Green-Hughes
     orcid: 0000-0002-3852-5879
     email: labs@bl.uk
-    url: https://www.bl.uk
+    url: https://libereurope.eu/article/in-memoriam-liam-green-hughes/
     affiliation: 
       - name: British Library
         city: London
@@ -249,4 +249,4 @@ As with most platforms, specific functions or tasks may change occasionally on G
 
 ## Finding Communities of Practice
 
-The best way to understand GitHub is to have a play yourself and if you get into trouble we've found that asking questions over on the [GitHub Community Hub](https://github.com/community) is a great way to get connected with other users. You can also join networks like [AI4LAM](https://sites.google.com/view/ai4lam) and ask questions of members of the very engaged and helpful community on their [slack channel](https://join.slack.com/t/ai4lam/shared_invite/zt-1omthldn8-9vrGySjIRdija1nKQm0ltA). 
+The best way to understand GitHub is to have a play yourself and if you get into trouble we've found that asking questions over on the [GitHub Community Hub](https://github.com/community) is a great way to get connected with other users. You can also join networks like [AI4LAM](https://ai4lam.org/) and ask questions of members of the very engaged and helpful community on their [slack channel](https://ai4lam.slack.com/). 
