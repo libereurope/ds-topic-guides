@@ -2,7 +2,7 @@
 title: "Collections as Data: Getting Started"
 subtitle: "A LIBER Digital Scholarship & Data Science Topic Guide for Library Professionals"
 date: 2024-06-04
-date-modified: 2025-02-10
+date-modified: 2026-06-01
 doi: 10.23636/c3h4-yw41
 author:
   - name: Gustavo Candela
@@ -38,9 +38,9 @@ format:
 
 ## Introduction   
 
-GLAM (Galleries, Libraries, Archives and Museums) institutions have been making their content available to the public and researchers in a variety of formats for different purposes for decades. From maps, images, text, historical newspapers or postcards, digitising collections and displaying our items online are at the core of making this information accessible for research and enjoyment. But recent advances in and expansion of the use of [AI and Machine Learning](ml-ai.qmd) in library work and library research have transformed the way in which we and our users expect to access, view, use and search our collections. As the demand for computationally accessible cultural heritage collections continues to grow, and we’re being asked to provide our collections in the form of datasets for instance, how do we go about this practically?
+GLAM (Galleries, Libraries, Archives and Museums) institutions have been making their content available to the public and researchers in a variety of formats for different purposes for decades. From maps, images, text, historical newspapers or postcards, digitising collections and displaying our items online are at the core of making this information accessible for research and enjoyment. But recent advances in and expansion of the use of [AI and Machine Learning](ai-ml.qmd) in library work and library research have transformed the way in which we and our users expect to access, view, use and search our collections. As the demand for computationally accessible cultural heritage collections continues to grow, and we’re being asked to provide our collections in the form of datasets for instance, how do we go about this practically?
 
-In this new context, where GLAM institutions now find themselves playing a leading role as data providers and data curators, the [Collections as Data](https://collectionsasdata.github.io/) concept emerged as a new approach, guidance and framework to support responsible development and computational use of digital cultural heritage collections. By computational use we mean the application of computational techniques such as natural language processing (NLP), computer vision, and more to the analysis, exploration and reuse at scale of digitised cultural heritage content. For more practical use cases see our [AI and Machine Learning in Libraries topic guide](ml-ai.qmd). 
+In this new context, where GLAM institutions now find themselves playing a leading role as data providers and data curators, the [Collections as Data](https://collectionsasdata.github.io/) concept emerged as a new approach, guidance and framework to support responsible development and computational use of digital cultural heritage collections. By computational use we mean the application of computational techniques such as natural language processing (NLP), computer vision, and more to the analysis, exploration and reuse at scale of digitised cultural heritage content. For more practical use cases see our [AI and Machine Learning in Libraries topic guide](ai-ml.qmd). 
 
 Three particularly useful outputs from the Collections as Data community of practice are:
 
@@ -52,7 +52,7 @@ Three particularly useful outputs from the Collections as Data community of prac
 
 “The Vancouver Statement suggests a set of principles for thinking through questions that collections-as-data work produces, as part of an expanding global, interprofessional, and interdisciplinary effort to empower memory, knowledge, and data stewards (for example, practitioners and scholars) who aim to support responsible development and computational use of collections as data. This stewardship role only grows in importance as artificial intelligence applications, trained on vast amounts of data, including collections as data, impact our lives ever more pervasively.”
 
-- [A Checklist to Publish Collections as Data in GLAM Institutions](https://glamlabs.io/checklist/) (2023)
+- [A Checklist to Publish Collections as Data in GLAM Institutions](https://www.glamlabs.io/checklist/) (2023)
 
 Developed as part of the collaborative work of the International GLAM Labs community, the checklist covers different aspects such as providing a suggested citation, including documentation about the datasets (for example, README files or tutorials) or sharing examples of use (for example, prototypes or Jupyter Notebooks).
 
@@ -77,7 +77,7 @@ One simple activity you could do at your institution is to gather a group of lik
 - Can you identify one or two simple things that your institution could do now in order to start using these principles?
 - What would you like “collections as data” to look like at your institution?
 
-If you’d like to get a sense of how people are reusing collections published as data, the [GLAM Workbench](https://glam-workbench.net/) and the new [computational access section of the International GLAM Labs Community website](https://glamlabs.io/computational-access-to-digital-collections/) both have tutorials that can walk you through using cultural heritage datasets in a variety of ways.
+If you’d like to get a sense of how people are reusing collections published as data, the [GLAM Workbench](https://glam-workbench.net/) and the new [computational access section of the International GLAM Labs Community website](https://www.glamlabs.io/computational-access-to-digital-collections) both have tutorials that can walk you through using cultural heritage datasets in a variety of ways.
 
 ## Recommended Reading/Viewing  
 
