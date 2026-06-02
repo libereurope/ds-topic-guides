@@ -2,7 +2,7 @@
 title: "Linked Open Data in Library Use Today"
 subtitle: "A LIBER Digital Scholarship & Data Science Topic Guide for Library Professionals"
 date: 2025-05-20
-date-modified: 2025-05-20
+date-modified: 2026-06-02
 doi: 10.23636/aftn-ah80
 author:
   - name: Gustavo Candela
@@ -126,7 +126,7 @@ GLAM institutions and in particular, libraries, have played a leading role in th
 - [National Library of Scotland](https://github.com/NLS-Digital-Scholarship/nls-fellowship-2022-23)
 - [National Library of Spain](https://datos.bne.es)
 
-Additional examples from other related domains such as museums and Digital Humanities initiatives are the [Rijksmuseum](https://data.rijksmuseum.nl/) and [Smithsonian American Art Museum](https://americanart.si.edu/about/lod), and [Linked Open Data Infrastructure for Digital Humanities in Finland (LODI4DH)](https://seco.cs.aalto.fi/projects/lodi4dh/).
+Additional examples from other related domains such as museums and Digital Humanities initiatives are the [Rijksmuseum](https://data.rijksmuseum.nl/) and [Smithsonian American Art Museum](https://americanart.si.edu/about/american-art-collaborative), and [Linked Open Data Infrastructure for Digital Humanities in Finland (LODI4DH)](https://seco.cs.aalto.fi/projects/lodi4dh/).
 
 The benefits of the publishing and use of the Semantic Web and LOD are:
 
